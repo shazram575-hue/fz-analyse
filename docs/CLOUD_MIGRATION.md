@@ -1,5 +1,9 @@
 # GitHub＋Codex Cloud迁移
 
+审计成果后续独立分支保存与PR结果见[同步交接](TASK_LOGS/2026-10-27_cloud_audit_github_sync.md)，以下LOCAL_ONLY为首次审计完成时的历史状态；待审分支不是已审核合并状态。
+
+2026-10-27首次Cloud实测更新见[环境审计](CLOUD_ENV_AUDIT.md)及[任务交接](TASK_LOGS/2026-10-27_cloud_first_start_audit.md)：指定仓库已可在Linux读取并通过728副本校验，但数据、R/分析依赖、科学域名访问及持久层仍有缺口。仅完成审阅环境验证，未完整运行科学流程；本次文档LOCAL_ONLY。下文“尚未创建或验证Cloud”是首次实测前的历史状态，具体资源/网络以本次报告为准。
+
 ## 当前可做与未完成项
 
 本项目准备的是**可审阅、可轻量校验的源码与证据仓库视图**，不声称Windows生信流水线已在Linux重现。2026-10-26整理阶段未初始化Git；2026-10-27用户新授权首次同步到[指定公开仓库](https://github.com/shazram575-hue/fz-analyse)，最新Git/上传状态见[同步日志](TASK_LOGS/2026-10-27_github_sync.md)。尚未创建或验证Cloud环境。
