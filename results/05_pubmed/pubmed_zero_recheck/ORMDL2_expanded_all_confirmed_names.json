@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "40757047"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"ORMDL2\"[All Fields] OR \"Adoplin-2\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"ORM1-like protein 2\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

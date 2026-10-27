@@ -1,0 +1,271 @@
+{
+  "source": "Halaczkiewicz et al primary author manuscript, Figure1 Spiropachysine A; published DOI10.1002/chem.202404223",
+  "method": "manual transcription of 2D coordinates and all nine wedge/dash bonds; clear all CID stereo tags before assignment",
+  "source_coordinates": {
+    "0": [
+      1034,
+      113
+    ],
+    "1": [
+      1055,
+      218
+    ],
+    "2": [
+      978,
+      287
+    ],
+    "3": [
+      1030,
+      368
+    ],
+    "4": [
+      979,
+      458
+    ],
+    "5": [
+      879,
+      420
+    ],
+    "6": [
+      879,
+      316
+    ],
+    "7": [
+      786,
+      264
+    ],
+    "8": [
+      694,
+      316
+    ],
+    "9": [
+      694,
+      420
+    ],
+    "10": [
+      786,
+      474
+    ],
+    "11": [
+      786,
+      580
+    ],
+    "12": [
+      694,
+      635
+    ],
+    "13": [
+      600,
+      580
+    ],
+    "14": [
+      600,
+      474
+    ],
+    "15": [
+      505,
+      420
+    ],
+    "16": [
+      413,
+      474
+    ],
+    "17": [
+      413,
+      580
+    ],
+    "18": [
+      506,
+      636
+    ],
+    "19": [
+      310,
+      529
+    ],
+    "20": [
+      208,
+      430
+    ],
+    "21": [
+      109,
+      449
+    ],
+    "22": [
+      81,
+      555
+    ],
+    "23": [
+      165,
+      622
+    ],
+    "24": [
+      270,
+      611
+    ],
+    "25": [
+      307,
+      704
+    ],
+    "26": [
+      277,
+      793
+    ],
+    "27": [
+      405,
+      680
+    ],
+    "28": [
+      492,
+      727
+    ],
+    "29": [
+      600,
+      370
+    ],
+    "30": [
+      879,
+      212
+    ],
+    "31": [
+      1117,
+      239
+    ],
+    "32": [
+      1190,
+      185
+    ],
+    "33": [
+      1160,
+      333
+    ],
+    "34": [
+      978,
+      186
+    ],
+    "35": [
+      879,
+      524
+    ],
+    "36": [
+      694,
+      527
+    ],
+    "37": [
+      786,
+      370
+    ],
+    "38": [
+      600,
+      682
+    ]
+  },
+  "source_wedge_bonds": [
+    {
+      "begin_atom": 1,
+      "end_atom": 0,
+      "direction": "BEGINDASH"
+    },
+    {
+      "begin_atom": 6,
+      "end_atom": 30,
+      "direction": "BEGINWEDGE"
+    },
+    {
+      "begin_atom": 14,
+      "end_atom": 29,
+      "direction": "BEGINWEDGE"
+    },
+    {
+      "begin_atom": 17,
+      "end_atom": 27,
+      "direction": "BEGINDASH"
+    },
+    {
+      "begin_atom": 2,
+      "end_atom": 34,
+      "direction": "BEGINDASH"
+    },
+    {
+      "begin_atom": 5,
+      "end_atom": 35,
+      "direction": "BEGINDASH"
+    },
+    {
+      "begin_atom": 9,
+      "end_atom": 36,
+      "direction": "BEGINDASH"
+    },
+    {
+      "begin_atom": 10,
+      "end_atom": 37,
+      "direction": "BEGINWEDGE"
+    },
+    {
+      "begin_atom": 13,
+      "end_atom": 38,
+      "direction": "BEGINDASH"
+    }
+  ],
+  "source_connectivity": "visually matches Fang2022 Fig1A and the CID constitutional graph",
+  "CID_InChIKey": "SLGWGPQWJRVPAD-PZOAWPBASA-N",
+  "figure_derived_InChIKey": "SLGWGPQWJRVPAD-PZOAWPBASA-N",
+  "figure_derived_isomeric_SMILES": "C[C@@H]([C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@]5(CC[C@]4(C)[C@H]3CC[C@]12C)c1ccccc1C(=O)N5C)N(C)C",
+  "stereocenter_comparison": [
+    {
+      "atom_index": 1,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 2,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 5,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 6,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 9,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 10,
+      "CID_CIP": "R",
+      "published_A_figure_CIP": "R",
+      "same": true
+    },
+    {
+      "atom_index": 13,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 14,
+      "CID_CIP": "S",
+      "published_A_figure_CIP": "S",
+      "same": true
+    },
+    {
+      "atom_index": 17,
+      "CID_CIP": "R",
+      "published_A_figure_CIP": "R",
+      "same": true
+    }
+  ],
+  "all9_centers_match": true,
+  "complete_InChIKey_match": true
+}

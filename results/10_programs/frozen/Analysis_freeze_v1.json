@@ -1,0 +1,120 @@
+{
+  "version": "v1",
+  "discovery_cohort": "GSE161529",
+  "external_cohort": "GSE176078",
+  "external_primary_treatment": "Naive",
+  "external_other_treatments": "Separate descriptive/secondary report",
+  "external_patient_min_cells": 50,
+  "min_patients_within_inference": 6,
+  "min_patients_between_inference": 12,
+  "min_between_residual_df": 5,
+  "min_program_gene_coverage": 0.8,
+  "target_not_used_for_program_selection": true,
+  "scoring": "Fixed 50 genes mean log1p CP10K with MFSD10 excluded from denominator; no cohort joint normalization",
+  "within_model": "Per-patient rank-residual rho adjusting target-excluded logUMI/logFeatures/mitochondrial percentage; equal-patient Fisher-z; patient sign-flips and bootstrap CI",
+  "between_model": "Patient-level partial rank rho adjusting explicit clinical IHC, median target-excluded UMI and mitochondrial percentage; t approximation and Fisher CI; descriptive if minimum sample/df not met",
+  "discovery_multiple_testing": "BH jointly across MP x {within,between}",
+  "external_confirmatory_multiple_testing": "Prespecified one-sided direction, BH across discovery-supported association list; require same effect direction, q<0.05 and independent coherence support",
+  "external_all_programs_reporting": "All frozen programs two-sided, joint BH, regardless of discovery significance",
+  "coherence": "Depth/feature/mitochondrial residual gene-gene mean offdiagonal correlation, 25 expression-matched null gene sets, patient-level one-sided signed-rank test with BH; coverage>=80%",
+  "directions": [
+    {
+      "program_id": "MP01",
+      "association": "within",
+      "discovery_effect": -0.016043041765031418,
+      "direction": -1,
+      "discovery_p": 0.3347979982912242,
+      "discovery_q": 0.6695959965824484,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP02",
+      "association": "within",
+      "discovery_effect": 0.021456606664833865,
+      "direction": 1,
+      "discovery_p": 0.30965458318076405,
+      "discovery_q": 0.6695959965824484,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP03",
+      "association": "within",
+      "discovery_effect": -0.03195304622483065,
+      "direction": -1,
+      "discovery_p": 0.031124130355181252,
+      "discovery_q": 0.20708735099068312,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP04",
+      "association": "within",
+      "discovery_effect": 0.03453887177923888,
+      "direction": 1,
+      "discovery_p": 0.06212620529720493,
+      "discovery_q": 0.20708735099068312,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP05",
+      "association": "within",
+      "discovery_effect": 0.05062360348248599,
+      "direction": 1,
+      "discovery_p": 0.05577932381301111,
+      "discovery_q": 0.20708735099068312,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP01",
+      "association": "between",
+      "discovery_effect": 0.0646046563727932,
+      "direction": 1,
+      "discovery_p": 0.8688453780435527,
+      "discovery_q": 0.8688453780435527,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP02",
+      "association": "between",
+      "discovery_effect": -0.23850612704497623,
+      "direction": -1,
+      "discovery_p": 0.536566560072378,
+      "discovery_q": 0.8688453780435527,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP03",
+      "association": "between",
+      "discovery_effect": 0.06893334822438135,
+      "direction": 1,
+      "discovery_p": 0.8601250273605324,
+      "discovery_q": 0.8688453780435527,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP04",
+      "association": "between",
+      "discovery_effect": 0.1978406002039622,
+      "direction": 1,
+      "discovery_p": 0.6098780203613495,
+      "discovery_q": 0.8688453780435527,
+      "confirmatory": false
+    },
+    {
+      "program_id": "MP05",
+      "association": "between",
+      "discovery_effect": 0.09142104153684771,
+      "direction": 1,
+      "discovery_p": 0.815050851289492,
+      "discovery_q": 0.8688453780435527,
+      "confirmatory": false
+    }
+  ],
+  "SHA256": {
+    "frozen/Programs_v1.json": "ae6bccf18dcdcfc491583e0e38a0f8fd535c671550bec5b1f1653c4b09f24f83",
+    "frozen/Program_genes_v1.tsv": "e6c256bb390ccf4781738b4d97fc22b93e66411eacc88e961797c3b7031fa2a7",
+    "frozen/Analysis_code_v1.py": "d8183fca428ff40a08b1ccaab4ed43f3637f900c54a3fb09ac72281f2c47578c",
+    "scripts/program_analysis.py": "d8183fca428ff40a08b1ccaab4ed43f3637f900c54a3fb09ac72281f2c47578c",
+    "\u9884\u51bb\u7ed3\u5206\u6790\u89c4\u5219_v1.md": "365135585b17e2876093a073da48a9090d536dba6c6061f712d5c25b75d615dc",
+    "discovery/MFSD10_patient_level_associations.tsv": "53a5734355740da20e7e854f7c5fc37edb6a4cd3cebbe4ad21989a0072c19fe1"
+  }
+}

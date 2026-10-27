@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "engineering_audit_and_repository_preparation",
+  "scientific_analysis_rerun": false,
+  "originals_deleted": 0,
+  "originals_moved": 0,
+  "baseline_scientific_files_metadata_checked": 13837,
+  "unexpected_modified_files": [],
+  "missing_original_files": [],
+  "raw_files_hashed": 1214,
+  "TCGA_MD5_failures": 0,
+  "stage_manifest_records": 7667,
+  "nonroot_stage_hash_mismatches": 0,
+  "historical_mutable_root_document_drift": 3,
+  "review_copies": 728,
+  "review_copy_bytes": 67851640,
+  "canonical_links_checked": 61,
+  "checks_passed": 23,
+  "data_free_review_clone_passed": true,
+  "linux_full_reproduction_verified": false,
+  "cloud_setup_syntax": "Git Bash -n syntax only; no setup execution and no Linux runtime validation",
+  "project_Git_initialized": false,
+  "git_commit": false,
+  "git_push": false,
+  "scientific_stop_route_preserved": true,
+  "remaining_blockers": [
+    "Project repository and Cloud environment not configured",
+    "Large derived data external storage not designated",
+    "Linux analysis environments and legacy paths not fully ported",
+    "Third-party literature/weight redistribution licenses not fully verified"
+  ]
+}

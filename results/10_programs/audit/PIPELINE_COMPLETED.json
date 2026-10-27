@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "date": "2026-10-26",
+  "validation_checks": 58,
+  "all_passed": true,
+  "primary_NMF_runs": 3900,
+  "sensitivity_scenarios": 19,
+  "sensitivity_initial_repeats": 380,
+  "frozen_meta_programs": 5,
+  "discovery_patients": 13,
+  "validation_primary_naive_patients": 16,
+  "validation_treated_patients_with_candidates": 4,
+  "discovery_significant_associations": 0,
+  "confirmatory_successes": 0,
+  "external_exploratory_MP05_within_rho": 0.057081,
+  "interpretation": "Shared-program gene coherence supported; no discovery-FDR-supported MFSD10 association was confirmed. External MP05 is exploratory only.",
+  "background_task_remaining": false
+}

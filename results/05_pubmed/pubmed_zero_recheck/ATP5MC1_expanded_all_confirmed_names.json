@@ -1,0 +1,28 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "2",
+    "retmax": "2",
+    "retstart": "0",
+    "idlist": [
+      "39667070",
+      "28701793"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"ATP5MC1\"[All Fields] OR \"ATP5G1\"[All Fields] OR \"ATP synthase lipid-binding protein\"[All Fields] OR \"ATP synthase membrane subunit c locus 1\"[All Fields] OR \"ATPase subunit c\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"ATP synthase F(0) complex subunit C1, mitochondrial\"[All Fields]",
+        "\"ATP synthase proteolipid P1\"[All Fields]",
+        "\"ATP synthase proton-transporting mitochondrial F(0) complex subunit C1\"[All Fields]",
+        "\"ATPase protein 9\"[All Fields]",
+        "\"Proton-conducting channel, ATP synthase F(0) complex subunit c\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

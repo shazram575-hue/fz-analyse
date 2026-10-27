@@ -1,0 +1,12 @@
+{
+  "files": 826,
+  "bytes": 76963949,
+  "largest_bytes": 3478624,
+  "blocked": 0,
+  "manual_review_flags": 30,
+  "case_or_clinical_tables": 133,
+  "ignore_tests": 11,
+  "scientific_analysis_run": false,
+  "git_mutation": false,
+  "limitation": "Pattern scan is not a complete privacy, secret or licensing review; manually verify flags and clinical sources."
+}

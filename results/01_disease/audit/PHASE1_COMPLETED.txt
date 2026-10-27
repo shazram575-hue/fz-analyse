@@ -1,0 +1,5 @@
+Phase 1 complete: Pool A 813 protein-coding genes.
+Independent R checks and document links passed.
+Final figures PNG visually inspected; PDF counterparts saved.
+Original input files unchanged; no drug prediction, pathway selection, spatial analysis or MD performed.
+Completed: 2026-10-23 20:02:49 +08:00

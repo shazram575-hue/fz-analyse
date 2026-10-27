@@ -1,0 +1,25 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "2",
+    "retmax": "2",
+    "retstart": "0",
+    "idlist": [
+      "38903991",
+      "37751742"
+    ],
+    "translationset": [],
+    "querytranslation": "\"MFSD12\"[All Fields] AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"C19orf28\"[All Fields]",
+        "\"Major facilitator superfamily domain-containing protein 12\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

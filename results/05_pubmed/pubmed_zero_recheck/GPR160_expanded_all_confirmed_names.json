@@ -1,0 +1,29 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "4",
+    "retmax": "4",
+    "retstart": "0",
+    "idlist": [
+      "37373130",
+      "34048027",
+      "32355807",
+      "31632087"
+    ],
+    "translationset": [],
+    "querytranslation": "\"GPR160\"[All Fields] AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"GPCR150\"[All Fields]",
+        "\"Probable G protein-coupled receptor 160\"[All Fields]",
+        "\"G protein-coupled receptor GPCR1\"[All Fields]",
+        "\"hGPCR1\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

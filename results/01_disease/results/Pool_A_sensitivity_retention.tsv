@@ -1,0 +1,7 @@
+sensitivity	n_pool	n_alternative_pool	n_retained	jaccard
+without_doublet_flags	813	796	791	0.966992665036675
+without_changed_libraries	813	920	798	0.853475935828877
+female_only	813	954	800	0.827300930713547
+patient_half1	813	786	775	0.940533980582524
+patient_half2	813	761	754	0.919512195121951
+extended_normal	813	798	761	0.895294117647059

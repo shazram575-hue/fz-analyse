@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "handoff_section": 39,
+  "new_scientific_analysis": false,
+  "final_canonical_document_links": 57,
+  "review_copy_count": 728,
+  "review_copy_bytes": 67851640,
+  "candidate_files": 813,
+  "candidate_bytes_at_listing": 76906249,
+  "git_push": false,
+  "linux_full_reproduction_verified": false,
+  "stop_route_unchanged": true,
+  "created_modified_list_scope": "Before/after inventory snapshots; final bookkeeping itself not recursively self-enumerated",
+  "local_checksum_scope": "Project preparation view, excludes ignored caches/local snapshots; immutable review payload uses PATH_MAP cross-platform hashes"
+}

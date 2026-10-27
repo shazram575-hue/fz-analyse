@@ -1,0 +1,2 @@
+model	n_normal	n_tumor	n_patients	correlation	correlation_calibration_patients	n_genes_tested	n_exploratory_de	n_de_protein_coding
+all_1208_patient_block	113	1095	1095	0.0991480885066775	113	27035	12224	7494

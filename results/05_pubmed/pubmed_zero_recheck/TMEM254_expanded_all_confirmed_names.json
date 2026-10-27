@@ -1,0 +1,25 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "(\"TMEM254\"[All Fields] OR \"C10orf57\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"FLJ13263\"[All Fields]",
+        "\"bA369J21.6\"[All Fields]",
+        "\"Transmembrane protein 254\"[All Fields]"
+      ],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

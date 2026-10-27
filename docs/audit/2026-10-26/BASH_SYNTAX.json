@@ -1,0 +1,6 @@
+{
+  "script": "scripts/cloud/setup.sh",
+  "sha256": "19e21babab0b02c242467b779111561ca3c6a48498af0cd2ac855279d0d46e2c",
+  "returncode": 0,
+  "check": "Git Bash -n syntax only; no setup execution and no Linux runtime validation"
+}

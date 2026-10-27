@@ -1,0 +1,35 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "13",
+    "retmax": "13",
+    "retstart": "0",
+    "idlist": [
+      "42530655",
+      "40900789",
+      "36212540",
+      "35346324",
+      "33576900",
+      "33117284",
+      "30203045",
+      "28108626",
+      "26695443",
+      "25103640",
+      "21185374",
+      "12878323",
+      "11356686"
+    ],
+    "translationset": [],
+    "querytranslation": "\"IFI27\"[All Fields] AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Interferon alpha-inducible protein 27, mitochondrial\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

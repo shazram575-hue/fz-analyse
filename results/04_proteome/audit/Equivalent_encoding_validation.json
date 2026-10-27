@@ -1,0 +1,11 @@
+{
+  "all1993_previous_native_AAC_vectors_exactly_equal": true,
+  "previous_AAC_elements_compared": 16781060,
+  "fresh_native_AAC_examples": 55,
+  "fresh_native_AAC_exactly_equal": true,
+  "CNN_onehot_category_order_exactly_equal": true,
+  "nonoverlap_semantics": "leftmost greedy per literal kmer, matching native str.count/re.findall",
+  "feature_order_and_rounding": "same native AALetter/product order and Python round; float32 is native torch input precision",
+  "changes_to_model_weights": false,
+  "elapsed_seconds": 13.985
+}

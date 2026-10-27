@@ -1,0 +1,10 @@
+test_apply_identical_bytes_and_idempotent (test_project_tools.RestoreSafetyTests.test_apply_identical_bytes_and_idempotent) ... ok
+test_bad_source_hash_rejected (test_project_tools.RestoreSafetyTests.test_bad_source_hash_rejected) ... ok
+test_dry_run_never_writes (test_project_tools.RestoreSafetyTests.test_dry_run_never_writes) ... ok
+test_refuses_different_existing_file (test_project_tools.RestoreSafetyTests.test_refuses_different_existing_file) ... ok
+test_rejects_path_escape (test_project_tools.RestoreSafetyTests.test_rejects_path_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.845s
+
+OK

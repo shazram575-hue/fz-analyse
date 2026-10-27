@@ -1,0 +1,1029 @@
+Package	Version	Built	NeedsCompilation	License	Repository	LibPath	verification
+abind	1.4-8	R 4.5.2; ; 2025-11-01 00:31:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ade4	1.7-23	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:48:10 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+admisc	0.39	R 4.5.2; x86_64-w64-mingw32; 2026-02-22 01:43:01 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alabama	2025.1.0	R 4.5.2; ; 2026-01-17 00:50:55 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alabaster.base	1.10.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 12:46:40 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alabaster.matrix	1.10.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:10:29 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alabaster.ranges	1.10.0	R 4.5.2; ; 2025-11-15 07:32:44 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alabaster.schemas	1.10.0	R 4.5.2; ; 2025-11-11 12:41:57 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alabaster.se	1.10.0	R 4.5.2; ; 2025-11-11 13:27:07 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+alphahull	2.5	R 4.5.2; ; 2026-02-09 07:13:36 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Amelia	1.8.3	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:18:20 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+anndataR	1.0.2	R 4.5.2; ; 2026-03-03 05:56:30 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+AnnoProbe	0.1.7	R 4.5.3; ; 2026-09-16 03:59:07 UTC; windows	no	Apache License (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+annotate	1.88.0	R 4.5.2; ; 2025-11-11 13:22:35 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+AnnotationDbi	1.72.0	R 4.5.2; ; 2025-11-11 12:53:22 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+AnnotationFilter	1.34.0	R 4.5.2; ; 2026-03-05 07:39:28 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+AnnotationHub	4.0.0	R 4.5.2; ; 2026-02-09 14:52:09 UTC; windows	yes	Artistic-2.0	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ape	5.8-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:55 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+aplot	0.2.9	R 4.5.2; ; 2026-01-23 03:43:34 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+argparse	2.3.1	R 4.5.3; ; 2026-03-22 03:10:07 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ashr	2.2-63	R 4.5.3; x86_64-w64-mingw32; 2026-09-16 00:26:08 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+askpass	1.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+assertthat	0.2.1	R 4.5.3; ; 2026-03-28 18:48:49 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+assorthead	1.4.0	R 4.5.2; ; 2025-11-11 12:40:53 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+AUCell	1.32.0	R 4.5.2; ; 2026-02-28 08:27:43 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+babelgene	22.9	R 4.5.3; ; 2026-09-16 01:48:58 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+backports	1.5.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:08 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BART	2.9.10	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:11:57 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+base	4.5.2	R 4.5.2; ; 2025-10-31 09:51:23 UTC; windows		Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+base64enc	0.1-6	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:51:45 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+basilisk	1.22.0	R 4.5.2; ; 2026-02-28 08:41:09 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+batchelor	1.26.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-23 09:37:35 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BB	2026.1.0	R 4.5.3; ; 2026-10-14 01:20:47 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BBmisc	1.13.1	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 17:20:41 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bcellViper	1.46.0	R 4.5.3; ; 2026-10-18 02:45:37 UTC; windows	no	GPL (>=2)	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+beachmat	2.26.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:29:10 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+beeswarm	0.4.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:38:58 UTC; windows	yes	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BH	1.90.0-1	R 4.5.2; ; 2025-12-18 00:53:12 UTC; windows	no	BSL-1.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiasedUrn	2.0.12	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:37:18 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Biobase	2.70.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:27:30 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocBaseUtils	1.12.0	R 4.5.2; ; 2025-11-11 13:26:14 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocFileCache	3.0.0	R 4.5.2; ; 2025-11-11 13:31:21 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocGenerics	0.56.0	R 4.5.2; ; 2025-11-16 07:41:33 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocIO	1.20.0	R 4.5.2; ; 2026-03-07 07:50:27 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+biocmake	1.2.0	R 4.5.2; ; 2025-11-11 13:26:21 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocManager	1.30.27	R 4.5.2; ; 2026-01-23 01:49:42 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocNeighbors	2.4.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:28:08 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocParallel	1.44.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:34:55 UTC; windows	yes	GPL-2 | GPL-3 | BSL-1.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocSingular	1.26.1	R 4.5.2; x86_64-w64-mingw32; 2025-11-17 08:09:01 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+BiocVersion	3.22.0	R 4.5.0; ; 2025-06-05 12:32:54 UTC; windows	no	Artistic-2.0	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+biocViews	1.78.0	R 4.5.2; ; 2025-11-17 07:37:59 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+biomaRt	2.66.1	R 4.5.2; ; 2026-03-05 13:11:26 UTC; windows	no	Artistic-2.0	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Biostrings	2.78.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-13 07:51:10 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bipartite	2.23	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:31 UTC; windows	yes	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bit	4.6.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:49 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bit64	4.6.0-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:35 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bitops	1.0-9	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+blob	1.3.0	R 4.5.2; ; 2026-01-23 03:07:01 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bluster	1.20.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-22 13:50:10 UTC; windows	yes	GPL-3	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+boot	1.3-32	R 4.5.2; ; 2025-10-31 09:58:12 UTC; windows	no	Unlimited	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bootstrap	2019.6	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:42:34 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+brew	1.0-10	R 4.5.2; ; 2026-01-23 01:48:10 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+brio	1.1.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+broom	1.0.12	R 4.5.2; ; 2026-02-01 00:52:11 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+bslib	0.10.0	R 4.5.2; ; 2026-02-01 00:52:17 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cachem	1.1.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Cairo	1.7-0	R 4.5.3; x86_64-w64-mingw32; 2026-03-18 02:55:14 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+calculus	1.1.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 01:28:04 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+callr	3.7.6	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+car	3.1-5	R 4.5.2; ; 2026-02-06 00:52:51 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+carData	3.0-6	R 4.5.2; ; 2026-02-01 00:52:11 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+caret	7.0-1	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 21:48:39 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+caTools	1.18.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:30 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+celda	1.26.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-02 09:07:45 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+CellChat	1.6.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-07 06:53:47 UTC; windows	yes	GPL-3		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+celldex	1.20.0	R 4.5.2; ; 2026-02-04 02:47:57 UTC; windows	no	GPL-3	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cellranger	1.1.0	R 4.5.2; ; 2026-01-23 03:41:38 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+checkmate	2.3.4	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:51:45 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cigarillo	1.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-23 08:46:24 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+circlize	0.4.17	R 4.5.2; ; 2026-01-23 02:35:02 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+class	7.3-23	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:52 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+classInt	0.4-11	R 4.5.2; x86_64-w64-mingw32; 2026-03-04 03:15:10 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cli	3.6.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+clipr	0.8.0	R 4.5.2; ; 2026-01-23 01:48:05 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+clock	0.7.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:04 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+clubSandwich	0.7.0	R 4.5.3; ; 2026-10-14 02:18:46 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+clue	0.3-66	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:24 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cluster	2.1.8.1	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:17 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+clusterProfiler	4.18.4	R 4.5.2; ; 2026-01-15 08:36:39 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+clustree	0.5.1	R 4.5.3; ; 2026-09-03 04:59:33 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cmprsk	2.2-12	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:50:48 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+coda	0.19-4.1	R 4.5.2; ; 2026-01-23 01:48:47 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+codetools	0.2-20	R 4.5.2; ; 2025-10-31 09:58:26 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+coin	1.4-3	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 03:57:46 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+colorspace	2.1-2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:39 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+combinat	0.0-8	R 4.5.2; ; 2025-11-01 00:34:22 UTC; windows		GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+commonmark	2.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+compiler	4.5.2	R 4.5.2; ; 2025-10-31 09:47:11 UTC; windows		Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ComplexHeatmap	2.26.1	R 4.5.2; ; 2026-01-31 04:10:56 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+CompQuadForm	1.4.4	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+conflicted	1.2.0	R 4.5.2; ; 2026-01-23 02:48:07 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+corpcor	1.6.10	R 4.5.2; ; 2025-11-01 00:33:34 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+corrplot	0.95	R 4.5.2; ; 2026-01-23 01:48:35 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cowplot	1.2.0	R 4.5.2; ; 2026-01-23 03:26:42 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+cpp11	0.5.3	R 4.5.2; ; 2026-01-23 01:48:10 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+crayon	1.5.3	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+credentials	2.0.3	R 4.5.2; ; 2026-01-23 03:06:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+crosstalk	1.2.2	R 4.5.2; ; 2026-01-23 02:47:51 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+curl	7.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:14 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DALEX	2.5.3	R 4.5.2; ; 2026-03-04 03:48:27 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+data.table	1.18.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:12 UTC; windows	yes	MPL-2.0 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+data.tree	1.2.0	R 4.5.2; ; 2026-01-23 01:49:07 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+datasets	4.5.2	R 4.5.2; ; 2025-10-31 09:50:15 UTC; windows		Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+datawizard	1.3.0	R 4.5.2; ; 2026-01-23 01:51:15 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DBI	1.2.3	R 4.5.2; ; 2026-01-23 01:48:49 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dbplyr	2.5.1	R 4.5.2; ; 2026-01-23 04:13:18 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dbscan	1.2.4	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:12:50 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DDRTree	0.1.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:05:40 UTC; windows	yes	Artistic License 2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+decontX	1.8.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-12 09:15:38 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+decoupleR	2.16.0	R 4.5.2; ; 2026-03-04 08:22:59 UTC; windows	no	GPL-3 + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DelayedArray	0.36.1	R 4.5.3; ; 2026-04-01 06:38:44 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DelayedMatrixStats	1.32.0	R 4.5.2; ; 2026-02-20 06:06:21 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+deldir	2.0-4	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:51 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dendextend	1.19.1	R 4.5.3; ; 2026-03-18 04:42:57 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Deriv	4.2.0	R 4.5.2; ; 2026-01-23 01:48:37 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+desc	1.4.3	R 4.5.2; ; 2026-01-23 02:34:30 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DESeq2	1.50.2	R 4.5.2; x86_64-w64-mingw32; 2026-03-04 08:45:39 UTC; windows	yes	LGPL (>= 3)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+devtools	2.5.0	R 4.5.3; ; 2026-03-28 21:02:27 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dfoptim	2023.1.0	R 4.5.2; ; 2025-11-01 00:39:17 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+diagram	1.6.5	R 4.5.2; ; 2025-11-01 00:33:32 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DiagrammeR	1.0.11	R 4.5.2; ; 2026-01-23 04:13:21 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DiceKriging	1.6.1	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 17:17:40 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dichromat	2.0-1	R 4.5.3; ; 2026-07-26 23:53:40 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+diffobj	0.3.6	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+digest	0.6.39	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:07 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dir.expiry	1.18.0	R 4.5.2; ; 2025-11-11 14:05:36 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+distributional	0.9.0	R 4.5.3; ; 2026-09-16 01:09:48 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+doBy	4.7.1	R 4.5.2; ; 2026-01-23 04:52:12 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+doFuture	1.2.1	R 4.5.2; ; 2026-03-04 02:53:28 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+doParallel	1.0.17	R 4.5.2; ; 2026-01-23 02:34:38 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dorothea	1.22.0	R 4.5.3; ; 2026-10-18 02:45:40 UTC; windows	no	GPL-3 + file LICENSE	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DOSE	4.4.0	R 4.5.2; ; 2026-01-30 20:39:26 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dotCall64	1.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DoubletFinder	2.0.6	R 4.5.2; ; 2026-02-22 01:08:38 UTC; windows	no	CC0		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+downlit	0.4.5	R 4.5.2; ; 2026-01-23 03:06:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+downloader	0.4.1	R 4.5.2; ; 2026-02-25 01:55:41 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dplyr	1.1.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:35 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dqrng	0.4.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:51 UTC; windows	yes	AGPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+DT	0.34.0	R 4.5.3; ; 2026-09-16 01:39:38 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dtplyr	1.3.2	R 4.5.2; ; 2026-01-23 03:57:31 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+dynamicTreeCut	1.63-1	R 4.5.2; ; 2025-11-01 00:37:18 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+e1071	1.7-17	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 19:56:28 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+edgeR	4.8.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:21:53 UTC; windows	yes	GPL (>=2)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ellipse	0.5.0	R 4.5.3; ; 2026-03-28 18:49:01 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ellipsis	0.3.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+emmeans	2.0.4	R 4.5.3; ; 2026-10-14 01:19:46 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+emoa	0.5-3	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 17:30:25 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+enrichplot	1.30.4	R 4.5.2; ; 2026-01-30 08:52:27 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+enrichR	3.4	R 4.5.3; ; 2026-03-18 04:24:29 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+EnsDb.Hsapiens.v86	2.99.0	R 4.5.2; ; 2026-03-25 13:18:08 UTC; windows	no	Artistic-2.0		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ensembldb	2.34.0	R 4.5.2; ; 2026-03-01 09:36:49 UTC; windows	no	LGPL	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Epi	2.66	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 04:46:55 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+EpiDISH	2.26.0	R 4.5.2; ; 2026-02-28 07:38:55 UTC; windows	no	GPL-2	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+estimability	2.0.0	R 4.5.3; ; 2026-10-14 01:19:37 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+estmeansd	1.0.1	R 4.5.3; ; 2026-10-14 03:35:05 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+etm	1.1.2	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:50:51 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+etrunct	0.1	R 4.5.3; ; 2026-09-15 23:04:59 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+evaluate	1.0.5	R 4.5.2; ; 2026-01-23 01:48:09 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+exactRankTests	0.8-35	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 01:54:36 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ExperimentHub	3.0.0	R 4.5.2; ; 2025-11-18 07:28:25 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+expm	1.0-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:58 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fansi	1.0.7	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+farver	2.1.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fastcluster	1.3.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:34:48 UTC; windows	yes	FreeBSD | GPL-2 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fastDummies	1.7.5	R 4.5.2; ; 2026-01-23 03:41:34 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fastICA	1.2-7	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:50:32 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fastmap	1.2.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fastmatch	1.1-8	R 4.5.2; x86_64-w64-mingw32; 2026-01-21 00:51:26 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fdrtool	1.2.18	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:39:52 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fgsea	1.36.2	R 4.5.2; x86_64-w64-mingw32; 2026-02-05 05:31:12 UTC; windows	yes	MIT + file LICENCE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fields	17.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:48:13 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+filelock	1.0.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:50:18 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+findpython	1.0.9	R 4.5.3; ; 2026-03-22 02:25:26 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fitdistrplus	1.2-6	R 4.5.2; ; 2026-01-26 00:51:06 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+FNN	1.1.4.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:32 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fontawesome	0.5.3	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fontBitstreamVera	0.1.1	R 4.5.2; ; 2025-11-01 00:34:03 UTC; windows	no	file LICENCE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fontLiberation	0.1.0	R 4.5.2; ; 2025-11-01 00:34:03 UTC; windows	no	file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fontquiver	0.2.1	R 4.5.2; ; 2026-01-23 01:49:51 UTC; windows	no	GPL-3 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+forcats	1.0.1	R 4.5.2; ; 2026-01-23 03:41:37 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+foreach	1.5.2	R 4.5.2; ; 2026-01-23 02:34:29 UTC; windows	no	Apache License (== 2.0)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+forecast	9.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:27 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+foreign	0.8-91	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:09 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+formatR	1.14	R 4.5.2; ; 2026-01-23 01:49:51 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Formula	1.2-5	R 4.5.2; ; 2025-11-01 00:31:43 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fracdiff	1.5-3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:39 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+fs	2.0.1	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 18:48:23 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+futile.logger	1.4.9	R 4.5.2; ; 2026-01-23 02:48:29 UTC; windows	no	LGPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+futile.options	1.0.1	R 4.5.2; ; 2025-11-01 00:34:16 UTC; windows	no	LGPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+future	1.69.0	R 4.5.2; ; 2026-01-23 02:34:32 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+future.apply	1.20.1	R 4.5.2; ; 2026-01-23 02:47:49 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gargle	1.6.1	R 4.5.2; ; 2026-02-01 00:52:09 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gbm	2.2.3	R 4.5.3; x86_64-w64-mingw32; 2026-05-09 02:05:37 UTC; windows	yes	GPL (>= 2) | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gdtools	0.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:14:52 UTC; windows	yes	GPL-3 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+genefilter	1.92.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-24 20:18:08 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+generics	0.1.4	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GenomeInfoDb	1.46.2	R 4.5.2; ; 2026-03-04 08:02:13 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GenomicAlignments	1.46.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-07 03:47:48 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GenomicFeatures	1.62.0	R 4.5.2; ; 2026-03-04 08:54:53 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GenomicRanges	1.62.1	R 4.5.2; x86_64-w64-mingw32; 2025-12-09 04:19:24 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+geomtextpath	0.2.0	R 4.5.2; ; 2026-01-23 03:08:16 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GEOquery	2.78.0	R 4.5.2; ; 2025-12-11 07:05:10 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gert	2.3.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:40 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GetoptLong	1.1.0	R 4.5.2; ; 2026-01-23 01:52:26 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggalluvial	0.12.5	R 4.5.2; ; 2026-01-23 03:58:07 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GGally	2.4.0	R 4.5.3; ; 2026-09-16 03:13:17 UTC; windows	no	GPL (>= 2.0)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggbeeswarm	0.7.3	R 4.5.3; ; 2026-03-18 04:42:23 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggdendro	0.2.0	R 4.5.2; ; 2026-01-23 03:10:42 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggfittext	0.10.3	R 4.5.2; ; 2026-03-04 03:32:41 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggforce	0.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:42 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggfun	0.2.0	R 4.5.2; ; 2026-01-23 03:42:28 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gggenes	0.6.0	R 4.5.2; ; 2026-03-04 03:48:32 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggh4x	0.3.1	R 4.5.2; ; 2026-01-23 03:08:14 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggiraph	0.9.4	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:53:15 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggiraphExtra	0.3.0	R 4.5.2; ; 2026-01-23 04:02:39 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggnetwork	0.5.14	R 4.5.2; ; 2026-01-23 03:45:30 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggnewscale	0.5.2	R 4.5.2; ; 2026-01-23 03:27:18 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggplot2	4.0.2	R 4.5.2; ; 2026-03-04 03:15:05 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggplotify	0.1.3	R 4.5.2; ; 2026-01-23 03:27:17 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggpubr	0.6.2	R 4.5.2; ; 2026-01-23 05:00:29 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggraph	2.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:34:12 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggrastr	1.0.2	R 4.5.3; ; 2026-03-18 04:57:46 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggrepel	0.9.8	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:30:03 UTC; windows	yes	GPL-3 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggridges	0.5.7	R 4.5.2; ; 2026-01-23 03:26:44 UTC; windows	no	GPL-2 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggsci	4.2.0	R 4.5.2; ; 2026-01-23 03:26:45 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggsignif	0.6.4	R 4.5.2; ; 2026-01-23 03:26:46 UTC; windows	no	GPL-3 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggstats	0.14.0	R 4.5.3; ; 2026-09-16 02:30:40 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggtangle	0.1.1	R 4.5.2; ; 2026-01-23 03:46:54 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggtext	0.1.2	R 4.5.2; ; 2026-02-25 03:55:54 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggtree	4.0.4	R 4.5.2; ; 2026-02-04 04:49:14 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggunchull	1.0.1	R 4.5.2; ; 2026-02-09 07:13:47 UTC; windows	no	GPL3		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggvenn	0.1.19	R 4.5.2; ; 2026-01-23 03:46:48 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ggVennDiagram	1.5.7	R 4.5.2; ; 2026-02-22 04:12:21 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gh	1.5.0	R 4.5.2; ; 2026-01-23 03:26:40 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gitcreds	0.1.2	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GLMMadaptive	0.9-7	R 4.5.3; ; 2026-10-14 02:18:32 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+glmmTMB	1.1.15.2	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 06:35:30 UTC; windows	yes	AGPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+glmnet	4.1-10	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:12:02 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+glmulti	1.0.8	R 4.5.3; ; 2026-10-14 02:17:39 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GlobalOptions	0.1.3	R 4.5.2; ; 2026-01-23 01:51:50 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+globals	0.19.0	R 4.5.2; ; 2026-02-04 02:44:34 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+glue	1.8.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GO.db	3.22.0	R 4.5.2; ; 2026-02-09 11:35:23 UTC; windows	no	Artistic-2.0		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+goftest	1.2-3	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:51 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+googledrive	2.1.2	R 4.5.2; ; 2026-01-23 03:27:02 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+googlesheets4	1.1.2	R 4.5.2; ; 2026-01-23 03:41:49 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GOplot	1.0.2	R 4.5.2; ; 2026-01-23 03:16:43 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GOSemSim	2.36.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-02 08:38:19 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gower	1.0.2	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:33:31 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gplots	3.3.0	R 4.5.2; ; 2026-01-23 02:34:32 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+graph	1.88.1	R 4.5.2; x86_64-w64-mingw32; 2025-12-08 04:16:07 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+graphics	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:48:51 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+graphlayouts	1.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:55 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+grDevices	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:48:22 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+grid	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:50:44 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gridBase	0.4-7	R 4.5.2; ; 2026-01-23 01:50:56 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gridExtra	2.3	R 4.5.2; ; 2026-01-23 03:06:58 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gridGraphics	0.5-1	R 4.5.2; ; 2026-01-23 01:50:05 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gridtext	0.1.6	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 03:41:04 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GSEABase	1.72.0	R 4.5.2; ; 2025-11-11 19:47:06 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gsignal	0.3-7	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 18:50:52 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gsl	2.1-9	R 4.5.2; x86_64-w64-mingw32; 2025-11-12 10:20:33 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gson	0.1.0	R 4.5.2; ; 2026-01-23 04:10:07 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+GSVA	2.4.9	R 4.5.3; x86_64-w64-mingw32; 2026-04-06 06:42:12 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gtable	0.3.6	R 4.5.2; ; 2026-01-23 02:47:49 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gtools	3.9.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:28 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+gypsum	1.6.0	R 4.5.2; ; 2025-11-11 19:32:43 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+h5mread	1.2.1	R 4.5.2; x86_64-w64-mingw32; 2025-11-23 15:08:34 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+hardhat	1.4.2	R 4.5.2; ; 2026-01-23 03:41:39 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+harmony	1.2.4	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:48:36 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+haven	2.5.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:13:25 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+HDF5Array	1.38.0	R 4.5.2; ; 2026-01-03 22:07:12 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+hdf5r	1.3.16	R 4.5.3; x86_64-w64-mingw32; 2026-09-15 23:45:15 UTC; windows	yes	Apache License 2.0 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+here	1.0.2	R 4.5.2; ; 2026-01-23 01:48:27 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+hgu133plus2.db	3.13.0	R 4.5.3; ; 2026-10-18 03:18:02 UTC; windows	no	Artistic-2.0		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+HiddenMarkov	1.8-14	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:46:53 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+highr	0.11	R 4.5.2; ; 2026-01-23 02:34:29 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Hmisc	5.2-5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:13:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+hms	1.1.4	R 4.5.2; ; 2026-01-23 03:07:01 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+HSMMSingleCell	1.30.0	R 4.5.2; ; 2026-02-04 02:49:00 UTC; windows	no	Artistic-2.0	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+htmlTable	2.4.3	R 4.5.2; ; 2026-01-23 03:57:27 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+htmltools	0.5.9	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:31 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+htmlwidgets	1.6.4	R 4.5.2; ; 2026-01-23 03:41:32 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+httpuv	1.6.16	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:55 UTC; windows	yes	GPL (>= 2) | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+httr	1.4.9	R 4.5.3; ; 2026-10-14 03:16:46 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+httr2	1.2.2	R 4.5.2; ; 2026-01-23 03:06:54 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+iBreakDown	2.1.2	R 4.5.2; ; 2026-03-04 03:32:39 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ica	1.0-3	R 4.5.2; ; 2025-11-01 00:32:49 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ids	1.0.1	R 4.5.2; ; 2026-01-23 02:48:20 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+igraph	2.3.3	R 4.5.3; x86_64-w64-mingw32; 2026-09-03 02:03:24 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+impute	1.84.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 07:20:47 UTC; windows	yes	GPL-2	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+infercnv	1.20.0	R 4.4.0; ; 2024-05-02 12:58:57 UTC; windows	no	BSD_3_clause + file LICENSE	Bioconductor 3.19	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ingredients	2.3.0	R 4.5.2; ; 2026-03-04 03:32:39 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ini	0.3.1	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+inline	0.3.21	R 4.5.3; ; 2026-09-15 22:47:41 UTC; windows	no	LGPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+insight	1.4.6	R 4.5.2; ; 2026-02-06 00:51:57 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+interp	1.1-6	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:11:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+inum	1.0-5	R 4.5.2; ; 2026-01-23 02:34:38 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+invgamma	1.2	R 4.5.3; ; 2026-09-15 22:51:58 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ipred	0.9-15	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:41 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+IRanges	2.44.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-12 03:17:27 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+irlba	2.3.7	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:14 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+isoband	0.3.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+iterators	1.0.14	R 4.5.2; ; 2026-01-23 01:48:07 UTC; windows	no	Apache License (== 2.0)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jjAnno	0.0.4	R 4.5.2; ; 2026-02-09 07:15:11 UTC; windows	no	MIT + file LICENSE		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jjPlot	0.0.3	R 4.5.2; ; 2026-02-09 07:15:53 UTC; windows	no	MIT + file LICENSE		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jomo	2.7-6	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 03:51:08 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jpeg	0.1-11	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:50 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jquerylib	0.1.4	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jsonlite	2.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+jsonvalidate	1.5.0	R 4.5.2; ; 2026-01-23 02:52:48 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+KEGGREST	1.50.0	R 4.5.2; ; 2025-11-11 20:12:06 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+kernelshap	0.9.1	R 4.5.2; ; 2026-03-04 03:15:30 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+kernlab	0.9-33	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:03 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+KernSmooth	2.23-26	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:36 UTC; windows	yes	Unlimited	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+klaR	1.7-4	R 4.5.2; ; 2026-03-04 05:05:06 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+knitr	1.51	R 4.5.2; ; 2026-01-23 02:47:43 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+labeling	0.4.3	R 4.5.2; ; 2025-11-01 00:30:56 UTC; windows	no	MIT + file LICENSE | Unlimited	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+labelled	2.16.0	R 4.5.2; ; 2026-03-04 04:45:08 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lambda.r	1.2.4	R 4.5.2; ; 2026-01-23 02:34:48 UTC; windows	no	LGPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lars	1.3	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:37:18 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+later	1.4.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lattice	0.22-7	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:52:54 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+latticeExtra	0.6-31	R 4.5.3; ; 2026-10-14 03:16:55 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lava	1.8.2	R 4.5.2; ; 2026-01-23 03:07:04 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lazyeval	0.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:23 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lbfgsb3c	2026-3.5	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:50:56 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+leaps	3.2	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 01:19:47 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+leidenbase	0.1.36	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:21:26 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lhs	1.3.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 17:21:31 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+libcoin	1.0-10	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:06 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lifecycle	1.0.5	R 4.5.2; ; 2026-01-23 02:34:30 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+limma	3.66.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-14 07:40:25 UTC; windows	yes	GPL (>=2)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+listenv	0.10.0	R 4.5.2; ; 2026-01-23 01:48:13 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+litedown	0.9	R 4.5.2; ; 2026-02-25 02:44:42 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lme4	2.0-1	R 4.5.2; x86_64-w64-mingw32; 2026-03-06 10:11:38 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lmtest	0.9-40	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:50 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+locfdr	1.1-8	R 4.5.2; ; 2025-11-01 00:48:48 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+locfit	1.5-9.12	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:25 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+logger	0.4.3	R 4.5.3; ; 2026-10-14 01:18:06 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+loo	2.10.1	R 4.5.3; ; 2026-09-16 02:07:46 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+lubridate	1.9.5	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:51:47 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+magick	2.9.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:51:06 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+magrittr	2.0.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:09 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mapproj	1.2.12	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 01:20:24 UTC; windows	yes	Lucent Public License	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+maps	3.4.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:49 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+markdown	2.0	R 4.5.2; ; 2026-02-25 02:56:19 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MASS	7.3-65	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 18:48:19 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mathjaxr	2.0-0	R 4.5.2; ; 2025-12-03 00:54:32 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Matrix	1.7-5	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 19:36:38 UTC; windows	yes	GPL (>= 2) | file LICENCE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MatrixGenerics	1.22.0	R 4.5.2; ; 2026-02-25 08:17:53 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MatrixModels	0.5-4	R 4.5.3; ; 2026-09-16 00:13:07 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+matrixStats	1.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:21 UTC; windows	yes	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+maxstat	0.7-26	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 02:44:42 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mboost	2.9-11	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:13:19 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mcmc	0.9-8	R 4.5.3; x86_64-w64-mingw32; 2026-09-15 22:47:47 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MCMCpack	1.7-1	R 4.5.3; x86_64-w64-mingw32; 2026-09-16 01:09:50 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MCMCprecision	0.4.2	R 4.5.3; x86_64-w64-mingw32; 2026-03-18 04:05:24 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+memoise	2.0.1	R 4.5.2; ; 2026-01-23 02:47:39 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+memuse	4.2-3	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:33:47 UTC; windows	yes	BSD 2-clause License + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+metaBLUE	1.0.0	R 4.5.3; ; 2026-10-14 03:03:56 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+metadat	1.6-0	R 4.5.3; ; 2026-10-14 01:17:34 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+metafor	5.2-1	R 4.5.3; ; 2026-10-14 02:48:34 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+metapod	1.18.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-27 08:47:41 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+methods	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:50:21 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mgcv	1.9-4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:52 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mice	3.19.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 06:27:34 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+microbenchmark	1.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:41 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mime	0.13	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:30:57 UTC; windows	yes	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+miniUI	0.1.2	R 4.5.2; ; 2026-01-23 03:41:32 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+minqa	1.2.8	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mitml	0.4-5	R 4.5.3; ; 2026-10-14 06:11:31 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mixOmics	6.34.0	R 4.5.2; ; 2026-03-05 08:49:31 UTC; windows	no	GPL (>= 2)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mixsqp	0.3-54	R 4.5.3; x86_64-w64-mingw32; 2026-09-16 00:24:33 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mixtools	2.0.0.1	R 4.5.3; x86_64-w64-mingw32; 2026-09-28 17:28:18 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mlr	2.19.4	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 19:30:36 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mlrMBO	1.1.6	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 20:02:13 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ModelMetrics	1.2.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:35 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+modelr	0.1.11	R 4.5.2; ; 2026-01-23 04:34:01 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+modeltools	0.2-24	R 4.5.2; ; 2025-11-01 00:34:12 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+monocle	2.38.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-14 07:33:28 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+msigdbr	26.1.1	R 4.5.3; ; 2026-09-16 02:14:05 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+multcomp	1.4-29	R 4.5.2; ; 2026-01-23 03:26:52 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MuMIn	1.48.19	R 4.5.3; ; 2026-10-14 02:50:19 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+MuSiC	1.0.0	R 4.5.3; ; 2026-09-24 13:52:56 UTC; windows		GPL (>= 3)		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mvtnorm	1.3-3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+mycor	0.1.1	R 4.5.2; ; 2026-01-23 01:58:14 UTC; windows	no	CC0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+network	1.20.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 14:51:12 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+nichenetr	2.2.1.1	R 4.5.3; ; 2026-10-20 03:52:47 UTC; windows	no	GPL-3		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+nlme	3.1-168	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:57:10 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+nloptr	2.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:36 UTC; windows	yes	LGPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+NMF	0.28	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:29:44 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+nnet	7.3-20	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:55 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+nnls	1.6	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:33 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+numDeriv	2016.8-1.1	R 4.5.2; ; 2025-11-01 00:31:10 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+OmnipathR	3.18.4	R 4.5.3; ; 2026-10-18 05:06:19 UTC; windows	no	MIT + file LICENSE	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+openssl	2.3.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:46 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+openxlsx	4.2.8.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:07 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+optimParallel	1.0-3	R 4.5.3; ; 2026-10-14 01:19:03 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+optimx	2025-4.9	R 4.5.3; ; 2026-10-14 01:19:01 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ordinal	2026.7-26	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:50:23 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+org.Hs.eg.db	3.22.0	R 4.5.2; ; 2026-02-09 11:36:44 UTC; windows	no	Artistic-2.0		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+otel	0.2.0	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pak	0.9.3	R 4.5.3; x86_64-w64-mingw32; 2026-04-11 23:55:18 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pals	1.10	R 4.5.3; ; 2026-10-14 01:25:26 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pan	2.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 01:19:31 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+parallel	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:51:13 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+parallelDist	0.2.7	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 03:22:25 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+parallelly	1.46.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:15 UTC; windows	yes	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+parallelMap	1.5.1	R 4.5.3; ; 2026-10-16 17:25:00 UTC; windows	no	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ParamHelpers	1.14.2	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 17:25:00 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+partykit	1.2-25	R 4.5.2; x86_64-w64-mingw32; 2026-02-12 13:24:37 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+patchwork	1.3.2	R 4.5.2; ; 2026-01-23 03:26:43 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pbapply	1.7-4	R 4.5.2; ; 2026-01-23 01:48:22 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pbkrtest	0.5.5	R 4.5.2; ; 2026-01-23 04:55:13 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pdftools	3.7.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 02:57:53 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+permute	0.9-10	R 4.5.2; ; 2026-02-12 13:23:39 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pheatmap	1.0.13	R 4.5.2; ; 2026-01-23 02:49:21 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+philentropy	0.10.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:21:11 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+phyclust	0.1-34	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 03:25:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pillar	1.11.1	R 4.5.2; ; 2026-01-23 03:06:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pixmap	0.4-14	R 4.5.2; ; 2025-11-01 00:34:22 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pkgbuild	1.4.8	R 4.5.2; ; 2026-01-23 03:06:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pkgconfig	2.0.3	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pkgdown	2.2.0	R 4.5.2; ; 2026-01-23 03:41:33 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pkgload	1.5.0	R 4.5.2; ; 2026-02-05 13:45:35 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+plogr	0.2.0	R 4.5.2; ; 2026-01-23 01:48:49 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+plotly	4.12.0	R 4.5.2; ; 2026-01-26 00:52:30 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pls	2.8-5	R 4.5.2; ; 2026-01-23 01:49:06 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+plsRcox	1.8.2	R 4.5.3; ; 2026-03-28 22:03:15 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+plsRglm	1.7.0	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 17:58:00 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+plyr	1.8.9	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+png	0.1-8	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:50 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+polspline	1.1.25	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:35:13 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Polychrome	1.6.1	R 4.5.3; ; 2026-09-15 22:56:18 UTC; windows	no	Apache License (== 2.0)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+polyclip	1.10-7	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:57 UTC; windows	yes	BSL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+polynom	1.4-1	R 4.5.2; ; 2026-01-23 01:48:35 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+poorman	0.2.8	R 4.5.3; ; 2026-10-14 01:27:16 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+posterior	1.7.0	R 4.5.3; ; 2026-09-16 01:39:21 UTC; windows	no	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ppcor	1.1	R 4.5.2; ; 2026-01-23 01:53:23 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pracma	2.4.6	R 4.5.3; ; 2026-03-28 18:49:16 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+praise	1.0.0	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+preprocessCore	1.72.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-02 09:51:23 UTC; windows	yes	LGPL (>= 2)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+presto	1.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-04-12 13:55:31 UTC; windows	yes	GPL-3		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+prettyunits	1.2.0	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+pROC	1.19.0.1	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 19:36:36 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+processx	3.8.6	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+prodlim	2025.04.28	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:50 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+profvis	0.4.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:24 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+progeny	1.32.0	R 4.5.2; ; 2026-03-05 07:52:17 UTC; windows	no	Apache License (== 2.0) | file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+progress	1.2.3	R 4.5.2; ; 2026-01-23 03:26:48 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+progressr	0.18.0	R 4.5.2; ; 2026-01-23 02:34:32 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+promises	1.5.0	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ProtGenerics	1.42.0	R 4.5.2; ; 2026-02-22 07:41:38 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+proxy	0.4-29	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:47 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ps	1.9.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:20 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+purrr	1.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:55 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+qpdf	1.4.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 02:45:22 UTC; windows	yes	Apache License 2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+quadprog	1.5-8	R 4.5.2; x86_64-w64-mingw32; 2026-01-07 08:15:04 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+quantmod	0.4.28	R 4.5.2; ; 2026-01-23 03:26:46 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+quantreg	6.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:01 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+questionr	0.8.2	R 4.5.2; ; 2026-03-04 05:02:39 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+QuickJSR	1.11.0	R 4.5.3; x86_64-w64-mingw32; 2026-09-15 22:47:47 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+qvalue	2.42.0	R 4.5.2; ; 2026-01-28 07:05:46 UTC; windows	no	LGPL	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+R.cache	0.17.0	R 4.5.2; ; 2026-03-04 02:41:18 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+R.methodsS3	1.8.2	R 4.5.2; ; 2025-11-01 00:31:23 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+R.oo	1.27.1	R 4.5.2; ; 2025-11-01 01:45:51 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+R.rsp	0.46.0	R 4.5.3; ; 2026-10-14 02:28:14 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+R.utils	2.13.0	R 4.5.2; ; 2026-01-23 01:49:07 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+R6	2.6.1	R 4.5.2; ; 2026-01-23 01:48:07 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ragg	1.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:40 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+randomForest	4.7-1.2	R 4.5.2; x86_64-w64-mingw32; 2026-03-04 01:53:54 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+randomForestSRC	3.6.0	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 21:48:39 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RANN	2.6.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:25 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rappdirs	0.3.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:07 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rARPACK	0.11-0	R 4.5.3; ; 2026-03-28 19:59:48 UTC; windows	no	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RBGL	1.86.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 16:53:33 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rbibutils	2.4.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 00:51:08 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rcmdcheck	1.4.0	R 4.5.2; ; 2026-01-23 03:26:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RColorBrewer	1.1-3	R 4.5.2; ; 2025-11-01 00:30:56 UTC; windows	no	Apache License 2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rcpp	1.1.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:07 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppAnnoy	0.0.23	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppArmadillo	15.2.3-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:36 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppEigen	0.3.4.0.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	GPL (>= 2) | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppHNSW	0.6.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppML	0.3.7.1	R 4.5.3; x86_64-w64-mingw32; 2026-03-18 04:04:49 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppParallel	5.1.11-2	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 02:04:09 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppProgress	0.4.2	R 4.5.2; ; 2026-01-23 01:48:33 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppThread	2.4.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 17:18:54 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RcppTOML	0.2.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RCurl	1.98-1.17	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:35:34 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rdpack	2.6.6	R 4.5.2; ; 2026-02-09 14:51:48 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+readr	2.1.6	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:28 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+readxl	1.4.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:28 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+REBayes	2.60	R 4.5.3; ; 2026-09-16 00:24:14 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+recipes	1.3.1	R 4.5.2; ; 2026-01-23 04:13:17 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+reformulas	0.4.4	R 4.5.2; ; 2026-02-06 00:51:45 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+registry	0.5-1	R 4.5.2; ; 2025-11-01 00:37:05 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rematch	2.0.0	R 4.5.2; ; 2026-01-23 01:48:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rematch2	2.1.2	R 4.5.2; ; 2026-01-23 03:27:03 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+remotes	2.5.0	R 4.5.3; ; 2026-04-16 00:49:21 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rentrez	1.2.4	R 4.5.2; ; 2026-01-23 03:08:37 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+reprex	2.1.1	R 4.5.2; ; 2026-01-23 03:27:03 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+reshape2	1.4.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:43 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ResidualMatrix	1.20.0	R 4.5.3; ; 2026-03-17 07:59:37 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+restfulr	0.0.16	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 02:14:32 UTC; windows	yes	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+reticulate	1.44.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:52 UTC; windows	yes	Apache License 2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rfast	2.1.5.2	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:49:14 UTC; windows	yes	GPL (>= 2.0)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rgl	1.3.36	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 21:02:04 UTC; windows	yes	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rhdf5	2.54.1	R 4.5.2; x86_64-w64-mingw32; 2025-12-03 04:17:20 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rhdf5filters	1.22.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 17:04:13 UTC; windows	yes	BSD_2_clause + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rhdf5lib	1.32.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 17:05:58 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RhpcBLASctl	0.23-42	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:39:29 UTC; windows	yes	AGPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rhtslib	3.6.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-23 09:24:16 UTC; windows	yes	LGPL (>= 2)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rigraphlib	1.2.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 17:14:34 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+risksetROC	1.0.4.1	R 4.5.2; ; 2026-01-23 03:07:16 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rjags	4-17	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 02:05:27 UTC; windows	yes	GPL (== 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rJava	1.0-18	R 4.5.3; x86_64-w64-mingw32; 2026-04-11 23:53:56 UTC; windows	yes	LGPL-2.1	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rjson	0.2.23	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:34:48 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rlang	1.1.7	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:11 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rmarkdown	2.30	R 4.5.2; ; 2026-01-23 03:26:42 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rmeta	3.0	R 4.5.2; ; 2025-11-01 00:56:41 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rms	8.1-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:34:26 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rngtools	1.5.2	R 4.5.2; ; 2026-01-23 01:50:32 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+robumeta	2.1	R 4.5.3; ; 2026-10-14 01:28:04 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ROCR	1.0-12	R 4.5.2; ; 2026-01-26 00:51:03 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+roxygen2	7.3.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:33 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rpart	4.1.24	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:41 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rprojroot	2.1.1	R 4.5.2; ; 2026-01-23 01:48:09 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rsamtools	2.26.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-27 09:34:35 UTC; windows	yes	Artistic-2.0 | file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rsolnp	2.0.1	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:49:23 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RSpectra	0.16-2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:52 UTC; windows	yes	MPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RSQLite	2.4.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:50 UTC; windows	yes	LGPL (>= 2.1)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rstan	2.32.7	R 4.5.3; x86_64-w64-mingw32; 2026-09-16 02:30:37 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rstantools	2.7.1	R 4.5.3; ; 2026-09-16 00:13:20 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rstatix	0.7.3	R 4.5.2; ; 2026-01-23 04:57:19 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rstudioapi	0.18.0	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rsvd	1.0.5	R 4.5.2; ; 2026-01-23 02:52:32 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RTMB	2.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:50:26 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rtracklayer	1.70.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-18 09:38:44 UTC; windows	yes	Artistic-2.0 + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Rtsne	0.17	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+RUnit	0.4.33.1	R 4.5.2; ; 2025-11-01 00:36:02 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rversions	3.0.0	R 4.5.2; ; 2026-01-23 02:34:32 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+rvest	1.0.5	R 4.5.2; ; 2026-01-23 03:41:43 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+S4Arrays	1.10.1	R 4.5.2; x86_64-w64-mingw32; 2025-12-02 09:18:12 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+S4Vectors	0.48.1	R 4.5.3; x86_64-w64-mingw32; 2026-04-05 06:20:45 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+S7	0.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sandwich	3.1-1	R 4.5.2; ; 2026-01-23 02:48:02 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sass	0.4.10	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:41 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ScaledMatrix	1.18.0	R 4.5.2; ; 2026-03-05 08:25:49 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scales	1.4.0	R 4.5.2; ; 2026-01-23 02:47:49 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scater	1.38.1	R 4.5.2; ; 2026-03-22 13:50:44 UTC; windows	no	GPL-3	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scattermore	1.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:44 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scatterpie	0.2.6	R 4.5.2; ; 2026-01-23 03:59:49 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scatterplot3d	0.3-45	R 4.5.2; ; 2026-02-25 00:51:15 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scDblFinder	1.24.10	R 4.5.2; ; 2026-02-19 06:09:53 UTC; windows	no	GPL-3 + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SCpubr	3.0.1	R 4.5.3; ; 2026-03-28 19:00:25 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scran	1.38.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 06:12:08 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scrapper	1.4.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-12 03:07:29 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scRNAtoolVis	0.1.0	R 4.5.2; ; 2026-02-09 07:16:22 UTC; windows	no	MIT + file LICENSE		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scTenifoldKnk	1.0.3	R 4.5.2; ; 2026-04-18 08:31:54 UTC; windows	no	GPL (>=2)		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scTenifoldNet	1.3	R 4.5.3; ; 2026-04-16 02:09:32 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sctransform	0.4.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:24 UTC; windows	yes	GPL-3 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+scuttle	1.20.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-07 08:23:06 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+segmented	2.2-1	R 4.5.2; ; 2026-02-01 00:53:16 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+selectr	0.5-1	R 4.5.2; ; 2026-01-23 03:07:11 UTC; windows	no	BSD_3_clause + file LICENCE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Seqinfo	1.0.0	R 4.5.2; ; 2025-11-11 17:47:16 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+seqinr	4.2-36	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:12 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sessioninfo	1.2.3	R 4.5.2; ; 2026-01-23 02:34:30 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+Seurat	5.4.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:34:01 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SeuratObject	5.3.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:58 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sgeostat	1.0-27	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:10:54 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+shades	1.4.0	R 4.5.2; ; 2026-03-04 01:54:19 UTC; windows	no	BSD_3_clause + file LICENCE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+shadowtext	0.1.6	R 4.5.3; ; 2026-10-16 20:31:20 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+shape	1.4.6.1	R 4.5.2; ; 2025-11-01 00:31:21 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+shapviz	0.10.3	R 4.5.2; ; 2026-03-04 04:07:24 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+shiny	1.12.1	R 4.5.2; ; 2026-01-23 03:26:42 UTC; windows	no	GPL-3 | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SingleCellExperiment	1.32.0	R 4.5.2; ; 2025-11-11 17:50:47 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SingleR	2.12.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-12 07:49:34 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sitmo	2.0.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:31 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sjlabelled	1.2.0	R 4.5.2; ; 2026-01-23 01:52:15 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sjmisc	2.8.11	R 4.5.2; ; 2026-01-23 03:42:32 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+slam	0.1-55	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:23 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+smoof	1.7.0	R 4.5.3; x86_64-w64-mingw32; 2026-10-16 19:25:20 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sna	2.8	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:48 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+snow	0.4-4	R 4.5.2; ; 2025-11-01 00:33:36 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+snowfall	1.84-6.3	R 4.5.2; ; 2025-11-01 00:36:39 UTC; windows	no	GPL	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sourcetools	0.1.7-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:09 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sp	2.2-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spacexr	2.2.1	R 4.5.3; ; 2026-10-18 07:30:25 UTC; windows		GNU General Public License v3.0.		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spam	2.11-3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	LGPL-2 | BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SparseArray	1.10.8	R 4.5.2; x86_64-w64-mingw32; 2025-12-16 12:07:57 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SparseM	1.84-2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:42 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sparseMatrixStats	1.22.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-18 07:52:51 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sparsevctrs	0.3.6	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:11 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatial	7.3-18	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:58 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SpatialExperiment	1.20.0	R 4.5.2; ; 2025-11-12 03:07:46 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.data	3.1-9	R 4.5.2; ; 2026-01-23 02:47:51 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.explore	3.7-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 00:52:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.geom	3.7-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.random	3.4-4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 00:51:07 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.sparse	3.1-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:51 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.univar	3.1-6	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+spatstat.utils	3.2-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:31 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+splancs	2.01-45	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:10:22 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+splines	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:51:00 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SQUAREM	2021.1	R 4.5.2; ; 2025-11-01 00:33:33 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+stabs	0.7-1	R 4.5.2; ; 2026-02-01 00:52:42 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+StanHeaders	2.39.1	R 4.5.3; x86_64-w64-mingw32; 2026-09-16 00:13:27 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+statmod	1.5.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:51 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+statnet.common	4.13.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:48:14 UTC; windows	yes	GPL-3 + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+stats	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:49:08 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+stats4	4.5.2	R 4.5.2; ; 2025-10-31 09:51:04 UTC; windows		Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+stringi	1.8.7	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:12 UTC; windows	yes	file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+stringr	1.6.0	R 4.5.2; ; 2026-02-25 03:19:07 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+styler	1.11.0	R 4.5.2; ; 2026-03-04 03:15:29 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+subplex	1.9	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:41:07 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SummarizedExperiment	1.40.0	R 4.5.2; ; 2025-11-11 18:06:32 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+superpc	1.12	R 4.5.3; ; 2026-03-28 20:01:58 UTC; windows	no	GPL (>= 3) | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+SuppDists	1.1-9.9	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:25 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+survAUC	1.4-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:52:17 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+survcomp	1.60.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-29 09:11:10 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+survival	3.8-6	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 19:56:22 UTC; windows	yes	LGPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+survminer	0.5.2	R 4.5.2; ; 2026-02-27 00:51:35 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sva	3.58.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-02 08:46:37 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+svglite	2.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:54 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+sys	3.4.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:06 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+systemfonts	1.3.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:42 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+TCGAbiolinks	2.38.0	R 4.5.2; ; 2026-02-03 08:27:01 UTC; windows	no	GPL (>= 3)	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+TCGAbiolinksGUI.data	1.30.0	R 4.5.2; ; 2026-03-05 13:11:36 UTC; windows	no	GPL-3	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tcltk	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:51:06 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tensor	1.5.1	R 4.5.2; ; 2025-11-01 00:33:00 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tensorA	0.36.2.1	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:34:47 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+terra	1.9-11	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 18:49:19 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+testthat	3.3.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:33 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+textshaping	1.0.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:55 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+TH.data	1.1-5	R 4.5.2; ; 2026-01-23 03:07:07 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tibble	3.3.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:41 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tidydr	0.0.6	R 4.5.2; ; 2026-01-23 03:56:01 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tidygraph	1.3.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:13:18 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tidyr	1.3.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:24 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tidyselect	1.2.1	R 4.5.2; ; 2026-01-23 03:06:58 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tidytree	0.4.7	R 4.5.2; ; 2026-01-23 04:00:43 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tidyverse	2.0.0	R 4.5.2; ; 2026-01-23 04:34:34 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+timechange	0.4.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:11 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+timeDate	4052.112	R 4.5.2; ; 2026-02-01 00:52:11 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tinytex	0.58	R 4.5.2; ; 2026-01-23 02:34:29 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+TMB	1.9.25	R 4.5.3; x86_64-w64-mingw32; 2026-10-14 02:48:32 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+TOAST	1.24.0	R 4.5.2; ; 2026-02-20 07:59:42 UTC; windows	no	GPL-2	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tools	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:47:09 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+translations	4.5.2			Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+treeio	1.34.0	R 4.5.2; ; 2026-01-26 08:13:47 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+truncnorm	1.0-9	R 4.5.3; x86_64-w64-mingw32; 2026-09-15 22:47:20 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tseries	0.10-59	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:34 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+TTR	0.24.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tweenr	2.0.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:58 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+tzdb	0.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:54 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+UCell	2.14.0	R 4.5.2; ; 2026-03-04 08:35:14 UTC; windows	no	GPL-3 + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+ucminf	1.2.3	R 4.5.3; x86_64-w64-mingw32; 2026-04-11 23:53:42 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+UCSC.utils	1.6.1	R 4.5.2; ; 2026-03-05 07:39:34 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+urca	1.3-4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:54 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+urlchecker	1.0.1	R 4.5.2; ; 2026-01-23 02:47:45 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+usethis	3.2.1	R 4.5.2; ; 2026-01-23 03:41:31 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+utf8	1.2.6	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	Apache License (== 2.0) | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+utils	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:47:48 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+uuid	1.2-2	R 4.5.2; x86_64-w64-mingw32; 2026-01-26 00:51:02 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+uwot	0.2.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:58 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+V8	8.0.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:39 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+vctrs	0.7.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-26 00:51:06 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+vegan	2.7-2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:01 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+venn	1.12	R 4.5.2; ; 2026-02-22 01:44:48 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+VennDiagram	1.8.2	R 4.5.2; ; 2026-02-22 02:47:28 UTC; windows	no	GPL-2	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+VGAM	1.1-14	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:11 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+vipor	0.4.7	R 4.5.3; ; 2026-03-18 02:55:04 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+viridis	0.6.5	R 4.5.2; ; 2026-01-23 03:26:47 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+viridisLite	0.4.3	R 4.5.2; ; 2026-02-06 00:51:43 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+visNetwork	2.1.4	R 4.5.2; ; 2026-01-23 03:41:45 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+vroom	1.7.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:11 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+waldo	0.6.2	R 4.5.2; ; 2026-01-23 02:47:45 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+WGCNA	1.74	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:54:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+whisker	0.4.1	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+wildmeta	0.3.2	R 4.5.3; ; 2026-10-14 03:05:20 UTC; windows	no	GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+withr	3.0.2	R 4.5.2; ; 2026-01-23 01:48:09 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+WriteXLS	6.8.0	R 4.5.2; ; 2025-11-01 00:35:46 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+xfun	0.56	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+xgboost	3.2.1.1	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 19:56:52 UTC; windows	yes	Apache License (== 2.0) | file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+XML	3.99-0.20	R 4.5.2; x86_64-w64-mingw32; 2026-01-07 08:15:20 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+xml2	1.5.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:40 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+xopen	1.0.1	R 4.5.2; ; 2026-01-23 02:47:43 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+xtable	1.8-4	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+xts	0.14.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:52 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+XVector	0.50.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 18:35:51 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+yaml	2.3.12	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:09 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+yulab.utils	0.2.4	R 4.5.2; ; 2026-02-06 00:51:56 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+zellkonverter	1.20.1	R 4.5.2; ; 2026-03-23 03:03:02 UTC; windows	no	MIT + file LICENSE	Bioconductor 3.22	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+zigg	0.0.2	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:33:46 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+zip	2.3.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:06 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+zoo	1.8-15	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.2\R-4.5.2\library	DESCRIPTION file; not package load validation
+abind	1.4-8	R 4.5.2; ; 2025-11-01 00:31:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ade4	1.7-23	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:48:10 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+admisc	0.39	R 4.5.2; x86_64-w64-mingw32; 2026-02-22 01:43:01 UTC; windows	yes	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+alabaster.base	1.10.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 12:46:40 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+alabaster.matrix	1.10.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:10:29 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+alabaster.ranges	1.10.0	R 4.5.2; ; 2025-11-15 07:32:44 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+alabaster.schemas	1.10.0	R 4.5.2; ; 2025-11-11 12:41:57 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+alabaster.se	1.10.0	R 4.5.2; ; 2025-11-11 13:27:07 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+alphahull	2.5	R 4.5.2; ; 2026-02-09 07:13:36 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+anndataR	1.0.2	R 4.5.2; ; 2026-03-03 05:56:30 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+annotate	1.88.0	R 4.5.2; ; 2025-11-11 13:22:35 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+AnnotationDbi	1.72.0	R 4.5.2; ; 2025-11-11 12:53:22 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+AnnotationFilter	1.34.0	R 4.5.2; ; 2026-03-05 07:39:28 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+AnnotationHub	4.0.0	R 4.5.2; ; 2026-02-09 14:52:09 UTC; windows	yes	Artistic-2.0	Bioconductor 3.22	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ape	5.8-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:55 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+aplot	0.2.9	R 4.5.2; ; 2026-01-23 03:43:34 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+argparse	2.3.1	R 4.5.3; ; 2026-03-22 03:10:07 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+askpass	1.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+assertthat	0.2.1	R 4.5.3; ; 2026-03-28 18:48:49 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+assorthead	1.4.0	R 4.5.2; ; 2025-11-11 12:40:53 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+backports	1.5.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:08 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BART	2.9.10	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:11:57 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+base	4.5.2	R 4.5.2; ; 2025-10-31 09:51:23 UTC; windows		Part of R 4.5.2		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+base64enc	0.1-6	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:51:45 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+basilisk	1.22.0	R 4.5.2; ; 2026-02-28 08:41:09 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+batchelor	1.26.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-23 09:37:35 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+beachmat	2.26.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:29:10 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+beeswarm	0.4.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:38:58 UTC; windows	yes	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BH	1.90.0-1	R 4.5.2; ; 2025-12-18 00:53:12 UTC; windows	no	BSL-1.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Biobase	2.70.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:27:30 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocBaseUtils	1.12.0	R 4.5.2; ; 2025-11-11 13:26:14 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocFileCache	3.0.0	R 4.5.2; ; 2025-11-11 13:31:21 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocGenerics	0.56.0	R 4.5.2; ; 2025-11-16 07:41:33 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocIO	1.20.0	R 4.5.2; ; 2026-03-07 07:50:27 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+biocmake	1.2.0	R 4.5.2; ; 2025-11-11 13:26:21 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocManager	1.30.27	R 4.5.2; ; 2026-01-23 01:49:42 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocNeighbors	2.4.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:28:08 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocParallel	1.44.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-11 13:34:55 UTC; windows	yes	GPL-2 | GPL-3 | BSL-1.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocSingular	1.26.1	R 4.5.2; x86_64-w64-mingw32; 2025-11-17 08:09:01 UTC; windows	yes	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+BiocVersion	3.22.0	R 4.5.0; ; 2025-06-05 12:32:54 UTC; windows	no	Artistic-2.0	Bioconductor 3.22	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+biocViews	1.78.0	R 4.5.2; ; 2025-11-17 07:37:59 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+biomaRt	2.66.1	R 4.5.2; ; 2026-03-05 13:11:26 UTC; windows	no	Artistic-2.0	Bioconductor 3.22	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Biostrings	2.78.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-13 07:51:10 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bipartite	2.23	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:31 UTC; windows	yes	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bit	4.6.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:49 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bit64	4.6.0-1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:35 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bitops	1.0-9	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+blob	1.3.0	R 4.5.2; ; 2026-01-23 03:07:01 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bluster	1.20.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-22 13:50:10 UTC; windows	yes	GPL-3	Bioconductor 3.22	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+boot	1.3-32	R 4.5.2; ; 2025-10-31 09:58:12 UTC; windows	no	Unlimited	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bootstrap	2019.6	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:42:34 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+brew	1.0-10	R 4.5.2; ; 2026-01-23 01:48:10 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+brio	1.1.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+broom	1.0.12	R 4.5.2; ; 2026-02-01 00:52:11 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+bslib	0.10.0	R 4.5.2; ; 2026-02-01 00:52:17 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cachem	1.1.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Cairo	1.7-0	R 4.5.3; x86_64-w64-mingw32; 2026-03-18 02:55:14 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+callr	3.7.6	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+car	3.1-5	R 4.5.2; ; 2026-02-06 00:52:51 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+carData	3.0-6	R 4.5.2; ; 2026-02-01 00:52:11 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+caret	7.0-1	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 21:48:39 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+caTools	1.18.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:30 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+celda	1.26.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-02 09:07:45 UTC; windows	yes	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+CellChat	1.6.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-07 06:53:47 UTC; windows	yes	GPL-3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+celldex	1.20.0	R 4.5.2; ; 2026-02-04 02:47:57 UTC; windows	no	GPL-3	Bioconductor 3.22	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cellranger	1.1.0	R 4.5.2; ; 2026-01-23 03:41:38 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+checkmate	2.3.4	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:51:45 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cigarillo	1.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-23 08:46:24 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+circlize	0.4.17	R 4.5.2; ; 2026-01-23 02:35:02 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+class	7.3-23	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:52 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+classInt	0.4-11	R 4.5.2; x86_64-w64-mingw32; 2026-03-04 03:15:10 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cli	3.6.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+clipr	0.8.0	R 4.5.2; ; 2026-01-23 01:48:05 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+clock	0.7.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:07:04 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+clue	0.3-66	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:24 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cluster	2.1.8.1	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:17 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+clusterProfiler	4.18.4	R 4.5.2; ; 2026-01-15 08:36:39 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+clustree	0.5.1	R 4.5.3; ; 2026-03-28 21:38:25 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+coda	0.19-4.1	R 4.5.2; ; 2026-01-23 01:48:47 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+codetools	0.2-20	R 4.5.2; ; 2025-10-31 09:58:26 UTC; windows	no	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+coin	1.4-3	R 4.5.3; x86_64-w64-mingw32; 2026-03-22 03:57:46 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+colorspace	2.1-2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:39 UTC; windows	yes	BSD_3_clause + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+combinat	0.0-8	R 4.5.2; ; 2025-11-01 00:34:22 UTC; windows		GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+commonmark	2.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	BSD_2_clause + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+compiler	4.5.2	R 4.5.2; ; 2025-10-31 09:47:11 UTC; windows		Part of R 4.5.2		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ComplexHeatmap	2.26.1	R 4.5.2; ; 2026-01-31 04:10:56 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+conflicted	1.2.0	R 4.5.2; ; 2026-01-23 02:48:07 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+corpcor	1.6.10	R 4.5.2; ; 2025-11-01 00:33:34 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+corrplot	0.95	R 4.5.2; ; 2026-01-23 01:48:35 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cowplot	1.2.0	R 4.5.2; ; 2026-01-23 03:26:42 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+cpp11	0.5.3	R 4.5.2; ; 2026-01-23 01:48:10 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+crayon	1.5.3	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+credentials	2.0.3	R 4.5.2; ; 2026-01-23 03:06:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+crosstalk	1.2.2	R 4.5.2; ; 2026-01-23 02:47:51 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+curl	7.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:14 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DALEX	2.5.3	R 4.5.2; ; 2026-03-04 03:48:27 UTC; windows	no	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+data.table	1.18.2.1	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:12 UTC; windows	yes	MPL-2.0 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+data.tree	1.2.0	R 4.5.2; ; 2026-01-23 01:49:07 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+datasets	4.5.2	R 4.5.2; ; 2025-10-31 09:50:15 UTC; windows		Part of R 4.5.2		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+datawizard	1.3.0	R 4.5.2; ; 2026-01-23 01:51:15 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DBI	1.2.3	R 4.5.2; ; 2026-01-23 01:48:49 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dbplyr	2.5.1	R 4.5.2; ; 2026-01-23 04:13:18 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dbscan	1.2.4	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:12:50 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DDRTree	0.1.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:05:40 UTC; windows	yes	Artistic License 2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DelayedArray	0.36.1	R 4.5.3; ; 2026-04-01 06:38:44 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DelayedMatrixStats	1.32.0	R 4.5.2; ; 2026-02-20 06:06:21 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+deldir	2.0-4	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:51 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dendextend	1.19.1	R 4.5.3; ; 2026-03-18 04:42:57 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Deriv	4.2.0	R 4.5.2; ; 2026-01-23 01:48:37 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+desc	1.4.3	R 4.5.2; ; 2026-01-23 02:34:30 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+devtools	2.5.0	R 4.5.3; ; 2026-03-28 21:02:27 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+diagram	1.6.5	R 4.5.2; ; 2025-11-01 00:33:32 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DiagrammeR	1.0.11	R 4.5.2; ; 2026-01-23 04:13:21 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+diffobj	0.3.6	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+digest	0.6.39	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:07 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dir.expiry	1.18.0	R 4.5.2; ; 2025-11-11 14:05:36 UTC; windows	no	GPL-3	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+doBy	4.7.1	R 4.5.2; ; 2026-01-23 04:52:12 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+doFuture	1.2.1	R 4.5.2; ; 2026-03-04 02:53:28 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+doParallel	1.0.17	R 4.5.2; ; 2026-01-23 02:34:38 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DOSE	4.4.0	R 4.5.2; ; 2026-01-30 20:39:26 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dotCall64	1.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+DoubletFinder	2.0.6	R 4.5.2; ; 2026-02-22 01:08:38 UTC; windows	no	CC0		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+downlit	0.4.5	R 4.5.2; ; 2026-01-23 03:06:55 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+downloader	0.4.1	R 4.5.2; ; 2026-02-25 01:55:41 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dplyr	1.1.4	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:35 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dqrng	0.4.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:51 UTC; windows	yes	AGPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dtplyr	1.3.2	R 4.5.2; ; 2026-01-23 03:57:31 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+dynamicTreeCut	1.63-1	R 4.5.2; ; 2025-11-01 00:37:18 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+e1071	1.7-17	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 19:56:28 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+edgeR	4.8.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:21:53 UTC; windows	yes	GPL (>=2)	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ellipse	0.5.0	R 4.5.3; ; 2026-03-28 18:49:01 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ellipsis	0.3.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+enrichplot	1.30.4	R 4.5.2; ; 2026-01-30 08:52:27 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+enrichR	3.4	R 4.5.3; ; 2026-03-18 04:24:29 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+EnsDb.Hsapiens.v86	2.99.0	R 4.5.2; ; 2026-03-25 13:18:08 UTC; windows	no	Artistic-2.0		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ensembldb	2.34.0	R 4.5.2; ; 2026-03-01 09:36:49 UTC; windows	no	LGPL	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+evaluate	1.0.5	R 4.5.2; ; 2026-01-23 01:48:09 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+exactRankTests	0.8-35	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 01:54:36 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ExperimentHub	3.0.0	R 4.5.2; ; 2025-11-18 07:28:25 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+expm	1.0-0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:58 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fansi	1.0.7	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+farver	2.1.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fastcluster	1.3.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:34:48 UTC; windows	yes	FreeBSD | GPL-2 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fastDummies	1.7.5	R 4.5.2; ; 2026-01-23 03:41:34 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fastICA	1.2-7	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:50:32 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fastmap	1.2.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fastmatch	1.1-8	R 4.5.2; x86_64-w64-mingw32; 2026-01-21 00:51:26 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fgsea	1.36.2	R 4.5.2; x86_64-w64-mingw32; 2026-02-05 05:31:12 UTC; windows	yes	MIT + file LICENCE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fields	17.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:48:13 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+filelock	1.0.3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:50:18 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+findpython	1.0.9	R 4.5.3; ; 2026-03-22 02:25:26 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fitdistrplus	1.2-6	R 4.5.2; ; 2026-01-26 00:51:06 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+FNN	1.1.4.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:32 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fontawesome	0.5.3	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fontBitstreamVera	0.1.1	R 4.5.2; ; 2025-11-01 00:34:03 UTC; windows	no	file LICENCE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fontLiberation	0.1.0	R 4.5.2; ; 2025-11-01 00:34:03 UTC; windows	no	file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fontquiver	0.2.1	R 4.5.2; ; 2026-01-23 01:49:51 UTC; windows	no	GPL-3 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+forcats	1.0.1	R 4.5.2; ; 2026-01-23 03:41:37 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+foreach	1.5.2	R 4.5.2; ; 2026-01-23 02:34:29 UTC; windows	no	Apache License (== 2.0)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+forecast	9.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:57:27 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+foreign	0.8-91	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:09 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+formatR	1.14	R 4.5.2; ; 2026-01-23 01:49:51 UTC; windows	no	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Formula	1.2-5	R 4.5.2; ; 2025-11-01 00:31:43 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fracdiff	1.5-3	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:39 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+fs	2.0.1	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 18:48:23 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+futile.logger	1.4.9	R 4.5.2; ; 2026-01-23 02:48:29 UTC; windows	no	LGPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+futile.options	1.0.1	R 4.5.2; ; 2025-11-01 00:34:16 UTC; windows	no	LGPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+future	1.69.0	R 4.5.2; ; 2026-01-23 02:34:32 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+future.apply	1.20.1	R 4.5.2; ; 2026-01-23 02:47:49 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gargle	1.6.1	R 4.5.2; ; 2026-02-01 00:52:09 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gbm	2.2.3	R 4.5.3; x86_64-w64-mingw32; 2026-05-09 02:05:37 UTC; windows	yes	GPL (>= 2) | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gdtools	0.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:14:52 UTC; windows	yes	GPL-3 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+genefilter	1.92.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-24 20:18:08 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+generics	0.1.4	R 4.5.2; ; 2026-01-23 01:48:08 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GenomeInfoDb	1.46.2	R 4.5.2; ; 2026-03-04 08:02:13 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GenomicAlignments	1.46.0	R 4.5.2; x86_64-w64-mingw32; 2026-03-07 03:47:48 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GenomicFeatures	1.62.0	R 4.5.2; ; 2026-03-04 08:54:53 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GenomicRanges	1.62.1	R 4.5.2; x86_64-w64-mingw32; 2025-12-09 04:19:24 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+geomtextpath	0.2.0	R 4.5.2; ; 2026-01-23 03:08:16 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GEOquery	2.78.0	R 4.5.2; ; 2025-12-11 07:05:10 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gert	2.3.1	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:40 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GetoptLong	1.1.0	R 4.5.2; ; 2026-01-23 01:52:26 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggalluvial	0.12.5	R 4.5.2; ; 2026-01-23 03:58:07 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggbeeswarm	0.7.3	R 4.5.3; ; 2026-03-18 04:42:23 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggdendro	0.2.0	R 4.5.2; ; 2026-01-23 03:10:42 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggfittext	0.10.3	R 4.5.2; ; 2026-03-04 03:32:41 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggforce	0.5.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:42 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggfun	0.2.0	R 4.5.2; ; 2026-01-23 03:42:28 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gggenes	0.6.0	R 4.5.2; ; 2026-03-04 03:48:32 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggh4x	0.3.1	R 4.5.2; ; 2026-01-23 03:08:14 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggiraph	0.9.4	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:53:15 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggiraphExtra	0.3.0	R 4.5.2; ; 2026-01-23 04:02:39 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggnetwork	0.5.14	R 4.5.2; ; 2026-01-23 03:45:30 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggnewscale	0.5.2	R 4.5.2; ; 2026-01-23 03:27:18 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggplot2	4.0.2	R 4.5.2; ; 2026-03-04 03:15:05 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggplotify	0.1.3	R 4.5.2; ; 2026-01-23 03:27:17 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggpubr	0.6.2	R 4.5.2; ; 2026-01-23 05:00:29 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggraph	2.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:34:12 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggrastr	1.0.2	R 4.5.3; ; 2026-03-18 04:57:46 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggrepel	0.9.8	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:30:03 UTC; windows	yes	GPL-3 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggridges	0.5.7	R 4.5.2; ; 2026-01-23 03:26:44 UTC; windows	no	GPL-2 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggsci	4.2.0	R 4.5.2; ; 2026-01-23 03:26:45 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggsignif	0.6.4	R 4.5.2; ; 2026-01-23 03:26:46 UTC; windows	no	GPL-3 | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggtangle	0.1.1	R 4.5.2; ; 2026-01-23 03:46:54 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggtext	0.1.2	R 4.5.2; ; 2026-02-25 03:55:54 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggtree	4.0.4	R 4.5.2; ; 2026-02-04 04:49:14 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggunchull	1.0.1	R 4.5.2; ; 2026-02-09 07:13:47 UTC; windows	no	GPL3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggvenn	0.1.19	R 4.5.2; ; 2026-01-23 03:46:48 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ggVennDiagram	1.5.7	R 4.5.2; ; 2026-02-22 04:12:21 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gh	1.5.0	R 4.5.2; ; 2026-01-23 03:26:40 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gitcreds	0.1.2	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+glmnet	4.1-10	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:12:02 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GlobalOptions	0.1.3	R 4.5.2; ; 2026-01-23 01:51:50 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+globals	0.19.0	R 4.5.2; ; 2026-02-04 02:44:34 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+glue	1.8.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:10 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GO.db	3.22.0	R 4.5.2; ; 2026-02-09 11:35:23 UTC; windows	no	Artistic-2.0		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+goftest	1.2-3	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:51 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+googledrive	2.1.2	R 4.5.2; ; 2026-01-23 03:27:02 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+googlesheets4	1.1.2	R 4.5.2; ; 2026-01-23 03:41:49 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GOplot	1.0.2	R 4.5.2; ; 2026-01-23 03:16:43 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GOSemSim	2.36.0	R 4.5.2; x86_64-w64-mingw32; 2026-02-02 08:38:19 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gower	1.0.2	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:33:31 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gplots	3.3.0	R 4.5.2; ; 2026-01-23 02:34:32 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+graph	1.88.1	R 4.5.2; x86_64-w64-mingw32; 2025-12-08 04:16:07 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+graphics	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:48:51 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+graphlayouts	1.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:26:55 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+grDevices	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:48:22 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+grid	4.5.2	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:50:44 UTC; windows	yes	Part of R 4.5.2		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gridBase	0.4-7	R 4.5.2; ; 2026-01-23 01:50:56 UTC; windows	no	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gridExtra	2.3	R 4.5.2; ; 2026-01-23 03:06:58 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gridGraphics	0.5-1	R 4.5.2; ; 2026-01-23 01:50:05 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gridtext	0.1.6	R 4.5.2; x86_64-w64-mingw32; 2026-02-25 03:41:04 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GSEABase	1.72.0	R 4.5.2; ; 2025-11-11 19:47:06 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gsignal	0.3-7	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 18:50:52 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gson	0.1.0	R 4.5.2; ; 2026-01-23 04:10:07 UTC; windows	no	Artistic-2.0	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+GSVA	2.4.9	R 4.5.3; x86_64-w64-mingw32; 2026-04-06 06:42:12 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gtable	0.3.6	R 4.5.2; ; 2026-01-23 02:47:49 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gtools	3.9.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:28 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+gypsum	1.6.0	R 4.5.2; ; 2025-11-11 19:32:43 UTC; windows	no	MIT + file LICENSE	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+h5mread	1.2.1	R 4.5.2; x86_64-w64-mingw32; 2025-11-23 15:08:34 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+hardhat	1.4.2	R 4.5.2; ; 2026-01-23 03:41:39 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+harmony	1.2.4	R 4.5.3; x86_64-w64-mingw32; 2026-03-28 20:48:36 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+haven	2.5.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:13:25 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+HDF5Array	1.38.0	R 4.5.2; ; 2026-01-03 22:07:12 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+here	1.0.2	R 4.5.2; ; 2026-01-23 01:48:27 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+HiddenMarkov	1.8-14	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:46:53 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+highr	0.11	R 4.5.2; ; 2026-01-23 02:34:29 UTC; windows	no	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Hmisc	5.2-5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 04:13:16 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+hms	1.1.4	R 4.5.2; ; 2026-01-23 03:07:01 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+HSMMSingleCell	1.30.0	R 4.5.2; ; 2026-02-04 02:49:00 UTC; windows	no	Artistic-2.0	Bioconductor 3.22	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+htmlTable	2.4.3	R 4.5.2; ; 2026-01-23 03:57:27 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+htmltools	0.5.9	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:31 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+htmlwidgets	1.6.4	R 4.5.2; ; 2026-01-23 03:41:32 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+httpuv	1.6.16	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:55 UTC; windows	yes	GPL (>= 2) | file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+httr	1.4.7	R 4.5.2; ; 2026-01-23 03:06:58 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+httr2	1.2.2	R 4.5.2; ; 2026-01-23 03:06:54 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+iBreakDown	2.1.2	R 4.5.2; ; 2026-03-04 03:32:39 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ica	1.0-3	R 4.5.2; ; 2025-11-01 00:32:49 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ids	1.0.1	R 4.5.2; ; 2026-01-23 02:48:20 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+igraph	1.2.11	R 4.5.0; x86_64-w64-mingw32; 2025-07-10 01:12:27 UTC; windows	yes	GPL (>= 2)	RSPM	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+impute	1.84.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 07:20:47 UTC; windows	yes	GPL-2	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+infercnv	1.20.0	R 4.4.0; ; 2024-05-02 12:58:57 UTC; windows	no	BSD_3_clause + file LICENSE	Bioconductor 3.19	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ingredients	2.3.0	R 4.5.2; ; 2026-03-04 03:32:39 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ini	0.3.1	R 4.5.2; ; 2026-01-23 01:48:06 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+insight	1.4.6	R 4.5.2; ; 2026-02-06 00:51:57 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+interp	1.1-6	R 4.5.2; x86_64-w64-mingw32; 2026-02-09 07:11:00 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+inum	1.0-5	R 4.5.2; ; 2026-01-23 02:34:38 UTC; windows	no	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+ipred	0.9-15	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:41:41 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+IRanges	2.44.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-12 03:17:27 UTC; windows	yes	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+irlba	2.3.7	R 4.5.2; x86_64-w64-mingw32; 2026-02-01 00:52:14 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+isoband	0.3.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:32 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+iterators	1.0.14	R 4.5.2; ; 2026-01-23 01:48:07 UTC; windows	no	Apache License (== 2.0)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+jjAnno	0.0.4	R 4.5.2; ; 2026-02-09 07:15:11 UTC; windows	no	MIT + file LICENSE		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+jjPlot	0.0.3	R 4.5.2; ; 2026-02-09 07:15:53 UTC; windows	no	MIT + file LICENSE		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+jpeg	0.1-11	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:50 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+jquerylib	0.1.4	R 4.5.2; ; 2026-01-23 02:47:41 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+jsonlite	2.0.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:08 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+jsonvalidate	1.5.0	R 4.5.2; ; 2026-01-23 02:52:48 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+KEGGREST	1.50.0	R 4.5.2; ; 2025-11-11 20:12:06 UTC; windows	no	Artistic-2.0	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+kernelshap	0.9.1	R 4.5.2; ; 2026-03-04 03:15:30 UTC; windows	no	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+kernlab	0.9-33	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:31:03 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+KernSmooth	2.23-26	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:58:36 UTC; windows	yes	Unlimited	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+klaR	1.7-4	R 4.5.2; ; 2026-03-04 05:05:06 UTC; windows	no	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+knitr	1.51	R 4.5.2; ; 2026-01-23 02:47:43 UTC; windows	no	GPL	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+labeling	0.4.3	R 4.5.2; ; 2025-11-01 00:30:56 UTC; windows	no	MIT + file LICENSE | Unlimited	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+labelled	2.16.0	R 4.5.2; ; 2026-03-04 04:45:08 UTC; windows	no	GPL (>= 3)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lambda.r	1.2.4	R 4.5.2; ; 2026-01-23 02:34:48 UTC; windows	no	LGPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lars	1.3	R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:37:18 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+later	1.4.5	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:34:30 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lattice	0.22-7	R 4.5.2; x86_64-w64-mingw32; 2025-10-31 09:52:54 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lava	1.8.2	R 4.5.2; ; 2026-01-23 03:07:04 UTC; windows	no	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lazyeval	0.2.2	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:48:23 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+leidenbase	0.1.36	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:21:26 UTC; windows	yes	GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+libcoin	1.0-10	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:06 UTC; windows	yes	GPL-2	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lifecycle	1.0.5	R 4.5.2; ; 2026-01-23 02:34:30 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+limma	3.66.0	R 4.5.2; x86_64-w64-mingw32; 2025-11-14 07:40:25 UTC; windows	yes	GPL (>=2)	https://bioc-release.r-universe.dev	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+listenv	0.10.0	R 4.5.2; ; 2026-01-23 01:48:13 UTC; windows	no	LGPL (>= 2.1)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+litedown	0.9	R 4.5.2; ; 2026-02-25 02:44:42 UTC; windows	no	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lme4	2.0-1	R 4.5.2; x86_64-w64-mingw32; 2026-03-06 10:11:38 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lmtest	0.9-40	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 02:47:50 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+locfit	1.5-9.12	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:49:25 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+lubridate	1.9.5	R 4.5.2; x86_64-w64-mingw32; 2026-02-06 00:51:47 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+magick	2.9.0	R 4.5.2; x86_64-w64-mingw32; 2026-01-23 01:51:06 UTC; windows	yes	MIT + file LICENSE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+MASS	7.3-65	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:46:11 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+Matrix	1.7-4	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:46:43 UTC; windows	yes	GPL (>= 2) | file LICENCE	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+methods	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:42:13 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+mgcv	1.9-4	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:56:48 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+nlme	3.1-168	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:53:41 UTC; windows	yes	GPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+nnet	7.3-20	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:56:36 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+parallel	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:43:34 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+rpart	4.1.24	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:56:15 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+spatial	7.3-18	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:56:42 UTC; windows	yes	GPL-2 | GPL-3	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+splines	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:43:16 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+stats	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:40:16 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+stats4	4.5.3	R 4.5.3; ; 2026-03-11 08:43:21 UTC; windows		Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+survival	3.8-6	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:54:12 UTC; windows	yes	LGPL (>= 2)	CRAN	D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+tcltk	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:43:24 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+tools	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:37:04 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+translations	4.5.3			Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation
+utils	4.5.3	R 4.5.3; x86_64-w64-mingw32; 2026-03-11 08:38:08 UTC; windows	yes	Part of R 4.5.3		D:\R4.5.3\R-4.5.3\library	DESCRIPTION file; not package load validation

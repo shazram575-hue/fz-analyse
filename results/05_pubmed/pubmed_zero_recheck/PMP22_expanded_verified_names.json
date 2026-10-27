@@ -1,0 +1,43 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "28",
+    "retmax": "28",
+    "retstart": "0",
+    "idlist": [
+      "42668975",
+      "42636838",
+      "41537454",
+      "41456178",
+      "40928353",
+      "39936988",
+      "39283720",
+      "39213053",
+      "39106857",
+      "37304496",
+      "35178836",
+      "32679166",
+      "28925397",
+      "28408326",
+      "26460950",
+      "24553122",
+      "24321297",
+      "23468528",
+      "21159173",
+      "20847343",
+      "19270820",
+      "16132579",
+      "14654713",
+      "11339826",
+      "10814728",
+      "9891493",
+      "9751213",
+      "9066625"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"PMP22\"[All Fields] OR \"GAS3\"[All Fields] OR \"Peripheral myelin protein 22\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}

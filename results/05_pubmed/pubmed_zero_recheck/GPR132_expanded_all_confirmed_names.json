@@ -1,0 +1,38 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "16",
+    "retmax": "16",
+    "retstart": "0",
+    "idlist": [
+      "42275469",
+      "41366282",
+      "38778969",
+      "36326318",
+      "32677589",
+      "31107411",
+      "28049847",
+      "27692066",
+      "19238019",
+      "17079448",
+      "12889604",
+      "12402315",
+      "11986234",
+      "9547331",
+      "3779654",
+      "6155475"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"GPR132\"[All Fields] OR \"G2A\"[All Fields] OR \"G2 accumulation protein\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Probable G protein-coupled receptor 132\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

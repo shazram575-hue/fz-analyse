@@ -1,0 +1,16 @@
+{
+  "technical_checks_passed": 15,
+  "technical_checks_total": 15,
+  "technical_delivery_complete": true,
+  "main_runs": 282,
+  "control_runs": 9,
+  "geometry_pass_top_poses": 282,
+  "no_major_receptor_clash_top_poses": 268,
+  "scientific_pose_and_control_findings": "reported without replacing failed results",
+  "protected_input_files": 402,
+  "deleted_old_output_files": 135,
+  "timestamp": "2026-10-25T04:27:06+0800",
+  "visual_QA_completed": true,
+  "deliverable_files_hashed": 1685,
+  "final_delivery_timestamp": "2026-10-25T04:37:37+0800"
+}

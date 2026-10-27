@@ -1,0 +1,10 @@
+metric	value
+Canonical_RNA_features	33487
+Bulk_tested	27035
+Bulk_exploratory_DE	12224
+Bulk_DE_protein_coding	7494
+SingleCell_eligible_positive_markers	1838
+Pool_A	813
+Pool_A_PB_main_supported	524
+Pool_A_PB_age_gender_supported	419
+Pool_A_bulk_down_SC_up	72

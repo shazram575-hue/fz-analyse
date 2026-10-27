@@ -1,0 +1,60 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "37",
+    "retmax": "37",
+    "retstart": "0",
+    "idlist": [
+      "41274393",
+      "38426156",
+      "38002057",
+      "36335879",
+      "33917174",
+      "32595209",
+      "31014367",
+      "29658109",
+      "28029661",
+      "27869171",
+      "27127881",
+      "25733698",
+      "24981602",
+      "22641101",
+      "21761157",
+      "20678559",
+      "20503412",
+      "19897661",
+      "19227010",
+      "18842581",
+      "18792778",
+      "18319253",
+      "18083712",
+      "17047037",
+      "16619484",
+      "16570043",
+      "16540639",
+      "16230392",
+      "16204198",
+      "15967161",
+      "15930264",
+      "15287155",
+      "14648704",
+      "14623055",
+      "14499627",
+      "12788892",
+      "12559967"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"PTGER4\"[All Fields] OR \"PTGER2\"[All Fields] OR \"Prostaglandin E2 receptor EP4 subtype\"[All Fields] OR \"Prostanoid EP4 receptor\"[All Fields]) AND (\"Breast Neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields] OR (\"Breast Neoplasms\"[MeSH Terms] OR \"mammary neoplasms, animal\"[MeSH Terms] OR \"mammary neoplasms, experimental\"[MeSH Terms] OR ((\"breast*\"[Title/Abstract] OR \"mammary\"[Title/Abstract]) AND (\"cancer*\"[Title/Abstract] OR \"neoplas*\"[Title/Abstract] OR \"carcinom*\"[Title/Abstract] OR \"tumor*\"[Title/Abstract] OR \"tumour*\"[Title/Abstract] OR \"malignan*\"[Title/Abstract] OR \"adenocarcinom*\"[Title/Abstract])) OR (\"ductal carcinoma in situ\"[Title/Abstract] OR \"lobular carcinoma in situ\"[Title/Abstract] OR \"invasive ductal carcinoma\"[Title/Abstract] OR \"invasive lobular carcinoma\"[Title/Abstract] OR \"inflammatory breast cancer\"[Title/Abstract] OR \"Paget disease of the nipple\"[Title/Abstract] OR \"Paget disease of the breast\"[Title/Abstract] OR ((\"DCIS\"[Title/Abstract] OR \"LCIS\"[Title/Abstract] OR \"IDC\"[Title/Abstract] OR \"ILC\"[Title/Abstract]) AND (\"breast*\"[Title/Abstract] OR \"mammary\"[Title/Abstract]))) OR (\"TNBC\"[Title/Abstract] OR \"triple-negative breast\"[Title/Abstract] OR \"triple-negative breast\"[Title/Abstract] OR ((\"breast*\"[Title/Abstract] OR \"mammary\"[Title/Abstract]) AND (\"basal-like\"[Title/Abstract] OR \"luminal A\"[Title/Abstract] OR \"luminal B\"[Title/Abstract] OR \"HER2-positive\"[Title/Abstract] OR \"HER2-negative\"[Title/Abstract] OR \"HER2-enriched\"[Title/Abstract] OR \"ER-positive\"[Title/Abstract] OR \"ER-negative\"[Title/Abstract] OR \"hormone receptor-positive\"[Title/Abstract]))) OR (\"MCF-7\"[Title/Abstract] OR \"MCF7\"[Title/Abstract] OR \"MDA-MB-231\"[Title/Abstract] OR \"MDAMB231\"[Title/Abstract] OR \"MDA-MB-468\"[Title/Abstract] OR \"MDAMB468\"[Title/Abstract] OR \"MDA-MB-453\"[Title/Abstract] OR \"MDAMB453\"[Title/Abstract] OR \"MDA-MB-436\"[Title/Abstract] OR \"MDA-MB-157\"[Title/Abstract] OR \"T-47D\"[Title/Abstract] OR \"T47D\"[Title/Abstract] OR \"BT-474\"[Title/Abstract] OR \"BT474\"[Title/Abstract] OR \"BT-549\"[Title/Abstract] OR \"BT549\"[Title/Abstract] OR \"BT-20\"[Title/Abstract] OR \"BT20\"[Title/Abstract] OR \"SK-BR-3\"[Title/Abstract] OR \"SKBR3\"[Title/Abstract] OR \"ZR-75-1\"[Title/Abstract] OR \"ZR75-1\"[Title/Abstract] OR \"HCC1937\"[Title/Abstract] OR \"HCC1806\"[Title/Abstract] OR \"HCC70\"[Title/Abstract] OR \"HCC38\"[Title/Abstract] OR \"HCC1954\"[Title/Abstract] OR \"HCC1569\"[Title/Abstract] OR \"HCC1428\"[Title/Abstract] OR \"HCC1500\"[Title/Abstract] OR \"Hs578T\"[Title/Abstract] OR \"Hs-578T\"[Title/Abstract] OR \"SUM149\"[Title/Abstract] OR \"SUM149PT\"[Title/Abstract] OR \"SUM159\"[Title/Abstract] OR \"SUM159PT\"[Title/Abstract] OR \"SUM1315\"[Title/Abstract] OR \"SUM1315MO2\"[Title/Abstract] OR \"SUM190\"[Title/Abstract] OR \"SUM225\"[Title/Abstract] OR \"4T1\"[Title/Abstract] OR \"EMT6\"[Title/Abstract] OR \"E0771\"[Title/Abstract] OR \"EO771\"[Title/Abstract] OR \"MMTV-PyMT\"[Title/Abstract] OR \"MMTV-neu\"[Title/Abstract] OR \"MMTV-Wnt1\"[Title/Abstract]) OR (\"TCGA-BRCA\"[Title/Abstract] OR \"METABRIC\"[Title/Abstract] OR \"SCAN-B\"[Title/Abstract] OR ((\"breast*\"[Title/Abstract] OR \"mammary\"[Title/Abstract]) AND (\"patient-derived xenograft\"[Title/Abstract] OR \"patient-derived organoid\"[Title/Abstract])))))",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"PGE receptor EP4 subtype\"[All Fields]",
+        "\"PGE2 receptor EP4 subtype\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

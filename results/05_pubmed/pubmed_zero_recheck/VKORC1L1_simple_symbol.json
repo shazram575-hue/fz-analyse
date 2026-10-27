@@ -1,0 +1,16 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "31040920"
+    ],
+    "translationset": [],
+    "querytranslation": "\"VKORC1L1\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

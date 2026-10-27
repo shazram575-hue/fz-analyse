@@ -1,0 +1,14 @@
+patient_id	selected_K	n_stable_K	reason
+Cancer__0126	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0554	6	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0043	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0173	6	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0031	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0135	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__4031	6	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0161	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0177	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0163	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0308	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0151	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information
+Cancer__0337	8	3	Largest stable K with >=2% additional reconstruction improvement; no MFSD10 information

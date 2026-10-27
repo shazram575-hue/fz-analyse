@@ -1,0 +1,35 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "20",
+    "retmax": "20",
+    "retstart": "0",
+    "idlist": [
+      "40480221",
+      "39987248",
+      "38335844",
+      "37467514",
+      "36246026",
+      "35255904",
+      "33680947",
+      "32719397",
+      "30474284",
+      "30474109",
+      "29872392",
+      "27599526",
+      "25621293",
+      "24470238",
+      "23216862",
+      "19789341",
+      "19552806",
+      "18588689",
+      "15788639",
+      "15659406"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"GPRC5A\"[All Fields] OR \"GPCR5A\"[All Fields] OR \"RAI3\"[All Fields] OR \"RAIG1\"[All Fields] OR \"Retinoic acid-induced protein 3\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "project_root_environment": "BIOINFO_PROJECT_ROOT",
+  "external_data_environment": "BIOINFO_DATA_ROOT",
+  "default_external_data": "data/external",
+  "legacy_raw_directory": "原始数据",
+  "legacy_output_directory": "outputs",
+  "review_code_directory": "analysis",
+  "review_evidence_directory": "results",
+  "read_only_originals": true
+}

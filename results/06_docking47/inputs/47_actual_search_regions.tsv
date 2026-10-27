@@ -1,0 +1,48 @@
+﻿gene	structure	site_rule	pocket_rank	pocket_probability	center_x_A	center_y_A	center_z_A	size_x_A	size_y_A	size_z_A	volume_A3	greater_than_30A_cube	status
+ACKR1	8YNF	P2Rank_first_target_associated_pocket	1	0.828	135.2085	135.204	134.898	43.575	33.902	27.07	39990.0	True	search_region_fixed
+ADRA2A	7EJ8	experimental_ligand:J59			108.754	119.9625	137.155	24.0	24.0	24.0	13824.0	False	search_region_fixed
+AGPAT2	O15120_AF	P2Rank_first_target_associated_pocket	1	0.923	1.5085	-2.6745	5.2885	31.449	39.107	32.747	40274.8	True	search_region_fixed
+APH1A	8KCS	P2Rank_first_target_associated_pocket	1	0.916	198.2305	156.224	158.529	33.791	29.83	43.28	43625.6	True	search_region_fixed
+ATP5MC1	8H9S	global_search			166.5435	181.3125	257.429	74.4928	72.7768	91.9298	498383.1	True	search_region_fixed
+CA12	1JD0	experimental_ligand:AZM			18.9515	6.849	24.9855	24.0	24.0	24.0	13824.0	False	search_region_fixed
+CLDN7	O95471_AF	P2Rank_first_target_associated_pocket	1	0.041	-12.515	3.036	11.188	27.538	28.432	28.586	22381.7	False	search_region_fixed
+CYBRD1	5ZLG	experimental_ligand:ASC			9.442	57.4445	10.615	24.0	24.0	24.0	13824.0	False	search_region_fixed
+EMP1	P54849_AF	P2Rank_first_target_associated_pocket	1	0.132	14.735	7.398	-11.976	26.646	29.282	28.902	22550.7	False	search_region_fixed
+F3	1BOY	P2Rank_first_target_associated_pocket	1	0.008	5.169	-1.4075	4.0815	24.0	26.841	27.941	17999.1	False	search_region_fixed
+FXYD3	Q14802_AF	global_search			-17.418	2.4085	18.078	107.2558	52.4528	116.1798	653611.7	True	search_region_fixed
+GPR132	8HQM	experimental_ligand:140			84.158	84.5885	141.4575	24.0	24.0	24.0	13824.0	False	search_region_fixed
+GPR160	Q9UJ42_AF	P2Rank_first_target_associated_pocket	1	0.628	16.7455	0.339	-6.305	27.055	29.234	29.502	23333.9	False	search_region_fixed
+GPRC5A	Q8NFJ5_AF	P2Rank_first_target_associated_pocket	1	0.310	-15.8405	3.925	12.129	31.169	30.098	27.532	25828.4	False	search_region_fixed
+IFI27	P40305_AF	P2Rank_first_target_associated_pocket	1	0.237	4.2445	-3.458	-3.911	26.671	27.952	30.338	22617.2	False	search_region_fixed
+ITPR3	8TKG	experimental_ligand:I3P			260.2245	268.5095	178.756	24.0	24.0	24.0	13824.0	False	search_region_fixed
+KCNK1	3UKM	P2Rank_first_target_associated_pocket	1	0.832	28.542	-33.4765	44.956	35.862	32.337	29.872	34641.6	True	search_region_fixed
+LEPROT	O15243_AF	P2Rank_first_target_associated_pocket	1	0.085	2.618	0.2535	-5.391	29.882	29.673	26.236	23263.2	False	search_region_fixed
+LRRC26	7YO3	P2Rank_first_target_associated_pocket	3	0.558	165.83	105.0265	165.267	24.0	24.0	24.306	14000.3	False	search_region_fixed
+MAL2	Q969L2_AF	P2Rank_first_target_associated_pocket	1	0.046	3.1825	-4.998	1.8435	26.539	24.0	28.359	18062.9	False	search_region_fixed
+MALL	Q13021_AF	P2Rank_first_target_associated_pocket	1	0.021	-20.4575	-3.33	9.361	25.801	31.066	28.544	22879.0	False	search_region_fixed
+MFSD10	6S4M	P2Rank_first_target_associated_pocket	1	0.991	10.687	-2.738	-15.7745	49.792	42.424	37.353	78903.6	True	search_region_fixed
+MFSD12	Q6NUT3_AF	P2Rank_first_target_associated_pocket	1	0.960	4.56	3.8615	-3.233	45.116	36.681	39.668	65646.6	True	search_region_fixed
+MT-ND2	9I4I	P2Rank_first_target_associated_pocket	10	0.939	202.3735	262.0275	215.13	43.685	30.453	43.106	57345.6	True	search_region_fixed
+MT-ND4	9I4I	P2Rank_first_target_associated_pocket	4	0.970	194.975	246.6715	169.09	49.634	24.0	30.822	36715.7	True	search_region_fixed
+MT-ND4L	9I4I	global_search			237.795	244.716	234.1795	78.4298	62.7438	48.0368	236388.1	True	search_region_fixed
+MYADM	Q96S97_AF	P2Rank_first_target_associated_pocket	1	0.565	-5.254	-3.5165	-3.272	35.408	32.725	32.55	37716.6	True	search_region_fixed
+NHSL2	Q5HYW2_AF	global_search			-4.348	4.9765	-2.422	185.8578	172.7648	179.1358	5751992.8	True	search_region_fixed
+NR3C1	4UDD	experimental_ligand:CV7			36.718	20.4965	11.4035	24.0	24.0	24.0	13824.0	False	search_region_fixed
+ORMDL2	Q53FV1_AF	P2Rank_first_target_associated_pocket	1	0.337	3.9645	-3.9105	-5.532	32.707	27.687	30.514	27632.2	True	search_region_fixed
+PIGC	Q92535_AF	P2Rank_first_target_associated_pocket	1	0.683	-7.3025	-7.6115	1.9925	38.191	38.641	34.713	51227.3	True	search_region_fixed
+PMP22	Q01453_AF	P2Rank_first_target_associated_pocket	1	0.638	11.7935	10.1595	-12.369	29.889	29.573	30.302	26784.2	False	search_region_fixed
+PNP	7ZSO	experimental_ligand:JTC			0.418	11.469	-23.474	24.0	24.0	24.0	13824.0	False	search_region_fixed
+PPARG	1FM6	experimental_ligand:BRL			16.9855	-21.0615	11.751	24.0	24.0	24.0	13824.0	False	search_region_fixed
+PTGER4	5YWY	experimental_ligand:7UR			-44.249	-42.5375	-1.145	24.0	24.0	24.0	13824.0	False	search_region_fixed
+S1PR1	7TD4	experimental_ligand:J8C			139.4435	132.684	161.8525	24.181	24.0	30.611	17764.9	False	search_region_fixed
+SAMD8	8IJR	experimental_ligand:Z0P+OPE			176.0255	183.132	186.1975	32.067	24.0	33.631	25882.7	False	search_region_fixed
+SCD	4ZYO	experimental_ligand:ST9			15.6335	70.346	46.0255	27.283	25.108	33.507	22953.0	False	search_region_fixed
+SLC18B1	9D7W	experimental_ligand:YHL			143.969	139.5315	158.608	24.0	24.0	24.0	13824.0	False	search_region_fixed
+SMIM22	K7EJ46_AF	global_search			9.263	5.559	-11.4185	85.8678	91.7318	99.3408	782488.0	True	search_region_fixed
+SSTR2	7XN9	experimental_ligand:GI9			19.1075	44.7385	54.466	24.0	24.077	26.78	15474.8	False	search_region_fixed
+TMC4	Q7Z404_AF	P2Rank_first_target_associated_pocket	1	0.669	9.1395	8.0285	5.717	35.019	36.585	37.522	48072.1	True	search_region_fixed
+TMEM254	Q8TBM7_AF	P2Rank_first_target_associated_pocket	1	0.114	-1.4685	-0.733	1.686	27.691	25.51	31.83	22484.6	False	search_region_fixed
+TSPAN13	O95857_AF	P2Rank_first_target_associated_pocket	1	0.239	3.448	-0.391	-0.0035	27.406	30.56	31.353	26259.0	False	search_region_fixed
+TSPAN3	O60637_AF	P2Rank_first_target_associated_pocket	1	0.189	10.2815	6.206	-12.0025	26.061	26.372	26.097	17936.0	False	search_region_fixed
+VKORC1	6WVH	experimental_ligand:UA7			25.224	-13.0285	56.436	24.0	25.997	24.0	14974.3	False	search_region_fixed
+VKORC1L1	Q8N0U8_AF	P2Rank_first_target_associated_pocket	1	0.914	6.9865	3.853	0.599	35.637	32.198	35.804	41082.9	True	search_region_fixed

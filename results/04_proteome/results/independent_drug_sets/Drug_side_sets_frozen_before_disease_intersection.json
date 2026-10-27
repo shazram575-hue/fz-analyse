@@ -1,0 +1,62 @@
+[
+  {
+    "endpoint": "Kd",
+    "threshold_percent": 1,
+    "nominal_protein_cutoff": 205,
+    "n_selected_proteins": 205,
+    "n_mapped_genes": 201,
+    "boundary_ties_included": true,
+    "protein_set_sha256": "fa0608ac117d61d3fc9900796bd3753066b299a8b4ad4c2c49c457ccb6df6823",
+    "gene_mapping_sha256": "4d6c4a8de19fca46e304fe9c30f317369c7227fb9e005801a1bb2faf71caf8d8"
+  },
+  {
+    "endpoint": "Kd",
+    "threshold_percent": 5,
+    "nominal_protein_cutoff": 1022,
+    "n_selected_proteins": 1022,
+    "n_mapped_genes": 980,
+    "boundary_ties_included": true,
+    "protein_set_sha256": "1fb6a02bf35d38253cb854e5a4070d90874ad9d57129d8f7001fba7cb3502144",
+    "gene_mapping_sha256": "f6bee427981719b567eb246c81cee6298084668b381d618f22e05eb417401bc1"
+  },
+  {
+    "endpoint": "Kd",
+    "threshold_percent": 10,
+    "nominal_protein_cutoff": 2044,
+    "n_selected_proteins": 2044,
+    "n_mapped_genes": 1949,
+    "boundary_ties_included": true,
+    "protein_set_sha256": "cf21c6685dd7143af146fe82afbcea48f4d9a1eb3713330c3b0e27f8ee03d4b8",
+    "gene_mapping_sha256": "1fda0eef9e616233042e0297124dcefff141cf0bcbddd469cf70cde77bd13c33"
+  },
+  {
+    "endpoint": "IC50",
+    "threshold_percent": 1,
+    "nominal_protein_cutoff": 205,
+    "n_selected_proteins": 205,
+    "n_mapped_genes": 199,
+    "boundary_ties_included": true,
+    "protein_set_sha256": "c80e47a9c6d42ab12843862c28269c1c5807815e9912f12f2924e074ae57959e",
+    "gene_mapping_sha256": "6ca55390b75e23f31b75597d9dcf2308edc5ec743b37e4b14afa1cf8031bb105"
+  },
+  {
+    "endpoint": "IC50",
+    "threshold_percent": 5,
+    "nominal_protein_cutoff": 1022,
+    "n_selected_proteins": 1022,
+    "n_mapped_genes": 946,
+    "boundary_ties_included": true,
+    "protein_set_sha256": "2af6649f4ff79dc2d61ff0100f0e2560bd5b67afa95f94ddff18cb2eadbf6d8a",
+    "gene_mapping_sha256": "d3a79598e947aaa1f06e039cba17a85588b13d43391c8dd0ef719327844224d1"
+  },
+  {
+    "endpoint": "IC50",
+    "threshold_percent": 10,
+    "nominal_protein_cutoff": 2044,
+    "n_selected_proteins": 2044,
+    "n_mapped_genes": 1880,
+    "boundary_ties_included": true,
+    "protein_set_sha256": "fcc65347f6168bc15f53981ccc48ff1ea189a5d22df9eb911004a57ae1da4de2",
+    "gene_mapping_sha256": "24b9470ee7cbe0cd0fad01b302e54cedb25882e0b64c41af63354f10e5e66248"
+  }
+]

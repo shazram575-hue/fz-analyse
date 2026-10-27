@@ -1,0 +1,3 @@
+﻿state	formal_charge	specified_centers	InChIKey	sdf_path	SHA256
+neutral	0	9	SLGWGPQWJRVPAD-PZOAWPBASA-N	outputs\docking_audit_2026-10-24\prepared\spiropachysine_neutral.sdf	4a566a077a239a006b68b920c3a4a40d6012b017d0c45e309a354119dcc47d97
+pH74	1	9	SLGWGPQWJRVPAD-PZOAWPBASA-O	outputs\docking_audit_2026-10-24\prepared\spiropachysine_pH74.sdf	94880d2f07733523f31474eb775b765d546e0e1a50890660290e86c6d59e1d1e

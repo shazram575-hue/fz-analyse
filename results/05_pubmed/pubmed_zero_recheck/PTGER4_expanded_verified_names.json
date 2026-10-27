@@ -1,0 +1,47 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "32",
+    "retmax": "32",
+    "retstart": "0",
+    "idlist": [
+      "41274393",
+      "38426156",
+      "36335879",
+      "33917174",
+      "32595209",
+      "31014367",
+      "29658109",
+      "28029661",
+      "27869171",
+      "25733698",
+      "24981602",
+      "22641101",
+      "21761157",
+      "20678559",
+      "20503412",
+      "19227010",
+      "18842581",
+      "18792778",
+      "18319253",
+      "18083712",
+      "17047037",
+      "16619484",
+      "16570043",
+      "16540639",
+      "15967161",
+      "15930264",
+      "15287155",
+      "14648704",
+      "14623055",
+      "14499627",
+      "12788892",
+      "12559967"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"PTGER4\"[All Fields] OR \"PTGER2\"[All Fields] OR \"Prostaglandin E2 receptor EP4 subtype\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}

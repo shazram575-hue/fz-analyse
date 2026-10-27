@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "8",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "41595616",
+      "39369133",
+      "32468618",
+      "29713287",
+      "29512727",
+      "29386014",
+      "21822313",
+      "16585525"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"LRRC26\"[All Fields] OR \"CAPC\"[All Fields] OR \"Leucine-rich repeat-containing protein 26\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}

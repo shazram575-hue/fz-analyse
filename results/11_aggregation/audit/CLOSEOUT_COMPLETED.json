@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "closeout_only": true,
+  "scientific_analysis_rerun": false,
+  "original_audit_checks_passed": 32,
+  "original_prior_files_preserved": 5473,
+  "critical_frozen_hashes_rechecked": 6,
+  "comparison_rows_verified": 30,
+  "local_links_verified": 23,
+  "deliverables_hashed": 114,
+  "handoff_section": 38,
+  "stop_optimization": true,
+  "background_tasks": false
+}

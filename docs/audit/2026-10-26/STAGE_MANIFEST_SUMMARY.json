@@ -1,0 +1,9 @@
+{
+  "records": 7667,
+  "matched": 7664,
+  "missing": 0,
+  "mismatches": 3,
+  "nonroot_mismatches": 0,
+  "root_document_drift": 3,
+  "manifests_modified": 0
+}

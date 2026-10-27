@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "8",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "42358344",
+      "41673191",
+      "36428611",
+      "35116323",
+      "34490040",
+      "31218733",
+      "26563278",
+      "25110082"
+    ],
+    "translationset": [],
+    "querytranslation": "\"ADRA2A\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

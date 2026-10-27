@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-24",
+  "human_selection": "细胞级六个生物学大类：1,881 基因；混合/未定另作敏感性（建议）",
+  "main_genes": 1881,
+  "additional_diagnostic_only_genes": 76,
+  "original_Pool_A_813": "preserved_not_replaced",
+  "single_cell_direction": "both_up_and_down_existing_within_type_thresholds",
+  "bulk_rule": "existing_abs_log2FC_gt0.585_raw_P_lt0.05_both_directions_protein_coding",
+  "PB_role": "support_not_main_input_hard_gate",
+  "novel_drug_predictions": false,
+  "n_exact_ID_mapped_main_genes": 1869,
+  "n_main_genes_without_exact_reviewed_mapping": 12,
+  "files_sha256": {
+    "Additional_diagnostic_only_76genes.tsv": "21b047cbdd92cefb2101bddb71e0795e3faf2ab967a0110c595a42ccaf921f38",
+    "Disease_candidates_gene_celltype_evidence.tsv": "dc14454138c97843e2571585d287fb4c2f0e6a26b688c78ecd3961ee8d6545bb",
+    "Disease_matching_candidates_1881.tsv": "f700a6bfc22a5d2cbcb27a5e2459d63ac01bfd06fb590d1fb79854a690705d69",
+    "Main_gene_protein_mapping_review.tsv": "4e4d423ab79e3f8eca4e4f3f881fcee7b00eb18deda661afa05d0da92e5f255a"
+  }
+}

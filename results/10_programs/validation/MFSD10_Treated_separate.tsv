@@ -1,0 +1,11 @@
+n_patients	effect_rho	p	ci_low	ci_high	program_id	association	n_cells	note	residual_df	BH_q	analysis_role
+4	-0.015815237791598945				MP01	within	2968	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI			Treated_secondary
+4	0.003935565352264756				MP02	within	2968	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI			Treated_secondary
+4	-0.007699416509194636				MP03	within	2968	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI			Treated_secondary
+4	0.004650558985828621				MP04	within	2968	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI			Treated_secondary
+4	0.05586006798932497				MP05	within	2968	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI			Treated_secondary
+4					MP01	between	2968	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	-1.0		Treated_secondary
+4					MP02	between	2968	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	-1.0		Treated_secondary
+4					MP03	between	2968	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	-1.0		Treated_secondary
+4					MP04	between	2968	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	-1.0		Treated_secondary
+4					MP05	between	2968	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	-1.0		Treated_secondary

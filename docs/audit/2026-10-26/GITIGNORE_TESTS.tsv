@@ -1,0 +1,13 @@
+path	expected_ignored	actual_ignored
+outputs/test.rds	True	True
+原始数据/test.tsv	True	True
+data/external/test.tsv	True	True
+environments/local_snapshots/programs.freeze.txt	True	True
+docs/audit/2026-10-26/before/FILE_INVENTORY.tsv	True	True
+.env	True	True
+private.pem	True	True
+analysis/10_programs/scripts/program_analysis.py	False	False
+results/10_programs/frozen/Programs_v1.json	False	False
+docs/RESEARCH_PROGRESS.md	False	False
+README.md	False	False
+requirements.txt	False	False

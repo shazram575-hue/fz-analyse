@@ -1,0 +1,14 @@
+{
+  "indexed_occurrences": 23,
+  "files_with_diagnostics": 18,
+  "by_kind": {
+    "traceback": 16,
+    "iteration_limit": 6,
+    "missing_module": 1
+  },
+  "large_logs_not_scanned": [
+    "outputs/DeepPurpose_预测_2026-10-24/logs/pip_dependencies.log",
+    "outputs/MFSD10_程序发现与独立验证_2026-10-26/logs/pip_install.log"
+  ],
+  "warning_counts_not_complete_convergence_counts": true
+}

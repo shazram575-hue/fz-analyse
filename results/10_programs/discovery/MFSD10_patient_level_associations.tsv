@@ -1,0 +1,11 @@
+n_patients	effect_rho	p	ci_low	ci_high	program_id	association	n_cells	note	residual_df	BH_q
+13	-0.016043041765031418	0.3347979982912242	-0.046379408889071584	0.013936481333603038	MP01	within	6071	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI		0.6695959965824484
+13	0.021456606664833865	0.30965458318076405	-0.016514513962027515	0.05937269335547319	MP02	within	6071	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI		0.6695959965824484
+13	-0.03195304622483065	0.031124130355181252	-0.053656776323352515	-0.006863205020357614	MP03	within	6071	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI		0.20708735099068312
+13	0.03453887177923888	0.06212620529720493	0.002852290475627478	0.06466034530996671	MP04	within	6071	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI		0.20708735099068312
+13	0.05062360348248599	0.05577932381301111	0.002832818708233882	0.09480394287726975	MP05	within	6071	Patient equal-weight Fisher-z aggregation; patient sign-flip P and patient bootstrap CI		0.20708735099068312
+13	0.0646046563727932	0.8688453780435527	-0.6706061804778234	0.7357884276195166	MP01	between	6071	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	7.0	0.8688453780435527
+13	-0.23850612704497623	0.536566560072378	-0.8074743487278654	0.5603540290298716	MP02	between	6071	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	7.0	0.8688453780435527
+13	0.06893334822438135	0.8601250273605324	-0.6682065034519967	0.7377761535795194	MP03	between	6071	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	7.0	0.8688453780435527
+13	0.1978406002039622	0.6098780203613495	-0.5889483940383063	0.7920924491459068	MP04	between	6071	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	7.0	0.8688453780435527
+13	0.09142104153684771	0.815050851289492	-0.6554883050717362	0.747919128094292	MP05	between	6071	Patient-level partial rank rho; explicit clinical IHC, depth and mitochondrial covariates; descriptive if n<12 or df<5	7.0	0.8688453780435527

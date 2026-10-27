@@ -1,0 +1,7 @@
+item	value
+unique_patients_all69	54
+malignant_zero_pct	60.3310141260806
+malignant_positive_single_UMI_pct	55.5939410045177
+malignant_patient_CPM_LOO_min	86.1885756063932
+malignant_patient_CPM_LOO_max	89.1872565351473
+malignant_patient_min20_CPM_median	86.5712343817699

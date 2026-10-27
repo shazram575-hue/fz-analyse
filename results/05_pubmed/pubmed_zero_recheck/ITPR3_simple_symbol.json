@@ -1,0 +1,18 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "36350267",
+      "29630900",
+      "23992640"
+    ],
+    "translationset": [],
+    "querytranslation": "\"ITPR3\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

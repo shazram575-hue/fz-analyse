@@ -1,0 +1,34 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "12",
+    "retmax": "12",
+    "retstart": "0",
+    "idlist": [
+      "42358344",
+      "42050309",
+      "41673191",
+      "38815500",
+      "36428611",
+      "35116323",
+      "34490040",
+      "31218733",
+      "26563278",
+      "25110082",
+      "16292538",
+      "9824686"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"ADRA2A\"[All Fields] OR \"ADRA2R\"[All Fields] OR \"ADRAR\"[All Fields] OR \"Alpha-2A adrenergic receptor\"[All Fields] OR \"Alpha-2A adrenoreceptor\"[All Fields] OR \"Alpha-2A adrenoceptor\"[All Fields] OR \"Alpha-2AAR\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Alpha-2 adrenergic receptor subtype C10\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

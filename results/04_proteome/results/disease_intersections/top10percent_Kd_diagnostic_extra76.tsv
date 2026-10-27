@@ -1,0 +1,7 @@
+canonical_id	gene_symbol	cell_types	n_cell_types	diagnostic_evidence_present	bulk_log2FC	bulk_P	bulk_BH	scope_status
+ENSG00000066044	ELAVL1	Unresolved	1	True	0.659967099857215	4.30022981963307e-73	1.0380063676230299e-71	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000103569	AQP9	Mixed_epithelial_immune	1	True	0.940326933881121	8.82885041581246e-05	0.0001462100894281	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000121073	SLC35B1	Unresolved	1	True	0.849127517647891	2.5610888902154704e-31	1.6821923748050298e-30	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000134259	NGF	Unresolved	1	True	-0.95836438800271	1.1638503212499102e-15	3.812515865138891e-15	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000160326	SLC2A6	Mixed_epithelial_immune	1	True	1.26794373422588	1.1090829128563801e-20	4.59525770867009e-20	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000183722	LHFPL6	Unresolved	1	True	-2.11595743470565	2.54196028071961e-115	1.6639684307325602e-113	diagnostic_annotation_sensitivity_only_not_main_input

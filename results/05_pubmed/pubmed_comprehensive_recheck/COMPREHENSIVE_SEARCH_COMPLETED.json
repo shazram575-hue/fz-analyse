@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24 Asia/Shanghai",
+  "n_valid_queries": 47,
+  "n_failures": 0,
+  "old_query_preserved_as_OR_branch": true,
+  "all_counts_monotonic": true,
+  "strict_zero_genes": [
+    "MFSD10",
+    "NHSL2",
+    "SLC18B1",
+    "TMEM254",
+    "TSPAN3"
+  ],
+  "new_true_breast_hit": {
+    "gene": "MT-ND4L",
+    "PMID": "24061460"
+  },
+  "SAMD8_false_hit_only": "36381921",
+  "new_docking_or_MD": false
+}

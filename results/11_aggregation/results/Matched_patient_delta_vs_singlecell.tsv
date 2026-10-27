@@ -1,0 +1,11 @@
+cohort	program_id	n_matched_patients	delta_meta_rho	ci_low	ci_high	note
+discovery	MP01	13	0.009856638688370731	-0.19191252870602668	0.19688104932119005	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+discovery	MP02	13	0.06606271057770291	-0.02618464441465687	0.15470099871245185	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+discovery	MP03	13	0.032304275464452324	-0.1574521295718488	0.221238644864494	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+discovery	MP04	13	-0.06965416716363212	-0.2545075151252472	0.13181098661116944	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+discovery	MP05	13	0.08532221946752577	-0.06284439110918513	0.21965433801261552	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+validation	MP01	15	0.05195475422319885	-0.02081055911726674	0.1295166120181732	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+validation	MP02	15	0.2490257509524096	0.1456879966023625	0.36571001756411253	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+validation	MP03	15	0.09057364172086456	-0.04060387630093553	0.2718877558466354	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+validation	MP04	15	-0.09751164479061845	-0.16761600631073	-0.03440249614047146	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect
+validation	MP05	15	0.22283051932438425	0.1005641609002526	0.3537524532811438	Paired patient bootstrap; aggregation changes resolution/estimand, not a causal effect

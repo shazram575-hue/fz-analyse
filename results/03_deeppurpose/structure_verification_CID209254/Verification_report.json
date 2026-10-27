@@ -1,0 +1,91 @@
+{
+  "checked_at_utc": "2026-10-24T02:51:48.180052+00:00",
+  "raw_user_smiles": "C[C@@H]\\([C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@@H]4[C@@]3(CC[C@@]5(C4)C6=CC=CC=C6C(=O)N5C)C)C)N(C)C",
+  "raw_parses": false,
+  "formatting_correction": "removed only the backslash immediately preceding the branch-opening parenthesis; retained all stereochemical @/@@ markers",
+  "cleaned_user_smiles": "C[C@@H]([C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@@H]4[C@@]3(CC[C@@]5(C4)C6=CC=CC=C6C(=O)N5C)C)C)N(C)C",
+  "matches_official_SMILES_text": true,
+  "matches_official_InChI": true,
+  "matches_official_InChIKey": true,
+  "InChIKey": "SLGWGPQWJRVPAD-PZOAWPBASA-N",
+  "reference_status": "official_API_response_retrieved_during_this_verification",
+  "molecular_formula": "C31H46N2O",
+  "molecular_weight_g_mol_rdkit": 462.7220000000002,
+  "formal_charge": 0,
+  "n_disconnected_components": 1,
+  "n_assigned_chiral_centers": 9,
+  "chiral_centers_RDKit_zero_based_atom_index_CIP": [
+    [
+      1,
+      "S"
+    ],
+    [
+      2,
+      "S"
+    ],
+    [
+      5,
+      "S"
+    ],
+    [
+      6,
+      "S"
+    ],
+    [
+      9,
+      "S"
+    ],
+    [
+      10,
+      "R"
+    ],
+    [
+      13,
+      "S"
+    ],
+    [
+      14,
+      "S"
+    ],
+    [
+      17,
+      "R"
+    ]
+  ],
+  "n_unassigned_potential_chiral_centers": 0,
+  "mol_file_stereochemical_roundtrip_pass": true,
+  "first_PubChem_synonyms": [
+    "Spiropachysine",
+    "19587-41-8",
+    "RefChem:1098996",
+    "CHEMBL456512",
+    "(3R,5S,8R,9S,10S,13S,14S,17S)-17-[(1S)-1-(dimethylamino)ethyl]-2',10,13-trimethylspiro[1,2,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthrene-3,3'-isoindole]-1'-one",
+    "DTXSID50941353",
+    "BDBM50412079",
+    "(1R,20'S)-20'-Dimethylamino-2-methylspiro[1H-isoindole-1,3'-[5alpha]pregnan]-3(2H)-one",
+    "Spiro(1H-isoindole-1,3'-pregnan)-3(2H)-one, 20'-(dimethylamino)-2-methyl-, (3'-alpha,5'-alpha,20'S)-",
+    "NS00094291",
+    "(1S,1'R,3aS,3bR,5aS,9aS,9bS,11aS)-1-[(1S)-1-(Dimethylamino)ethyl]-2',9a,11a-trimethyl-1,2,3,3a,3b,4,5,5a,6,8,9,9a,9b,10,11,11a-hexadecahydrospiro[cyclopenta[a]phenanthrene-7,1'-isoindol]-3'(2'H)-one",
+    "17-[1-(Dimethylamino)ethyl]-2',10,13-trimethyl-1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17-hexadecahydrospiro[cyclopenta[a]phenanthrene-3,1'-isoindol]-3'(2'H)-one"
+  ],
+  "Spiropachysine_A_exact_synonym_present": false,
+  "conclusion": "User structure matches CID209254 after formatting correction, with all nine centers assigned. This does not independently establish identity with Fang2022 experimental material named Spiropachysine A.",
+  "study_drug_identity_approved": false,
+  "drug_target_predictions_run": false,
+  "retrieval": [
+    {
+      "name": "properties",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/209254/property/CanonicalSMILES,IsomericSMILES,InChI,InChIKey,MolecularFormula,IUPACName/JSON",
+      "status": "reused_successful_API_response_from_this_verification",
+      "bytes": 839,
+      "sha256": "17c58afdc9f9d62fafa484d0955fb2335922455767a99b648e29c0e76eece2f8"
+    },
+    {
+      "name": "synonyms",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/209254/synonyms/JSON",
+      "status": "reused_successful_API_response_from_this_verification",
+      "bytes": 1107,
+      "sha256": "d8241b505de7d9ce16c88a3bd74493a71e5952b5683d92c3ea232d7bbada25d6"
+    }
+  ]
+}

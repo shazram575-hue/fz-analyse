@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "scope": "feasibility_only",
+  "confirmed_malignant_cells": 9486,
+  "patients": 32,
+  "singlet_flags": 8722,
+  "doublet_flags": 764,
+  "patient_allocations": {
+    "A": 10,
+    "E": 10,
+    "D": 4,
+    "C": 5,
+    "B": 3
+  },
+  "validation_passed": 11,
+  "previous_expression_survey_artifacts_unchanged": 54,
+  "NMF_run": false,
+  "projection_run": false,
+  "new_filter_applied": false,
+  "background_task_remaining": false
+}

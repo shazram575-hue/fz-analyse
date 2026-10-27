@@ -1,0 +1,5 @@
+Single-cell foundation supplement complete: 236309 main cells; frozen Pool A unchanged.
+Only within-annotation Tumor-origin vs Healthy disease DE was performed.
+7 frozen Stage1 files unchanged; 20 independent R checks passed.
+Figure generation finished; visual inspection is separately documented in audit/Figure_visual_QA.md.
+Completed: 2026-10-24 09:49:21 +08:00

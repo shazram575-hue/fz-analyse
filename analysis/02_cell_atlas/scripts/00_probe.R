@@ -1,0 +1,13 @@
+options(stringsAsFactors=FALSE)
+.libPaths(c("D:/R4.5.2/R-4.5.2/library",.libPaths()))
+library(Matrix);library(data.table);library(Seurat);library(harmony)
+print(packageVersion("harmony"));print(args(getS3method("RunHarmony","default")))
+print(args(irlba::prcomp_irlba));print(args(Rtsne::Rtsne))
+root<-normalizePath(commandArgs(TRUE)[1],winslash="/")
+old<-file.path(root,"outputs","第一阶段_2026-10-23")
+m<-fread(file.path(old,"metadata","GSE161529_reconciled_patient_metadata.tsv"))[include_main==TRUE]
+ct<-fread(file.path(old,"results","SingleCell_broad_celltypes_by_library.tsv"))
+print(ct[,.(n_cells=sum(n_cells),n_donors=uniqueN(patient_id)),by=.(analysis_role,cell_type)])
+so<-readRDS(file.path(old,"cache","seurat_pilot",paste0(m$gsm[1],"_pilot_seurat.rds")))
+print(names(so[[]]));print(head(VariableFeatures(so)))
+capture.output(sessionInfo(),file=file.path(root,"outputs","单细胞基础补全_2026-10-23","logs","00_sessionInfo.txt"))

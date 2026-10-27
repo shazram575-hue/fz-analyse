@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "8",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "41218148",
+      "38611080",
+      "31004251",
+      "30701690",
+      "30602372",
+      "22748014",
+      "17486367",
+      "15958618"
+    ],
+    "translationset": [],
+    "querytranslation": "\"TSPAN13\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

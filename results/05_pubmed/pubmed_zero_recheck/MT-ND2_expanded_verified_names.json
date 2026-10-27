@@ -1,0 +1,27 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "12",
+    "retmax": "12",
+    "retstart": "0",
+    "idlist": [
+      "42151122",
+      "36758048",
+      "31577800",
+      "27278673",
+      "25750594",
+      "24414975",
+      "24253185",
+      "23750801",
+      "17121430",
+      "17045586",
+      "1703039",
+      "115209"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"MT-ND2\"[All Fields] OR \"MTND2\"[All Fields] OR \"NADH2\"[All Fields] OR \"ND2\"[All Fields] OR \"NADH-ubiquinone oxidoreductase chain 2\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}

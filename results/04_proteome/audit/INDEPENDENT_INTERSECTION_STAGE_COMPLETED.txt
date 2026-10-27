@@ -1,0 +1,1 @@
+Completed independent reviewed human proteome prediction (20431 x 8 = 163448), 1/5/10-percent drug sets and twelve disease1881 intersections; all numerical checks, source structure comparison, figure review and document links completed. No single main threshold selected.

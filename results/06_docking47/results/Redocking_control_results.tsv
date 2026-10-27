@@ -1,0 +1,10 @@
+﻿gene	CCD	seed	top_pose_RMSD_A	best_returned_pose_RMSD_A	top_pose_within2A	any_pose_within2A	top_score_kcal_mol	RMSD_method
+PNP	JTC	20261024	0.585452173684112	0.5564933116820652	True	True	-11.721	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+PNP	JTC	20261025	0.5853855164969837	0.5755239488333327	True	True	-11.722	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+PNP	JTC	20261026	0.6001309571344219	0.6001309571344219	True	True	-11.737	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+PPARG	BRL	20261024	1.2496971585567804	1.2496971585567804	True	True	-8.351	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+PPARG	BRL	20261025	2.0163140996915794	1.8338300934228227	False	True	-8.33	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+PPARG	BRL	20261026	1.5324117665897072	1.5324117665897072	True	True	-8.323	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+SLC18B1	YHL	20261024	8.941275910273434	4.478310467188283	False	False	-7.768	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+SLC18B1	YHL	20261025	8.971085762976061	4.50478127081709	False	False	-7.777	symmetry-corrected heavy atoms in receptor frame, no ligand alignment
+SLC18B1	YHL	20261026	8.957571455174753	4.405510260287496	False	False	-7.862	symmetry-corrected heavy atoms in receptor frame, no ligand alignment

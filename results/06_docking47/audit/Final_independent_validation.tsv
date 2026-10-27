@@ -1,0 +1,16 @@
+﻿check	pass	details
+original47_target_set	True	47
+exact282_unique_main_jobs	True	282/282
+raw_scores_and_input_hashes	True	[]
+9_separate_control_jobs	True	9
+94_complete_state_summaries	True	94
+282_pose_checks_present	True	282
+ligand_identity_and_9_center_stereo_retained	True	282
+all_raw_pose_SDFs_exported	True	282
+47_receptors_prepared	True	47
+47_actual_search_regions	True	47
+5_authorized_global_searches	True	explicit global group
+protected_upstream_public_inputs_unchanged	True	[]
+old_docking_outputs_absent	True	[]
+final_report_exists	True	47 row report
+figures_PNG_SVG_present	True	two figure sets

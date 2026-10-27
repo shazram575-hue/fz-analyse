@@ -1,0 +1,114 @@
+options(stringsAsFactors=FALSE,warn=1)
+.libPaths(c("D:/R4.5.2/R-4.5.2/library",.libPaths()))
+suppressPackageStartupMessages(library(data.table))
+suppressPackageStartupMessages(library(Matrix))
+suppressPackageStartupMessages(library(Seurat))
+setDTthreads(2L);future::plan("sequential");set.seed(20261023)
+root<-normalizePath(commandArgs(TRUE)[1],winslash="/",mustWork=TRUE)
+old<-file.path(root,"outputs","第一阶段_2026-10-23")
+out<-file.path(root,"outputs","单细胞基础补全_2026-10-23")
+for(d in c("canonical_by_library","balanced_by_library","prepared_by_library","r_tmp"))dir.create(file.path(out,"cache",d),showWarnings=FALSE)
+sink(file.path(out,"logs","01_prepare.log"),split=TRUE)
+m<-fread(file.path(old,"metadata","GSE161529_reconciled_patient_metadata.tsv"))[include_main==TRUE]
+map<-fread(file.path(old,"metadata","SingleCell_canonical_gene_identity_map.tsv"))
+genes<-fread(file.path(old,"metadata","SingleCell_canonical_gene_metadata.tsv"))
+fwrite(genes,file.path(out,"metadata","Canonical_gene_annotation.tsv"),sep="\t")
+fwrite(m,file.path(out,"metadata","Main_library_patient_metadata.tsv"),sep="\t")
+allmd<-rbindlist(lapply(m$gsm,function(g)fread(file.path(old,"audit","cell_annotation",paste0(g,"_cell_identity.tsv")))),fill=TRUE)
+allmd<-merge(allmd,m[,.(gsm,patient_id,analysis_role,clinical_age,gender,cancer.type)],by="gsm",all.x=TRUE,sort=FALSE)
+allmd[,condition:=ifelse(analysis_role=="main_healthy_total","Healthy","Tumor")]
+allmd[,donor_celltype:=paste(patient_id,condition,cell_type,sep="::")]
+stopifnot(nrow(allmd)==236309L,!anyDuplicated(allmd$cell_id))
+set.seed(20261023)
+selected<-unlist(lapply(split(allmd$cell_id,allmd$donor_celltype),function(ids)sample(ids,min(length(ids),200L))),use.names=FALSE)
+allmd[,balanced_selected:=cell_id%in%selected]
+fwrite(allmd[balanced_selected==TRUE],file.path(out,"metadata","Balanced_celllevel_DE_and_PCA_landmarks.tsv"),sep="\t")
+sampling<-allmd[,.(n_all=.N,n_selected=sum(balanced_selected)),by=.(patient_id,condition,cell_type)]
+fwrite(sampling,file.path(out,"audit","Balanced_sampling_counts.tsv"),sep="\t")
+collapse<-sparseMatrix(i=match(map$canonical_id,genes$canonical_id),j=seq_len(nrow(map)),x=1,dims=c(nrow(genes),nrow(map)))
+panel<-c("EPCAM","KRT8","KRT18","KRT19","KRT5","KRT14","TP63","ESR1","PGR","ELF5","KIT",
+ "PTPRC","CD3D","CD3E","TRAC","NKG7","GNLY","MS4A1","CD79A","JCHAIN","MZB1","LYZ","LST1","FCER1G","CD68",
+ "DCN","COL1A1","COL1A2","LUM","PECAM1","VWF","CLDN5","KDR","RGS5","PDGFRB","CSPG4","ACTA2","TAGLN","MYH11",
+ "TPSAB1","TPSB2","CPA3","MKI67","TOP2A","PCNA")
+pm<-genes[gene_symbol%in%panel][!duplicated(gene_symbol)]
+rownames_canonical<-genes$canonical_id
+metadata_parts<-list();pbparts<-list();stats_parts<-list();hvg_parts<-list();local_parts<-list()
+for(i in seq_len(nrow(m))) {
+ g<-m$gsm[i];preparedfile<-file.path(out,"cache","prepared_by_library",paste0(g,".rds"))
+ if(file.exists(preparedfile)) {
+  prep<-readRDS(preparedfile)
+ } else {
+  cat("PREPARE",i,"/",nrow(m),g,format(Sys.time()),"\n");flush.console()
+  so<-readRDS(file.path(old,"cache","seurat_pilot",paste0(g,"_pilot_seurat.rds")))
+  raw<-GetAssayData(so,assay="RNA",layer="counts")
+  stopifnot(identical(rownames(raw),map$ensembl_id))
+  md<-allmd[match(colnames(so),cell_id)]
+  stopifnot(identical(md$cell_id,colnames(so)))
+  # Scores are descriptive; no cell-cycle regression or exclusions.
+  orig<-fread(file.path(old,"metadata","GSE161529_features.tsv"))
+  sl<-unique(orig[gene_symbol%in%Seurat::cc.genes.updated.2019$s.genes,ensembl_id])
+  gl<-unique(orig[gene_symbol%in%Seurat::cc.genes.updated.2019$g2m.genes,ensembl_id])
+  set.seed(20261023)
+  so<-CellCycleScoring(so,s.features=sl,g2m.features=gl,set.ident=FALSE,seed=20261023)
+  md[,`:=`(S.Score=so$S.Score,G2M.Score=so$G2M.Score,Phase=as.character(so$Phase))]
+  hv<-data.table(canonical_id=map$canonical_id[match(VariableFeatures(so),map$ensembl_id)],
+                 rank=seq_along(VariableFeatures(so)),gsm=g)
+  hv<-hv[!is.na(canonical_id)][!duplicated(canonical_id)]
+  loc<-data.table(cell_id=colnames(so),gsm=g,local_umap_1=Embeddings(so,"umap")[,1],
+                 local_umap_2=Embeddings(so,"umap")[,2],local_PC1=Embeddings(so,"pca")[,1],local_PC2=Embeddings(so,"pca")[,2])
+  rm(so);gc(verbose=FALSE)
+  counts<-collapse%*%raw;rownames(counts)<-rownames_canonical
+  stopifnot(all(abs(Matrix::colSums(counts)-md$nCount_RNA)<1e-6))
+  rm(raw);gc(verbose=FALSE)
+  saveRDS(counts,file.path(out,"cache","canonical_by_library",paste0(g,".rds")),compress=FALSE)
+  saveRDS(list(counts=counts[,md$balanced_selected,drop=FALSE],metadata=md[balanced_selected==TRUE]),
+          file.path(out,"cache","balanced_by_library",paste0(g,".rds")),compress=FALSE)
+  keys<-unique(md$donor_celltype)
+  D<-sparseMatrix(i=seq_len(nrow(md)),j=match(md$donor_celltype,keys),x=1,dims=c(nrow(md),length(keys)))
+  pb<-as.matrix(counts%*%D);rownames(pb)<-rownames_canonical;colnames(pb)<-keys
+  samp<-md[,.(patient_id=patient_id[1],condition=condition[1],cell_type=cell_type[1],
+              clinical_age=clinical_age[1],gender=gender[1],n_cells=.N,n_doublet_flags=sum(scDblFinder_class=="doublet")),by=donor_celltype]
+  xx<-counts[match(pm$canonical_id,rownames(counts)),,drop=FALSE]
+  norm<-xx%*%Diagonal(x=10000/md$nCount_RNA);norm@x<-log1p(norm@x)
+  ps<-rbindlist(lapply(unique(md$cell_type),function(ct) {
+   j<-which(md$cell_type==ct)
+   data.table(canonical_id=pm$canonical_id,gene_symbol=pm$gene_symbol,gsm=g,patient_id=m$patient_id[i],
+    condition=md$condition[1],cell_type=ct,n_cells=length(j),n_expressing=as.numeric(Matrix::rowSums(xx[,j,drop=FALSE]>0)),
+    sum_log1p_normalized=as.numeric(Matrix::rowSums(norm[,j,drop=FALSE])))
+  }))
+  prep<-list(metadata=md,pb=pb,pb_samples=samp,hvg=hv,local=loc,panel_stats=ps,
+             s_genes_matched=length(sl),g2m_genes_matched=length(gl))
+  saveRDS(prep,preparedfile,compress=FALSE)
+  rm(counts,xx,norm,pb,D);gc(verbose=FALSE)
+ }
+ metadata_parts[[g]]<-prep$metadata;pbparts[[g]]<-list(counts=prep$pb,samples=prep$pb_samples)
+ hvg_parts[[g]]<-prep$hvg;stats_parts[[g]]<-prep$panel_stats;local_parts[[g]]<-prep$local
+ rm(prep);gc(verbose=FALSE)
+ fwrite(data.table(gsm=m$gsm[seq_len(i)],state="complete"),file.path(out,"audit","Preparation_run_status.tsv"),sep="\t")
+}
+md<-rbindlist(metadata_parts);stopifnot(nrow(md)==236309L,!anyDuplicated(md$cell_id))
+fwrite(md,file.path(out,"metadata","All_main_cell_metadata.tsv"),sep="\t")
+fwrite(rbindlist(local_parts),file.path(out,"metadata","All_library_local_reductions.tsv"),sep="\t")
+hv<-rbindlist(hvg_parts)[,.(n_libraries=uniqueN(gsm),median_rank=as.numeric(median(rank))),by=canonical_id][order(-n_libraries,median_rank,canonical_id)]
+hv<-merge(hv,genes,by="canonical_id",all.x=TRUE,sort=FALSE)[order(-n_libraries,median_rank,canonical_id)]
+hv[,selected_for_PCA:=seq_len(.N)<=2000L]
+fwrite(hv,file.path(out,"metadata","Consensus_HVG_ranking.tsv"),sep="\t")
+keys<-unique(unlist(lapply(pbparts,function(x)colnames(x$counts))))
+pb<-matrix(0,nrow(genes),length(keys),dimnames=list(genes$canonical_id,keys))
+for(p in pbparts)pb[,colnames(p$counts)]<-pb[,colnames(p$counts),drop=FALSE]+p$counts
+samples<-rbindlist(lapply(pbparts,`[[`,"samples"))[,.(n_cells=sum(n_cells),n_doublet_flags=sum(n_doublet_flags),
+ clinical_age=clinical_age[1],gender=gender[1]),by=.(donor_celltype,patient_id,condition,cell_type)]
+samples<-samples[match(colnames(pb),donor_celltype)]
+samples[,eligible_min20:=n_cells>=20L]
+stopifnot(sum(samples$n_cells)==236309L,!anyDuplicated(samples$donor_celltype))
+saveRDS(list(counts=pb,samples=samples,genes=genes),file.path(out,"cache","All_celltypes_patient_pseudobulk_counts.rds"),compress=FALSE)
+fwrite(samples,file.path(out,"metadata","All_celltypes_patient_pseudobulk_samples.tsv"),sep="\t")
+ps<-rbindlist(stats_parts)[,.(n_cells=sum(n_cells),n_expressing=sum(n_expressing),sum_log1p_normalized=sum(sum_log1p_normalized)),
+ by=.(canonical_id,gene_symbol,patient_id,condition,cell_type)]
+ps[,`:=`(pct=n_expressing/n_cells,mean_log1p_normalized=sum_log1p_normalized/n_cells)]
+fwrite(ps,file.path(out,"results","Canonical_annotation_panel_by_donor.tsv"),sep="\t")
+fwrite(md[,.(n_cells=.N,n_donors=uniqueN(patient_id),n_doublet_flags=sum(scDblFinder_class=="doublet")),by=.(condition,cell_type)],
+ file.path(out,"results","Celltype_condition_counts.tsv"),sep="\t")
+capture.output(sessionInfo(),file=file.path(out,"logs","01_sessionInfo.txt"))
+writeLines("complete",file.path(out,"cache","Preparation.complete"))
+cat("COMPLETE",format(Sys.time()),"BALANCED CELLS",sum(md$balanced_selected),"\n");sink()

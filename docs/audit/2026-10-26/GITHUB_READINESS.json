@@ -1,0 +1,15 @@
+{
+  "project_git_repository": false,
+  "project_git_root": null,
+  "project_git_initialized": false,
+  "scratch_git_metadata_created_for_tests": true,
+  "gitignore_cases_passed": 12,
+  "candidate_files": 813,
+  "candidate_bytes": 76906249,
+  "candidate_files_over_100MiB": 0,
+  "credential_pattern_flags": 0,
+  "secret_scan_scope": "Eligible small text files only; pattern scan is not a full security or privacy assessment",
+  "git_add": false,
+  "git_commit": false,
+  "git_push": false
+}

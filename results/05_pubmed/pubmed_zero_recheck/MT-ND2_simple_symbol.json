@@ -1,0 +1,19 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "4",
+    "retmax": "4",
+    "retstart": "0",
+    "idlist": [
+      "42151122",
+      "36758048",
+      "31577800",
+      "24414975"
+    ],
+    "translationset": [],
+    "querytranslation": "\"MT-ND2\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

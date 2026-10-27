@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "drug_side_background_selection": "all reviewed human UniProt canonical entries in archived release2026_03",
+  "n_proteins": 20431,
+  "n_unique_sequences": 20353,
+  "disease_gene_list_used_for_background_selection": false,
+  "disease_gene_list_used_for_gene_mapping": false,
+  "mapping_reference": "entire GENCODEv36 protein_coding annotation, not the DE/candidate set",
+  "structure_CID": 209254,
+  "structure_InChIKey": "SLGWGPQWJRVPAD-PZOAWPBASA-N",
+  "identity_confirmation": "published A Figure1 reconstructed from nine wedge/dash bonds; all9 centers and full InChIKey match CID209254",
+  "primary_models": "4 non-MPNN encodings each for Kd and IC50; MPNN excluded because pre-existing batch defect",
+  "selection_unit": "reviewed protein accession; each endpoint uses median of4 per-model percentiles in entire background",
+  "candidate_thresholds_percent": [
+    1,
+    5,
+    10
+  ],
+  "boundary_ties": "include tied proteins at the cutoff using minimum rank <= ceil(N*percent)",
+  "intersection_order": "select drug proteins without disease information; map to reference gene sets; compare endpoint gene union/intersection; intersect disease1881 last",
+  "single_primary_threshold_selected": false,
+  "user_choice": "完整报告1%/5%/10%比较，暂不指定唯一主阈值",
+  "background_sha256": "bd7b2696311432b3f5f081fe6b8dad479f6ce55e989fe9052ec4d1b5f8fdac51",
+  "mapping_sha256": "0f41646ccac65865cf730b977c3283e73afde9490f06918a9f6468012f363fac"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "01_disease",
+    "legacy_directory": "outputs/第一阶段_2026-10-23",
+    "depends_on": [],
+    "completion_markers": [
+      "outputs/第一阶段_2026-10-23/audit/PHASE1_COMPLETED.txt"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [
+      "第一阶段_结果报告.md",
+      "第一阶段_分析方案与验收.md"
+    ],
+    "review_directory": "results/01_disease",
+    "code_directory": "analysis/01_disease/scripts"
+  },
+  {
+    "id": "02_cell_atlas",
+    "legacy_directory": "outputs/单细胞基础补全_2026-10-23",
+    "depends_on": [
+      "01_disease"
+    ],
+    "completion_markers": [
+      "outputs/单细胞基础补全_2026-10-23/audit/BASICS_COMPLETED.txt"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [
+      "单细胞基础补全_结果报告.md"
+    ],
+    "review_directory": "results/02_cell_atlas",
+    "code_directory": "analysis/02_cell_atlas/scripts"
+  },
+  {
+    "id": "03_deeppurpose",
+    "legacy_directory": "outputs/DeepPurpose_预测_2026-10-24",
+    "depends_on": [
+      "01_disease",
+      "02_cell_atlas"
+    ],
+    "completion_markers": [
+      "outputs/DeepPurpose_预测_2026-10-24/audit/PREDICTION_STAGE_COMPLETED.txt"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/03_deeppurpose",
+    "code_directory": "analysis/03_deeppurpose/scripts"
+  },
+  {
+    "id": "04_proteome",
+    "legacy_directory": "outputs/身份深核与独立交集_2026-10-24",
+    "depends_on": [
+      "03_deeppurpose"
+    ],
+    "completion_markers": [
+      "outputs/身份深核与独立交集_2026-10-24/audit/INDEPENDENT_INTERSECTION_STAGE_COMPLETED.txt"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/04_proteome",
+    "code_directory": "analysis/04_proteome/scripts"
+  },
+  {
+    "id": "05_pubmed",
+    "legacy_directory": "outputs/docking_audit_2026-10-24",
+    "depends_on": [
+      "04_proteome"
+    ],
+    "completion_markers": [
+      "outputs/docking_audit_2026-10-24/pubmed_comprehensive_recheck/COMPREHENSIVE_SEARCH_COMPLETED.json"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/05_pubmed",
+    "code_directory": "analysis/05_pubmed/scripts"
+  },
+  {
+    "id": "06_docking47",
+    "legacy_directory": "outputs/reverse_docking47_2026-10-24",
+    "depends_on": [
+      "04_proteome"
+    ],
+    "completion_markers": [
+      "outputs/reverse_docking47_2026-10-24/audit/ALL47_DOCKING_DELIVERY_COMPLETED.json",
+      "outputs/reverse_docking47_2026-10-24/audit/ALL47_TECHNICAL_CHECKS_COMPLETED.json"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/06_docking47",
+    "code_directory": "analysis/06_docking47/scripts"
+  },
+  {
+    "id": "07_candidate",
+    "legacy_directory": "outputs/候选推进讨论_2026-10-25",
+    "depends_on": [
+      "05_pubmed",
+      "06_docking47"
+    ],
+    "completion_markers": [],
+    "computational_state": "user_selection_record",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/07_candidate",
+    "code_directory": "analysis/07_candidate/scripts"
+  },
+  {
+    "id": "08_expression",
+    "legacy_directory": "outputs/MFSD10_表达分布摸底_2026-10-26",
+    "depends_on": [
+      "01_disease",
+      "02_cell_atlas"
+    ],
+    "completion_markers": [
+      "outputs/MFSD10_表达分布摸底_2026-10-26/audit/EXPRESSION_SURVEY_COMPLETED.json"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/08_expression",
+    "code_directory": "analysis/08_expression/scripts"
+  },
+  {
+    "id": "09_feasibility",
+    "legacy_directory": "outputs/恶性上皮_表达程序可行性_2026-10-26",
+    "depends_on": [
+      "08_expression"
+    ],
+    "completion_markers": [
+      "outputs/恶性上皮_表达程序可行性_2026-10-26/audit/FEASIBILITY_COMPLETED.json"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/09_feasibility",
+    "code_directory": "analysis/09_feasibility/scripts"
+  },
+  {
+    "id": "10_programs",
+    "legacy_directory": "outputs/MFSD10_程序发现与独立验证_2026-10-26",
+    "depends_on": [
+      "09_feasibility",
+      "01_disease"
+    ],
+    "completion_markers": [
+      "outputs/MFSD10_程序发现与独立验证_2026-10-26/audit/PIPELINE_COMPLETED.json"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/10_programs",
+    "code_directory": "analysis/10_programs/scripts"
+  },
+  {
+    "id": "11_aggregation",
+    "legacy_directory": "outputs/MFSD10_稀疏与聚合探索_2026-10-26",
+    "depends_on": [
+      "10_programs"
+    ],
+    "completion_markers": [
+      "outputs/MFSD10_稀疏与聚合探索_2026-10-26/audit/COMPLETED.json",
+      "outputs/MFSD10_稀疏与聚合探索_2026-10-26/audit/CLOSEOUT_COMPLETED.json",
+      "outputs/MFSD10_稀疏与聚合探索_2026-10-26/audit/STOP_THIS_ROUTE.json"
+    ],
+    "computational_state": "completed_evidence_available",
+    "scientific_state": "Not a validated MFSD10 causal mechanism",
+    "legacy_entrypoints_ported_to_linux": false,
+    "root_reports": [],
+    "review_directory": "results/11_aggregation",
+    "code_directory": "analysis/11_aggregation/scripts"
+  }
+]

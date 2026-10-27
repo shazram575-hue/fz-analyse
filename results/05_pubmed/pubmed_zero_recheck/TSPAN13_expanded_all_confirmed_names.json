@@ -1,0 +1,32 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "8",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "41218148",
+      "38611080",
+      "31004251",
+      "30701690",
+      "30602372",
+      "22748014",
+      "17486367",
+      "15958618"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"TSPAN13\"[All Fields] OR \"NET6\"[All Fields] OR \"Tetraspanin-13\"[All Fields] OR \"Tspan-13\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"TM4SF13\"[All Fields]",
+        "\"Tetraspan NET-6\"[All Fields]",
+        "\"Transmembrane 4 superfamily member 13\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

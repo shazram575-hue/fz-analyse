@@ -1,0 +1,15 @@
+{
+  "background_proteins": 20431,
+  "unique_sequences": 20353,
+  "raw_scores": 163448,
+  "disease_main_n": 1881,
+  "disease_covered": 1881,
+  "disease_outside_reviewed_background": 0,
+  "mapped_full_reference_genes": 19379,
+  "background_proteins_CNN_truncated": 2407,
+  "background_proteins_nonstandard_amino_acids": 25,
+  "Kd_IC50_consensus_Spearman": 0.27768902260055484,
+  "disease_input_sha256": "f700a6bfc22a5d2cbcb27a5e2459d63ac01bfd06fb590d1fb79854a690705d69",
+  "single_primary_threshold": null,
+  "selection_unit": "protein accessions; map to gene sets before gene-level endpoint union/intersection; disease intersection last"
+}

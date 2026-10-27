@@ -1,0 +1,27 @@
+{
+  "primary_naive_patients": 16,
+  "primary_naive_patient_ids": [
+    "GSE176078_Case__3921",
+    "GSE176078_Case__4517-1",
+    "GSE176078_Case__4465",
+    "GSE176078_Case__4495",
+    "GSE176078_Case__4497-1",
+    "GSE176078_Case__4499-1",
+    "GSE176078_Case__4515",
+    "GSE176078_Case__4461",
+    "GSE176078_Case__4463",
+    "GSE176078_Case__4471",
+    "GSE176078_Case__4530",
+    "GSE176078_Case__4535",
+    "GSE176078_Case__3941",
+    "GSE176078_Case__3948",
+    "GSE176078_Case__4067",
+    "GSE176078_Case__4290"
+  ],
+  "treated_patients": 4,
+  "frozen_programs": 5,
+  "discovery_confirmatory_associations": 0,
+  "confirmed_supported_associations": 0,
+  "programs_with_external_coherence_support": 5,
+  "frozen_hashes_verified": true
+}

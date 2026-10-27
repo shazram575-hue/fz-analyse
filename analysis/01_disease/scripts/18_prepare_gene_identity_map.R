@@ -1,0 +1,27 @@
+options(stringsAsFactors=FALSE)
+.libPaths(c("D:/R4.5.2/R-4.5.2/library",.libPaths()))
+library(data.table)
+root<-normalizePath(commandArgs(TRUE)[1],winslash="/",mustWork=TRUE)
+out<-file.path(root,"outputs","第一阶段_2026-10-23")
+f<-fread(file.path(out,"metadata","GSE161529_features.tsv"))
+g<-fread(file.path(out,"metadata","genome_reference","GENCODE_v36_gene_annotation.tsv"))
+stopifnot(!anyDuplicated(g$ensembl_stable))
+mp<-copy(f)
+ix<-match(mp$ensembl_id,g$ensembl_stable)
+mp[,`:=`(canonical_id=ensembl_id,mapping_status=ifelse(is.na(ix),"unmapped_original_id","exact_Ensembl"))]
+unique_symbols<-g[,.(n=.N),by=gene_name][n==1L,gene_name]
+missing<-which(is.na(ix)&mp$gene_symbol%in%unique_symbols)
+replacement<-match(mp$gene_symbol[missing],g$gene_name)
+mp$canonical_id[missing]<-g$ensembl_stable[replacement]
+mp$mapping_status[missing]<-"unique_exact_symbol_rescue"
+ix2<-match(mp$canonical_id,g$ensembl_stable)
+mp[,`:=`(canonical_symbol=ifelse(is.na(ix2),gene_symbol,g$gene_name[ix2]),
+           gene_type=g$gene_type[ix2])]
+fwrite(mp,file.path(out,"metadata","SingleCell_canonical_gene_identity_map.tsv"),sep="\t",na="NA")
+canon<-mp[,.(gene_symbol=canonical_symbol[1],gene_type=gene_type[1],
+              source_feature_ids=paste(ensembl_id,collapse=";"),n_source_features=.N,
+              mapping_status=paste(sort(unique(mapping_status)),collapse=";")),by=canonical_id]
+stopifnot(!anyDuplicated(canon$canonical_id))
+fwrite(canon,file.path(out,"metadata","SingleCell_canonical_gene_metadata.tsv"),sep="\t",na="NA")
+fwrite(mp[,.(n_source_features=.N),by=mapping_status],file.path(out,"audit","Gene_identity_mapping_summary.tsv"),sep="\t")
+cat("SOURCE FEATURES",nrow(mp),"CANONICAL ROWS",nrow(canon),"SYMBOL RESCUES",length(missing),"\n")

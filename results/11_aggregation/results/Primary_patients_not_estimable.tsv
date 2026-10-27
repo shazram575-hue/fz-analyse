@@ -1,0 +1,2 @@
+cohort	specification	patient_id	program_id	primary_patient	n_units	n_cells	nuisance_rank	residual_df	rho	reason_not_estimated
+validation	state_full	GSE176078_Case__4465	MP01	True	6	124	4	1		Fewer_than_8_units

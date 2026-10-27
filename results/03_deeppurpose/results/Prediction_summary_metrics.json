@@ -1,0 +1,139 @@
+{
+  "main_genes": 1881,
+  "sensitivity_extra_genes": 76,
+  "protein_pairs": 1993,
+  "models": 10,
+  "protein_model_predictions": 19930,
+  "gene_model_predictions": 19570,
+  "main_Kd_vs_IC50_consensus_Spearman": 0.26866284027877735,
+  "main_CNN_truncated_genes": 224,
+  "main_GENCODE_translation_only_genes": 9,
+  "main_nonstandard_aminoacid_genes": 8,
+  "main_multiple_protein_genes": 13,
+  "Kd_first10_display": [
+    {
+      "gene_symbol": "ADRB2",
+      "canonical_id": "ENSG00000169252",
+      "consensus_rank": 1,
+      "model_percentile_IQR": 0.015816055289739506
+    },
+    {
+      "gene_symbol": "PNP",
+      "canonical_id": "ENSG00000198805",
+      "consensus_rank": 2,
+      "model_percentile_IQR": 0.04253056884635831
+    },
+    {
+      "gene_symbol": "ADRA2A",
+      "canonical_id": "ENSG00000150594",
+      "consensus_rank": 3,
+      "model_percentile_IQR": 0.0074428495481128065
+    },
+    {
+      "gene_symbol": "F2R",
+      "canonical_id": "ENSG00000181104",
+      "consensus_rank": 3,
+      "model_percentile_IQR": 0.06924508240297711
+    },
+    {
+      "gene_symbol": "AGTR1",
+      "canonical_id": "ENSG00000144891",
+      "consensus_rank": 5,
+      "model_percentile_IQR": 0.006778309409888439
+    },
+    {
+      "gene_symbol": "GPR137B",
+      "canonical_id": "ENSG00000077585",
+      "consensus_rank": 6,
+      "model_percentile_IQR": 0.1495215311004784
+    },
+    {
+      "gene_symbol": "BCL6",
+      "canonical_id": "ENSG00000113916",
+      "consensus_rank": 7,
+      "model_percentile_IQR": 0.06618819776714524
+    },
+    {
+      "gene_symbol": "SELENOI",
+      "canonical_id": "ENSG00000138018",
+      "consensus_rank": 7,
+      "model_percentile_IQR": 0.054226475279106734
+    },
+    {
+      "gene_symbol": "NR3C1",
+      "canonical_id": "ENSG00000113580",
+      "consensus_rank": 9,
+      "model_percentile_IQR": 0.04572036150983527
+    },
+    {
+      "gene_symbol": "PPARG",
+      "canonical_id": "ENSG00000132170",
+      "consensus_rank": 10,
+      "model_percentile_IQR": 0.04040404040404044
+    }
+  ],
+  "IC50_first10_display": [
+    {
+      "gene_symbol": "S1PR1",
+      "canonical_id": "ENSG00000170989",
+      "consensus_rank": 1,
+      "model_percentile_IQR": 0.010499734183944787
+    },
+    {
+      "gene_symbol": "UBE2F",
+      "canonical_id": "ENSG00000184182",
+      "consensus_rank": 2,
+      "model_percentile_IQR": 0.041733120680489066
+    },
+    {
+      "gene_symbol": "AKR1C3",
+      "canonical_id": "ENSG00000196139",
+      "consensus_rank": 3,
+      "model_percentile_IQR": 0.0034556087187667117
+    },
+    {
+      "gene_symbol": "PTGER4",
+      "canonical_id": "ENSG00000171522",
+      "consensus_rank": 4,
+      "model_percentile_IQR": 0.005980861244019087
+    },
+    {
+      "gene_symbol": "NR3C1",
+      "canonical_id": "ENSG00000113580",
+      "consensus_rank": 5,
+      "model_percentile_IQR": 0.02511961722488043
+    },
+    {
+      "gene_symbol": "MGAT2",
+      "canonical_id": "ENSG00000168282",
+      "consensus_rank": 6,
+      "model_percentile_IQR": 0.010366826156299913
+    },
+    {
+      "gene_symbol": "DEGS2",
+      "canonical_id": "ENSG00000168350",
+      "consensus_rank": 7,
+      "model_percentile_IQR": 0.12347155768208395
+    },
+    {
+      "gene_symbol": "PSMB8",
+      "canonical_id": "ENSG00000204264",
+      "consensus_rank": 7,
+      "model_percentile_IQR": 0.006778309409888328
+    },
+    {
+      "gene_symbol": "NUDT1",
+      "canonical_id": "ENSG00000106268",
+      "consensus_rank": 9,
+      "model_percentile_IQR": 0.019936204146730474
+    },
+    {
+      "gene_symbol": "TMEM160",
+      "canonical_id": "ENSG00000130748",
+      "consensus_rank": 10,
+      "model_percentile_IQR": 0.1030037214247741
+    }
+  ],
+  "no_final_target_selected": true,
+  "clinical_or_experimental_validation": false
+}

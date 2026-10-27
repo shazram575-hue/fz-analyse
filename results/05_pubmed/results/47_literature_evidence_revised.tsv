@@ -1,0 +1,48 @@
+﻿gene	submitted_level	submitted_raw_count	submitted_query_reproduced	revised_assessment	fully_blank_confirmed	evidence_and_correction	source_identifiers	scope
+ACKR1	高	37	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	40199901;38996469;30944146;36497078;41148595;35754051	literature/structure prioritization; not confirmed drug target
+ADRA2A	中	8	True	已有乳腺癌临床/表达关联	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	36428611;25110082;31218733;26563278;34490040;35116323	literature/structure prioritization; not confirmed drug target
+AGPAT2	低	3	True	已有表达/药物反应/关联证据	False	20363836研究AGPAT11/LPCAT2，不应归为AGPAT2的癌组织上调；34756920和33380715仍支持非空白	34756920;33380715	literature/structure prioritization; not confirmed drug target
+APH1A	低	3	True	已有患者组织检测与预后证据	False	不只是生信模型：24223915有55份乳腺癌组织qPCR；41463075为405患者Notch比较	24223915;41463075	literature/structure prioritization; not confirmed drug target
+ATP5MC1	低	2	True	已有组学记录，专门机制未确认	False	转录组记录不等于基因本身功能验证	28701793;39667070	literature/structure prioritization; not confirmed drug target
+CA12	高	73	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	30784287;35229335;31636386	literature/structure prioritization; not confirmed drug target
+CLDN7	高	61	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	21051248;36412442;28045912;39175074;26566278;22936447	literature/structure prioritization; not confirmed drug target
+CYBRD1	低	4	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	28270217;28031527;40069712	literature/structure prioritization; not confirmed drug target
+EMP1	高	30	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	32857809;24402572;38937754;35472336;40016223;32908789	literature/structure prioritization; not confirmed drug target
+F3	高	272	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	26383051;24112816;7648165;24568471;35146636;26489695	literature/structure prioritization; not confirmed drug target
+FXYD3	中	11	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	26090296;37966117;30206184;19571376;26740212;21372379	literature/structure prioritization; not confirmed drug target
+GPR132	低	6	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	28049847;41366282;31107411;38778969	literature/structure prioritization; not confirmed drug target
+GPR160	低	4	True	已有临床药物遗传及功能后续线索	False	34048027不只是预后模型：SNP×AI比较并描述EMT/生长通路后续；未完整核读其功能实验，不作无功能断言	34048027	literature/structure prioritization; not confirmed drug target
+GPRC5A	高	19	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	30474284;30474109;40480221;38335844;33680947	literature/structure prioritization; not confirmed drug target
+IFI27	中	10	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	33117284;30203045;33576900;40900789;21185374	literature/structure prioritization; not confirmed drug target
+ITPR3	中	14	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	18539593;16006774;33241108;35328381;38808320;32690540	literature/structure prioritization; not confirmed drug target
+KCNK1	低	3	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	38905316;36566598;35656548	literature/structure prioritization; not confirmed drug target
+LEPROT	低	5	True	已有乳腺癌临床/表达关联	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	32616101;31685042;35223490;25108739	literature/structure prioritization; not confirmed drug target
+LRRC26	中	8	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	29386014;29512727;32468618;29713287;41595616	literature/structure prioritization; not confirmed drug target
+MAL2	高	24	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	36595824;33393509;37480012;32990678;34567213;30195491	literature/structure prioritization; not confirmed drug target
+MALL	中	12	True	已有组学/预后记录，原归属错误	False	MALL/BENE与MAL、MAL2是不同基因；原6代表文献均不能支撑所写MALL专门机制。2018转录组有MALL，2023七基因模型也含MALL	10.1038/s41598-018-26429-x;10.1155/2023/6242355	literature/structure prioritization; not confirmed drug target
+MFSD10	空白	0	True	已有乳腺癌组学记录，专门机制未检出	False	现名SLC75A1；原0命中不等于无研究。TNBC miRNA研究表中有MFSD10，当前未见独立乳腺癌扰动/救援机制	41877801;6S4M	literature/structure prioritization; not confirmed drug target
+MFSD12	低	2	True	已有明确乳腺癌机制，必须纠正	False	2023 Molecular Cell：MFSD12/mTORC1-T254、CTNS、氧化应激耐受、化疗反应与突变体功能；不能写无专门功能/临床研究	37751742	literature/structure prioritization; not confirmed drug target
+MT-ND2	低	4	True	已有遗传/表达及功能关联	False	不能把所有ND2命中视为线粒体ND2，保留原文归属；原表中有乳腺癌遗传研究	31577800;24414975	literature/structure prioritization; not confirmed drug target
+MT-ND4	低	5	True	已有乳腺癌机制	False	let-7a靶向线粒体ND4及代谢重编程已研究	34838007	literature/structure prioritization; not confirmed drug target
+MT-ND4L	空白	0	True	已有乳腺癌表达/变异记录	False	2018原发乳腺癌线粒体变异和2022幸存者疲劳RNA研究都含ND4L；不是完全空白	10.3390/cancers10120500;PMC9420746	literature/structure prioritization; not confirmed drug target
+MYADM	低	2	True	已有组学/家族综述线索，专门机制未确认	False	不得从家族其他成员功能移用于MYADM；需要区分家族综述与本基因乳腺癌扰动	37345137;41454416	literature/structure prioritization; not confirmed drug target
+NHSL2	空白	1	True	已有乳腺癌预后/组学记录，专门机制未检出	False	原26870154为KIAA2022/NEXMIF，与NHSL2无关。2023 TME研究Table2列NHSL2；另有学位论文siRNA筛查线索，仅检索段落未取得有效PDF，不写为完整核读	36936167;10.3389/fendo.2023.1131525	literature/structure prioritization; not confirmed drug target
+NR3C1	高	389	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	30867597;41372410;40991232	literature/structure prioritization; not confirmed drug target
+ORMDL2	空白	1	True	已有乳腺癌患者预后证据	False	2018研究已分析ORMDL1/2表达与患者生存，2025综述不是唯一证据；不把ORMDL3机制移给ORMDL2	PMC5929433;40757047	literature/structure prioritization; not confirmed drug target
+PIGC	低	4	True	已有乳腺癌分子轴研究	False	两篇corrigendum不是两项新的独立研究；保留原NEAT1/MALAT1轴研究但不提前宣称PIGC直接药物靶点	35378140;33171372	literature/structure prioritization; not confirmed drug target
+PMP22	高	19	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	26460950;23468528;35178836;41456178;28925397;24321297	literature/structure prioritization; not confirmed drug target
+PNP	高	18	True	已有酶前药研究，需区分人源与细菌PNP	False	38039708是症状缩写PNP，不是基因。酶前药/自杀基因中的PNP多为外源微生物酶，不证明人内源PNP是同一乳腺癌机制靶点	24098491;33708463	literature/structure prioritization; not confirmed drug target
+PPARG	高	595	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	40465018;40303293;40507798;42911512;21930124;17052999	literature/structure prioritization; not confirmed drug target
+PTGER4	高	24	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	36335879;28094049;41388289;16540639;24281828;25733698	literature/structure prioritization; not confirmed drug target
+S1PR1	高	49	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	34283088;34440595;29078883;29923327;28982858	literature/structure prioritization; not confirmed drug target
+SAMD8	空白	0	True	已有乳腺癌组学记录，专门机制未检出	False	别名SMSr/FLJ25082必须补检。FEN1乳腺癌补充表实际有SAMD8；SH003表网页也列出该基因，但完整正文获取失败，不声称全文核读	本目录sources/FEN1_supplement.pdf;https://cgp.iiarjournals.org/content/20/1/88	literature/structure prioritization; not confirmed drug target
+SCD	高	95	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	29271901;22245140;40691103;39353532;41827943	literature/structure prioritization; not confirmed drug target
+SLC18B1	空白	0	True	已有乳腺癌表达记录，专门机制未检出	False	别名VPAT/C6orf192必须补检；GEO Profiles 50593035为乳腺癌细胞MTDH敲低表达数据。可优先探索机制，不写无任何乳腺癌数据	GEO50593035;10.1038/s41467-025-59549-w	literature/structure prioritization; not confirmed drug target
+SMIM22	空白	0	True	已有明确乳腺癌机制，撤销空白	False	CASIMO1为其别名：2018 Oncogene已有乳腺癌敲低、过表达、SQLE相互作用及救援	29765154	literature/structure prioritization; not confirmed drug target
+SSTR2	高	55	True	已有乳腺癌功能/机制研究	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	25985817;28025102;10959409;9062398;11311492;19575008	literature/structure prioritization; not confirmed drug target
+TMC4	低	2	True	已有肿瘤表达/暴露关联，专门机制未确认	False	原代表研究是环境暴露及乳腺癌死亡关联，不能概括为仅线粒体组学	31593922;32341500	literature/structure prioritization; not confirmed drug target
+TMEM254	空白	0	True	已有乳腺癌补充组学记录，专门机制未检出	False	C10orf57/FLJ13263/bA369J21.6为别名；FEN1补充材料PDF第53页含TMEM254。TMEM254-AS1是不同转录本，不能当本基因机制	本目录sources/FEN1_supplement.pdf	literature/structure prioritization; not confirmed drug target
+TSPAN13	中	8	True	已有明确乳腺癌机制，必须纠正	False	2005过表达与增殖侵袭、2019 miRNA-TSPAN13、2025在线/2026卷期免疫逃逸研究均已存在	15958618;30701690;41218148	literature/structure prioritization; not confirmed drug target
+TSPAN3	空白	0	True	已有泛癌/BRCA分析，专门机制未检出	False	2022泛癌TSPAN研究覆盖BRCA。2018 AnAc检索摘录的TSPAN33不是TSPAN3，已排除该误读	PMC9385710	literature/structure prioritization; not confirmed drug target
+VKORC1	低	9	True	已有乳腺癌临床/表达关联	False	非空白；代表文献题名摘要已核，未把所有列出正文标为全文核读	33799547;31040920;37904539	literature/structure prioritization; not confirmed drug target
+VKORC1L1	空白	1	True	已有乳腺癌细胞检测与患者关联	False	2019 Oncotarget有多TNBC细胞系qPCR及患者数据；不能写仅泛癌间接提及。未证实VKORC1L1单基因因果机制	31040920	literature/structure prioritization; not confirmed drug target

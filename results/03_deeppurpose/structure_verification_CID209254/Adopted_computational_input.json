@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-24",
+  "research_drug_name": "Spiropachysine A",
+  "computational_structure_name": "Spiropachysine",
+  "PubChem_CID": 209254,
+  "InChIKey": "SLGWGPQWJRVPAD-PZOAWPBASA-N",
+  "user_authorized_for_computational_use": true,
+  "user_statement": "接受，按 CID 209254 计算并保留命名依据与限制",
+  "nomenclature_correspondence": "literature-based working mapping explicitly accepted by user; a direct historical synonym definition was not located",
+  "experimental_sample_identity_independently_proven": false,
+  "B_or_ISO_used_as_replacement": false,
+  "source_structure_file": "PubChem_CID209254_verified_2D.sdf",
+  "actual_model_SMILES": "C[C@@H]([C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@]5(CC[C@]4(C)[C@H]3CC[C@]12C)c1ccccc1C(=O)N5C)N(C)C",
+  "SMILES_representation_note": "92-character canonical isomeric representation avoids CNN truncation of the 101-character source representation; identical InChIKey"
+}

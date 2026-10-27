@@ -1,0 +1,20 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "5",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "41595616",
+      "32468618",
+      "29713287",
+      "29512727",
+      "21822313"
+    ],
+    "translationset": [],
+    "querytranslation": "\"LRRC26\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

@@ -1,0 +1,13 @@
+threshold_percent	drug_set	drug_side_genes	disease1881_intersection	diagnostic_extra76_intersection	Kd_selected_proteins	IC50_selected_proteins	Kd_IC50_shared_proteins
+1	Kd	201	12	1	205	205	39
+1	IC50	199	21	1	205	205	39
+1	Kd_union_IC50	360	31	2	205	205	39
+1	Kd_intersection_IC50	40	2	0	205	205	39
+5	Kd	980	69	1	1022	1022	340
+5	IC50	946	82	2	1022	1022	340
+5	Kd_union_IC50	1605	134	3	1022	1022	340
+5	Kd_intersection_IC50	321	17	0	1022	1022	340
+10	Kd	1949	165	6	2044	2044	791
+10	IC50	1880	178	4	2044	2044	791
+10	Kd_union_IC50	3077	296	10	2044	2044	791
+10	Kd_intersection_IC50	752	47	0	2044	2044	791

@@ -1,0 +1,30 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "7",
+    "retmax": "7",
+    "retstart": "0",
+    "idlist": [
+      "36350267",
+      "30042492",
+      "29630900",
+      "29069790",
+      "23992640",
+      "22946050",
+      "18539593"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"ITPR3\"[All Fields] OR \"IP3R-3\"[All Fields] OR \"InsP3R3\"[All Fields] OR \"Type 3 inositol 1,4,5-trisphosphate receptor\"[All Fields] OR \"Type 3 InsP3 receptor\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Inositol 1,4,5-trisphosphate-gated calcium channel ITPR3\"[All Fields]",
+        "\"IP3 receptor isoform 3\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

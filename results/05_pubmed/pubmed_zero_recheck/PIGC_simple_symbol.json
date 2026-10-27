@@ -1,0 +1,18 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "37783583",
+      "35378140",
+      "33171372"
+    ],
+    "translationset": [],
+    "querytranslation": "\"PIGC\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

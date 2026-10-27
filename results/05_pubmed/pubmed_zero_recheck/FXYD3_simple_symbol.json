@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "8",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "37966117",
+      "35371992",
+      "30206184",
+      "26740212",
+      "26090296",
+      "21372379",
+      "19789341",
+      "19571376"
+    ],
+    "translationset": [],
+    "querytranslation": "\"FXYD3\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

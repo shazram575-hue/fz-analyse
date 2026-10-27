@@ -1,0 +1,9 @@
+check	pass
+independent_Pool_A_set_reconstruction	TRUE
+unique_Pool_A_ids	TRUE
+CNV_calls_equal_DE_malignant_cells	TRUE
+malignant_count_matches_summary	TRUE
+normal_DE_count	TRUE
+PB_donors_not_cells	TRUE
+full_feature_Bonferroni	TRUE
+all_sensitivity_primary_counts_match	TRUE

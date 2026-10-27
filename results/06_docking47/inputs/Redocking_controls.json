@@ -1,0 +1,23 @@
+[
+  {
+    "gene": "PPARG",
+    "CCD": "BRL",
+    "reference": "outputs\\reverse_docking47_2026-10-24\\prepared\\ligands\\PPARG_BRL_experimental.sdf",
+    "ligand": "outputs\\reverse_docking47_2026-10-24\\prepared\\ligands\\PPARG_BRL.pdbqt",
+    "state": "CCD formal charge; regenerated stereochemistry-preserving independent conformer"
+  },
+  {
+    "gene": "PNP",
+    "CCD": "JTC",
+    "reference": "outputs\\reverse_docking47_2026-10-24\\prepared\\ligands\\PNP_JTC_experimental.sdf",
+    "ligand": "outputs\\reverse_docking47_2026-10-24\\prepared\\ligands\\PNP_JTC.pdbqt",
+    "state": "CCD formal charge; regenerated stereochemistry-preserving independent conformer"
+  },
+  {
+    "gene": "SLC18B1",
+    "CCD": "YHL",
+    "reference": "outputs\\reverse_docking47_2026-10-24\\prepared\\ligands\\SLC18B1_YHL_experimental.sdf",
+    "ligand": "outputs\\reverse_docking47_2026-10-24\\prepared\\ligands\\SLC18B1_YHL.pdbqt",
+    "state": "CCD formal charge; regenerated stereochemistry-preserving independent conformer"
+  }
+]

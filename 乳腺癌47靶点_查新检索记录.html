@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>乳腺癌 47 个候选靶点文献查新检索记录</title>
+<style>
+:root{--ink:#1a1d21;--sub:#5b6470;--line:#e3e6ea;--bg:#f6f7f9;--accent:#1f4e79;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:"Source Han Serif SC","Songti SC",Georgia,"Microsoft YaHei",serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+.page{max-width:1080px;margin:0 auto;padding:48px 40px 80px}
+header.doc{border-bottom:3px double var(--accent);padding-bottom:24px;margin-bottom:36px}
+header.doc .kicker{font-family:ui-monospace,Consolas,monospace;font-size:12px;letter-spacing:.18em;
+color:var(--accent);text-transform:uppercase;margin-bottom:10px}
+header.doc h1{font-size:30px;margin:0 0 6px;letter-spacing:.02em;font-weight:700}
+header.doc .sub{color:var(--sub);font-size:14px}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+border:1px solid var(--line);margin:26px 0 0}
+.meta div{background:#fff;padding:12px 14px}
+.meta dt{font-size:11px;color:var(--sub);letter-spacing:.08em;margin:0 0 3px}
+.meta dd{margin:0;font-size:13.5px;font-weight:600;font-family:ui-monospace,Consolas,monospace}
+h2{font-size:18px;margin:52px 0 14px;padding-left:12px;border-left:4px solid var(--accent);
+letter-spacing:.02em}
+h2 span.no{font-family:ui-monospace,Consolas,monospace;color:var(--accent);margin-right:8px}
+p,li{font-size:14.5px}
+.lead{color:#333a42}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px;
+font-family:"Microsoft YaHei",ui-sans-serif,system-ui,sans-serif;
+border:1px solid var(--line)}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+th{background:#eef1f4;font-weight:600;font-size:12px;color:#333a42;letter-spacing:.03em;
+position:sticky;top:0;z-index:2;white-space:nowrap}
+td.c{text-align:center} td.num{font-family:ui-monospace,Consolas,monospace;font-weight:600}
+td.sm{color:var(--sub);font-weight:500} td.g{font-weight:700;font-family:ui-monospace,Consolas,monospace}
+td.nm{color:var(--sub);font-size:12px;width:40%}
+tbody tr:hover{background:#fafbfc}
+.bd{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11.5px;font-weight:700;
+font-family:"Microsoft YaHei",sans-serif}
+.stat{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0}
+.stat div{background:#fff;border:1px solid var(--line);border-top:3px solid var(--accent);
+padding:16px 18px}
+.stat b{display:block;font-size:26px;font-family:ui-monospace,Consolas,monospace;line-height:1.2}
+.stat span{font-size:12px;color:var(--sub)}
+.tblwrap{max-height:none;overflow:auto}
+.card{background:#fff;border:1px solid var(--line);border-radius:3px;padding:20px 22px;margin:16px 0;
+break-inside:avoid}
+.chd{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:12px}
+.chd .idx{font-family:ui-monospace,Consolas,monospace;color:#aab2bd;font-size:12px}
+.chd h3{margin:0;font-size:17px;font-family:ui-monospace,Consolas,monospace;letter-spacing:.02em}
+.chd h3 small{font-family:"Microsoft YaHei",sans-serif;font-size:12px;color:var(--sub);
+font-weight:400;margin-left:6px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.chip{font-family:"Microsoft YaHei",sans-serif;font-size:11.5px;color:#333a42;
+background:#f2f4f6;border:1px solid var(--line);padding:2px 9px;border-radius:3px}
+.chip b{font-family:ui-monospace,Consolas,monospace;color:var(--accent)}
+.chip.tag{background:#fff;color:var(--sub)}
+.qbox{background:#f8f9fa;border-left:3px solid #b9c2cc;padding:9px 12px;margin-bottom:8px;
+display:flex;gap:10px;align-items:flex-start}
+.ql{font-family:"Microsoft YaHei",sans-serif;font-size:11px;color:#8a939e;flex:0 0 auto;
+padding-top:2px}
+.qbox code{font-family:ui-monospace,Consolas,monospace;font-size:11.5px;color:#2c3e50;
+word-break:break-word;line-height:1.6}
+.qnote{font-size:12px;color:#8a6d3b;background:#fffbea;border:1px solid #f2e3b8;
+padding:5px 10px;margin-bottom:10px;font-family:"Microsoft YaHei",sans-serif}
+.sum{margin:10px 0 12px;color:#2b3138}
+ol.papers{margin:0;padding-left:0;list-style:none;border-top:1px dashed var(--line);padding-top:10px}
+ol.papers li{font-size:13px;margin:0 0 7px;padding-left:52px;position:relative;line-height:1.6}
+ol.papers .yr{position:absolute;left:0;top:0;font-family:ui-monospace,Consolas,monospace;
+font-size:11.5px;color:var(--accent);font-weight:700}
+ol.papers a{color:#1a3f63;text-decoration:none;border-bottom:1px solid #d5dde5}
+ol.papers a:hover{border-color:var(--accent)}
+.jr{color:var(--sub);font-size:12px;font-style:italic}
+.pm{font-family:ui-monospace,Consolas,monospace;font-size:11px;color:#9aa3ad}
+.rv{font-size:10.5px;color:#7a5c00;background:#fff6d6;padding:0 5px;border-radius:2px;
+margin-left:4px;font-family:"Microsoft YaHei",sans-serif}
+li.none{color:#9aa3ad;font-style:italic;padding-left:0}
+.note{background:#fff;border:1px solid var(--line);border-left:3px solid #b26a00;
+padding:14px 18px;font-size:13.5px;color:#3a4048}
+.note ol,.note ul{margin:8px 0 0;padding-left:20px}
+.note li{font-size:13.5px;margin-bottom:5px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.mini{background:#fff;border:1px solid var(--line);padding:14px 16px}
+.mini h4{margin:0 0 8px;font-size:13.5px;color:var(--accent)}
+.mini p{font-size:13px;margin:0;color:#3a4048}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.toc a{font-family:ui-monospace,Consolas,monospace;font-size:11.5px;color:#1a3f63;
+background:#fff;border:1px solid var(--line);padding:2px 8px;text-decoration:none;border-radius:2px}
+.toc a:hover{background:#eef1f4}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+font-size:12px;color:var(--sub);font-family:"Microsoft YaHei",sans-serif}
+@media print{
+ body{background:#fff} .page{padding:0;max-width:none}
+ .card,table{break-inside:avoid} h2{break-after:avoid}
+ a{color:#000;text-decoration:none}
+}
+@media (max-width:760px){
+ .meta,.stat{grid-template-columns:repeat(2,1fr)} .cols{grid-template-columns:1fr}
+ .page{padding:24px 16px}
+}
+</style></head><body><div class="page">
+
+<header class="doc">
+  <div class="kicker">Literature Search Record · Novelty Check</div>
+  <h1>乳腺癌 47 个候选靶点文献查新检索记录</h1>
+  <div class="sub">数据库：PubMed（NCBI）｜检索日期：2026-10-24｜记录编号：QX-2026-1024-BC47</div>
+  <dl class="meta">
+    <div><dt>记 录 编 号</dt><dd>QX-2026-1024-BC47</dd></div>
+    <div><dt>检 索 日 期</dt><dd>2026-10-24</dd></div>
+    <div><dt>检 索 对 象</dt><dd>47 个基因靶点</dd></div>
+    <div><dt>检 索 平 台</dt><dd>PubMed / MEDLINE</dd></div>
+  </dl>
+</header>
+
+<h2><span class="no">一</span>检索任务与目的</h2>
+<p class="lead">受托对 47 个候选基因靶点（ACKR1、ADRA2A、AGPAT2、APH1A、ATP5MC1、CA12、CLDN7、CYBRD1、EMP1、F3、FXYD3、GPR132、GPR160、GPRC5A、IFI27、ITPR3、KCNK1、LEPROT、LRRC26、MAL2、MALL、MFSD10、MFSD12、MT-ND2、MT-ND4、MT-ND4L、MYADM、NHSL2、NR3C1、ORMDL2、PIGC、PMP22、PNP、PPARG、PTGER4、S1PR1、SAMD8、SCD、SLC18B1、SMIM22、SSTR2、TMC4、TMEM254、TSPAN13、TSPAN3、VKORC1、VKORC1L1）逐一检索其在<strong>乳腺癌</strong>领域的研究现状，目的在于：</p>
+<ol>
+<li>查明每个靶点在乳腺癌中是否已有研究、研究体量与时间分布；</li>
+<li>识别已有明确机制/临床证据的靶点，以及尚无任何乳腺癌文献的空白靶点；</li>
+<li>为后续靶点立项、专利新颖性判断与课题查新提供可复现的检索依据。</li>
+</ol>
+
+<h2><span class="no">二</span>检索范围</h2>
+<table>
+<tbody>
+<tr><th style="width:150px">数据库</th><td>PubMed（含 MEDLINE），NCBI E-utilities 接口检索；覆盖 PubMed 建库至检索日。</td></tr>
+<tr><th>检索日期</th><td>2026-10-24（单日一次性完成，全部检索式与结果同步留存）</td></tr>
+<tr><th>时间范围</th><td>不设起始年限（建库起）；另设“近 5 年”子集（出版日期 2020/01/01 至检索日）以反映研究活跃度。</td></tr>
+<tr><th>检索字段</th><td>主题字段组合：<code>[Title/Abstract]</code>（题名/摘要）、<code>[MeSH Terms]</code>（主题词）、<code>[ti]</code>（题名，仅用于高歧义缩写）、<code>[PDAT]</code>（出版日期）、<code>[pt]</code>（文献类型）。</td></tr>
+<tr><th>语种 / 文献类型</th><td>语种不限；文献类型不限（原始研究、综述、系统综述、Meta 分析、临床试验、病例报告等全部纳入统计）。</td></tr>
+<tr><th>检索工具</th><td>NCBI E-utilities（esearch / esummary），结果以 PMID 为单位去重，计数经二次顺序复核。</td></tr>
+</tbody></table>
+
+<h2><span class="no">三</span>检索策略</h2>
+<p>采用“<strong>靶点概念组 AND 疾病概念组</strong>”的组配方式。疾病概念组全靶点统一，靶点概念组按“基因符号 OR 官方全称 OR 常用别名”展开，以兼顾查全率与查准率。</p>
+<div class="qbox"><span class="ql">疾病概念组</span><code>("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<div class="qbox"><span class="ql">靶点概念组</span><code>("基因符号"[Title/Abstract] OR "官方全称"[Title/Abstract] OR "别名1"[Title/Abstract] OR "别名2"[Title/Abstract] …)</code></div>
+<div class="qbox"><span class="ql">最终检索式</span><code>#1 靶点概念组　AND　#2 疾病概念组　→ 乳腺癌相关文献集；再以 AND ("2020/01/01"[PDAT] : "3000"[PDAT]) 取近 5 年子集，以 AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) 取二次研究子集。</code></div>
+<p class="lead">对缩写存在同名词干扰的靶点（F3、PNP、SCD、MALL、PMP22、GPR132、NR3C1、MT-ND2/ND4/ND4L、SSTR2），将其符号限定在 <code>[ti]</code> 题名字段，并在各靶点记录中注明调整原因；其余靶点统一采用 <code>[Title/Abstract]</code>。</p>
+
+<h2><span class="no">四</span>检索结果总览</h2>
+<div class="stat">
+  <div><b>47</b><span>检索靶点数</span></div>
+  <div><b>1892</b><span>乳腺癌相关文献总量（去重后按靶点累加）</span></div>
+  <div><b>688</b><span>近 5 年文献量（占 36%）</span></div>
+  <div><b>179</b><span>综述 / 系统综述 / Meta 分析</span></div>
+</div>
+<div class="stat" style="grid-template-columns:repeat(4,1fr)">
+  <div style="border-top-color:#b3261e"><b>15</b><span>证据充分（≥18 篇或有顶刊机制研究）</span></div>
+  <div style="border-top-color:#b26a00"><b>7</b><span>证据中等（8–17 篇）</span></div>
+  <div style="border-top-color:#4a6572"><b>15</b><span>证据薄弱（2–7 篇）</span></div>
+  <div style="border-top-color:#6b7280"><b>10</b><span>空白 / 近空白（0–1 篇）</span></div>
+</div>
+<p class="lead">下表按乳腺癌相关文献量降序排列（“编号”为与第五节分靶点记录一致的固定序号），可据此快速判断各靶点的研究热度与成熟度。</p>
+<div class="tblwrap">
+<table>
+<thead><tr><th class="c">编号</th><th>基因</th><th>基因全称</th><th class="c">证据等级</th>
+<th class="c">乳腺癌相关</th><th class="c">近5年</th><th class="c">综述/Meta</th>
+<th class="c">近5年占比</th><th class="c">符号总文献</th></tr></thead>
+<tbody><tr>
+<td class="c sm">34</td>
+<td class="g">PPARG</td>
+<td class="nm">peroxisome proliferator activated receptor gamma</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">595</td>
+<td class="c num">208</td>
+<td class="c num">49</td>
+<td class="c num sm">35%</td>
+<td class="c num sm">3804</td>
+</tr><tr>
+<td class="c sm">29</td>
+<td class="g">NR3C1</td>
+<td class="nm">nuclear receptor subfamily 3 group C member 1 (glucocorticoid receptor)</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">389</td>
+<td class="c num">115</td>
+<td class="c num">54</td>
+<td class="c num sm">30%</td>
+<td class="c num sm">1735</td>
+</tr><tr>
+<td class="c sm">10</td>
+<td class="g">F3</td>
+<td class="nm">coagulation factor III / tissue factor</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">272</td>
+<td class="c num">64</td>
+<td class="c num">28</td>
+<td class="c num sm">24%</td>
+<td class="c num sm">16253</td>
+</tr><tr>
+<td class="c sm">38</td>
+<td class="g">SCD</td>
+<td class="nm">stearoyl-CoA desaturase</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">95</td>
+<td class="c num">57</td>
+<td class="c num">7</td>
+<td class="c num sm">60%</td>
+<td class="c num sm">22255</td>
+</tr><tr>
+<td class="c sm">06</td>
+<td class="g">CA12</td>
+<td class="nm">carbonic anhydrase 12</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">73</td>
+<td class="c num">32</td>
+<td class="c num">4</td>
+<td class="c num sm">44%</td>
+<td class="c num sm">440</td>
+</tr><tr>
+<td class="c sm">07</td>
+<td class="g">CLDN7</td>
+<td class="nm">claudin 7</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">61</td>
+<td class="c num">18</td>
+<td class="c num">3</td>
+<td class="c num sm">30%</td>
+<td class="c num sm">190</td>
+</tr><tr>
+<td class="c sm">41</td>
+<td class="g">SSTR2</td>
+<td class="nm">somatostatin receptor 2</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">55</td>
+<td class="c num">14</td>
+<td class="c num">4</td>
+<td class="c num sm">25%</td>
+<td class="c num sm">1465</td>
+</tr><tr>
+<td class="c sm">36</td>
+<td class="g">S1PR1</td>
+<td class="nm">sphingosine-1-phosphate receptor 1</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">49</td>
+<td class="c num">25</td>
+<td class="c num">5</td>
+<td class="c num sm">51%</td>
+<td class="c num sm">1173</td>
+</tr><tr>
+<td class="c sm">01</td>
+<td class="g">ACKR1</td>
+<td class="nm">atypical chemokine receptor 1 (Duffy/DARC)</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">37</td>
+<td class="c num">20</td>
+<td class="c num">7</td>
+<td class="c num sm">54%</td>
+<td class="c num sm">224</td>
+</tr><tr>
+<td class="c sm">09</td>
+<td class="g">EMP1</td>
+<td class="nm">epithelial membrane protein 1</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">30</td>
+<td class="c num">18</td>
+<td class="c num">2</td>
+<td class="c num sm">60%</td>
+<td class="c num sm">282</td>
+</tr><tr>
+<td class="c sm">20</td>
+<td class="g">MAL2</td>
+<td class="nm">mal, T cell differentiation protein 2</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">24</td>
+<td class="c num">17</td>
+<td class="c num">1</td>
+<td class="c num sm">71%</td>
+<td class="c num sm">200</td>
+</tr><tr>
+<td class="c sm">35</td>
+<td class="g">PTGER4</td>
+<td class="nm">prostaglandin E receptor 4</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">24</td>
+<td class="c num">6</td>
+<td class="c num">0</td>
+<td class="c num sm">25%</td>
+<td class="c num sm">292</td>
+</tr><tr>
+<td class="c sm">14</td>
+<td class="g">GPRC5A</td>
+<td class="nm">G protein-coupled receptor class C group 5 member A</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">19</td>
+<td class="c num">7</td>
+<td class="c num">3</td>
+<td class="c num sm">37%</td>
+<td class="c num sm">175</td>
+</tr><tr>
+<td class="c sm">32</td>
+<td class="g">PMP22</td>
+<td class="nm">peripheral myelin protein 22</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">19</td>
+<td class="c num">5</td>
+<td class="c num">3</td>
+<td class="c num sm">26%</td>
+<td class="c num sm">1447</td>
+</tr><tr>
+<td class="c sm">33</td>
+<td class="g">PNP</td>
+<td class="nm">purine nucleoside phosphorylase</td>
+<td class="c"><span class="bd" style="color:#b3261e;background:#fdecea">高</span></td>
+<td class="c num">18</td>
+<td class="c num">11</td>
+<td class="c num">1</td>
+<td class="c num sm">61%</td>
+<td class="c num sm">7441</td>
+</tr><tr>
+<td class="c sm">16</td>
+<td class="g">ITPR3</td>
+<td class="nm">inositol 1,4,5-trisphosphate receptor type 3</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">14</td>
+<td class="c num">7</td>
+<td class="c num">0</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">268</td>
+</tr><tr>
+<td class="c sm">21</td>
+<td class="g">MALL</td>
+<td class="nm">mal, T cell differentiation protein (MAL)</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">12</td>
+<td class="c num">7</td>
+<td class="c num">1</td>
+<td class="c num sm">58%</td>
+<td class="c num sm">780</td>
+</tr><tr>
+<td class="c sm">11</td>
+<td class="g">FXYD3</td>
+<td class="nm">FXYD domain containing ion transport regulator 3</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">11</td>
+<td class="c num">2</td>
+<td class="c num">0</td>
+<td class="c num sm">18%</td>
+<td class="c num sm">90</td>
+</tr><tr>
+<td class="c sm">15</td>
+<td class="g">IFI27</td>
+<td class="nm">interferon alpha inducible protein 27</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">10</td>
+<td class="c num">5</td>
+<td class="c num">1</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">410</td>
+</tr><tr>
+<td class="c sm">46</td>
+<td class="g">VKORC1</td>
+<td class="nm">vitamin K epoxide reductase complex subunit 1</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">9</td>
+<td class="c num">5</td>
+<td class="c num">1</td>
+<td class="c num sm">56%</td>
+<td class="c num sm">1473</td>
+</tr><tr>
+<td class="c sm">02</td>
+<td class="g">ADRA2A</td>
+<td class="nm">adrenoceptor alpha 2A</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">8</td>
+<td class="c num">5</td>
+<td class="c num">0</td>
+<td class="c num sm">62%</td>
+<td class="c num sm">393</td>
+</tr><tr>
+<td class="c sm">19</td>
+<td class="g">LRRC26</td>
+<td class="nm">leucine rich repeat containing 26</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">8</td>
+<td class="c num">3</td>
+<td class="c num">0</td>
+<td class="c num sm">38%</td>
+<td class="c num sm">48</td>
+</tr><tr>
+<td class="c sm">44</td>
+<td class="g">TSPAN13</td>
+<td class="nm">tetraspanin 13</td>
+<td class="c"><span class="bd" style="color:#b26a00;background:#fff4e0">中</span></td>
+<td class="c num">8</td>
+<td class="c num">2</td>
+<td class="c num">0</td>
+<td class="c num sm">25%</td>
+<td class="c num sm">37</td>
+</tr><tr>
+<td class="c sm">12</td>
+<td class="g">GPR132</td>
+<td class="nm">G protein-coupled receptor 132</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">6</td>
+<td class="c num">3</td>
+<td class="c num">0</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">83</td>
+</tr><tr>
+<td class="c sm">18</td>
+<td class="g">LEPROT</td>
+<td class="nm">leptin receptor overlapping transcript</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">5</td>
+<td class="c num">4</td>
+<td class="c num">0</td>
+<td class="c num sm">80%</td>
+<td class="c num sm">42</td>
+</tr><tr>
+<td class="c sm">25</td>
+<td class="g">MT-ND4</td>
+<td class="nm">mitochondrially encoded NADH dehydrogenase 4</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">5</td>
+<td class="c num">3</td>
+<td class="c num">0</td>
+<td class="c num sm">60%</td>
+<td class="c num sm">166</td>
+</tr><tr>
+<td class="c sm">08</td>
+<td class="g">CYBRD1</td>
+<td class="nm">cytochrome b reductase 1</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">4</td>
+<td class="c num">2</td>
+<td class="c num">1</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">63</td>
+</tr><tr>
+<td class="c sm">13</td>
+<td class="g">GPR160</td>
+<td class="nm">G protein-coupled receptor 160</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">4</td>
+<td class="c num">3</td>
+<td class="c num">1</td>
+<td class="c num sm">75%</td>
+<td class="c num sm">40</td>
+</tr><tr>
+<td class="c sm">24</td>
+<td class="g">MT-ND2</td>
+<td class="nm">mitochondrially encoded NADH dehydrogenase 2</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">4</td>
+<td class="c num">2</td>
+<td class="c num">0</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">98</td>
+</tr><tr>
+<td class="c sm">31</td>
+<td class="g">PIGC</td>
+<td class="nm">phosphatidylinositol glycan anchor biosynthesis class C</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">4</td>
+<td class="c num">4</td>
+<td class="c num">0</td>
+<td class="c num sm">100%</td>
+<td class="c num sm">88</td>
+</tr><tr>
+<td class="c sm">03</td>
+<td class="g">AGPAT2</td>
+<td class="nm">1-acylglycerol-3-phosphate O-acyltransferase 2</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">3</td>
+<td class="c num">2</td>
+<td class="c num">0</td>
+<td class="c num sm">67%</td>
+<td class="c num sm">218</td>
+</tr><tr>
+<td class="c sm">04</td>
+<td class="g">APH1A</td>
+<td class="nm">aph-1 homolog A, gamma-secretase subunit</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">3</td>
+<td class="c num">2</td>
+<td class="c num">0</td>
+<td class="c num sm">67%</td>
+<td class="c num sm">79</td>
+</tr><tr>
+<td class="c sm">17</td>
+<td class="g">KCNK1</td>
+<td class="nm">potassium two pore domain channel subfamily K member 1</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">3</td>
+<td class="c num">3</td>
+<td class="c num">0</td>
+<td class="c num sm">100%</td>
+<td class="c num sm">71</td>
+</tr><tr>
+<td class="c sm">05</td>
+<td class="g">ATP5MC1</td>
+<td class="nm">ATP synthase membrane subunit c locus 1</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">2</td>
+<td class="c num">1</td>
+<td class="c num">0</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">10</td>
+</tr><tr>
+<td class="c sm">23</td>
+<td class="g">MFSD12</td>
+<td class="nm">major facilitator superfamily domain containing 12</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">2</td>
+<td class="c num">2</td>
+<td class="c num">1</td>
+<td class="c num sm">100%</td>
+<td class="c num sm">34</td>
+</tr><tr>
+<td class="c sm">27</td>
+<td class="g">MYADM</td>
+<td class="nm">myeloid associated differentiation marker</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">2</td>
+<td class="c num">2</td>
+<td class="c num">1</td>
+<td class="c num sm">100%</td>
+<td class="c num sm">53</td>
+</tr><tr>
+<td class="c sm">42</td>
+<td class="g">TMC4</td>
+<td class="nm">transmembrane channel like 4</td>
+<td class="c"><span class="bd" style="color:#4a6572;background:#eef2f4">低</span></td>
+<td class="c num">2</td>
+<td class="c num">1</td>
+<td class="c num">0</td>
+<td class="c num sm">50%</td>
+<td class="c num sm">97</td>
+</tr><tr>
+<td class="c sm">28</td>
+<td class="g">NHSL2</td>
+<td class="nm">NHS like 2</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">1</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">5</td>
+</tr><tr>
+<td class="c sm">30</td>
+<td class="g">ORMDL2</td>
+<td class="nm">ORMDL sphingolipid biosynthesis regulator 2</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">1</td>
+<td class="c num">1</td>
+<td class="c num">1</td>
+<td class="c num sm">100%</td>
+<td class="c num sm">20</td>
+</tr><tr>
+<td class="c sm">47</td>
+<td class="g">VKORC1L1</td>
+<td class="nm">vitamin K epoxide reductase complex subunit 1 like 1</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">1</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">43</td>
+</tr><tr>
+<td class="c sm">22</td>
+<td class="g">MFSD10</td>
+<td class="nm">major facilitator superfamily domain containing 10</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">8</td>
+</tr><tr>
+<td class="c sm">26</td>
+<td class="g">MT-ND4L</td>
+<td class="nm">mitochondrially encoded NADH dehydrogenase 4L</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">36</td>
+</tr><tr>
+<td class="c sm">37</td>
+<td class="g">SAMD8</td>
+<td class="nm">sterile alpha motif domain containing 8</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">17</td>
+</tr><tr>
+<td class="c sm">39</td>
+<td class="g">SLC18B1</td>
+<td class="nm">solute carrier family 18 member B1</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">14</td>
+</tr><tr>
+<td class="c sm">40</td>
+<td class="g">SMIM22</td>
+<td class="nm">small integral membrane protein 22</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">5</td>
+</tr><tr>
+<td class="c sm">43</td>
+<td class="g">TMEM254</td>
+<td class="nm">transmembrane protein 254</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">3</td>
+</tr><tr>
+<td class="c sm">45</td>
+<td class="g">TSPAN3</td>
+<td class="nm">tetraspanin 3</td>
+<td class="c"><span class="bd" style="color:#6b7280;background:#f1f2f4">空白</span></td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num">0</td>
+<td class="c num sm">0%</td>
+<td class="c num sm">39</td>
+</tr></tbody>
+</table></div>
+
+<h2><span class="no">五</span>分靶点检索记录</h2>
+<p class="lead">每条记录包含：检索式、命中数量、研究概况与代表性文献（按 PubMed 相关度排序后，优先呈现与乳腺癌直接相关的条目；标注“综述”者为二次研究）。</p>
+<div class="toc"><a href="#gACKR1">ACKR1</a><a href="#gADRA2A">ADRA2A</a><a href="#gAGPAT2">AGPAT2</a><a href="#gAPH1A">APH1A</a><a href="#gATP5MC1">ATP5MC1</a><a href="#gCA12">CA12</a><a href="#gCLDN7">CLDN7</a><a href="#gCYBRD1">CYBRD1</a><a href="#gEMP1">EMP1</a><a href="#gF3">F3</a><a href="#gFXYD3">FXYD3</a><a href="#gGPR132">GPR132</a><a href="#gGPR160">GPR160</a><a href="#gGPRC5A">GPRC5A</a><a href="#gIFI27">IFI27</a><a href="#gITPR3">ITPR3</a><a href="#gKCNK1">KCNK1</a><a href="#gLEPROT">LEPROT</a><a href="#gLRRC26">LRRC26</a><a href="#gMAL2">MAL2</a><a href="#gMALL">MALL</a><a href="#gMFSD10">MFSD10</a><a href="#gMFSD12">MFSD12</a><a href="#gMT-ND2">MT-ND2</a><a href="#gMT-ND4">MT-ND4</a><a href="#gMT-ND4L">MT-ND4L</a><a href="#gMYADM">MYADM</a><a href="#gNHSL2">NHSL2</a><a href="#gNR3C1">NR3C1</a><a href="#gORMDL2">ORMDL2</a><a href="#gPIGC">PIGC</a><a href="#gPMP22">PMP22</a><a href="#gPNP">PNP</a><a href="#gPPARG">PPARG</a><a href="#gPTGER4">PTGER4</a><a href="#gS1PR1">S1PR1</a><a href="#gSAMD8">SAMD8</a><a href="#gSCD">SCD</a><a href="#gSLC18B1">SLC18B1</a><a href="#gSMIM22">SMIM22</a><a href="#gSSTR2">SSTR2</a><a href="#gTMC4">TMC4</a><a href="#gTMEM254">TMEM254</a><a href="#gTSPAN13">TSPAN13</a><a href="#gTSPAN3">TSPAN3</a><a href="#gVKORC1">VKORC1</a><a href="#gVKORC1L1">VKORC1L1</a></div>
+<section class="card" id="gACKR1">
+<div class="chd">
+  <span class="idx">01</span>
+  <h3>ACKR1 <small>atypical chemokine receptor 1 (Duffy/DARC)</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>37</b> 乳腺癌相关</span>
+  <span class="chip"><b>20</b> 近5年</span>
+  <span class="chip"><b>7</b> 综述/Meta</span>
+  <span class="chip"><b>224</b> 符号总文献</span>
+  <span class="chip tag">免疫微环境 / 种族差异 / 预后</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("ACKR1"[Title/Abstract] OR "DARC"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">研究相对成熟。ACKR1（DARC）为趋化因子“清道夫”受体，乳腺癌中主要围绕肿瘤浸润淋巴细胞、血管/静脉微环境与生存预后展开；因 Duffy 阴性表型在非洲裔人群中高频，该基因是乳腺癌种族差异（disparity）研究的核心位点。2025 年 Nature Communications 的空间图谱进一步揭示静脉微环境调控淋巴细胞外渗的细胞机制。</p>
+<ol class="papers"><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40199901/" target="_blank">Spatially resolved atlas of breast cancer uncovers intercellular machinery of venular niche governing lymphocyte extravasation.</a>
+<span class="jr">Nature communications</span> <span class="pm">PMID 40199901</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38996469/" target="_blank">The DARC side of genetics in cancer: Breast cancer disparities.</a>
+<span class="jr">American journal of human genetics</span> <span class="pm">PMID 38996469</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30944146/" target="_blank">Atypical Chemokine Receptor 1 (DARC/ACKR1) in Breast Tumors Is Associated with Survival, Circulating Chemokines, Tumor-Infiltrating Immune Cells, and African Ancestry.</a>
+<span class="jr">Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology</span> <span class="pm">PMID 30944146</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36497078/" target="_blank">The DARC Side of Inflamm-Aging: Duffy Antigen Receptor for Chemokines (DARC/ACKR1) as a Potential Biomarker of Aging, Immunosenescence, and Breast Oncogenesis among High-Risk Subpopulations.</a>
+<span class="jr">Cells</span> <span class="pm">PMID 36497078</span><span class="rv">综述</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41148595/" target="_blank">Bringing DARC to Light: Role of Duffy Antigen/Receptor in Breast Cancer Progression and Cancer Prevention.</a>
+<span class="jr">Asian Pacific journal of cancer prevention : APJCP</span> <span class="pm">PMID 41148595</span><span class="rv">综述</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35754051/" target="_blank">Chemokine receptors differentially expressed by race category and molecular subtype in the breast cancer TCGA cohort.</a>
+<span class="jr">Scientific reports</span> <span class="pm">PMID 35754051</span></li></ol>
+</section><section class="card" id="gADRA2A">
+<div class="chd">
+  <span class="idx">02</span>
+  <h3>ADRA2A <small>adrenoceptor alpha 2A</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>8</b> 乳腺癌相关</span>
+  <span class="chip"><b>5</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>393</b> 符号总文献</span>
+  <span class="chip tag">遗传关联 / 预后</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("ADRA2A"[Title/Abstract] OR "alpha-2A adrenergic"[Title/Abstract] OR "alpha2A-adrenergic"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据以遗传关联与预后分析为主：生殖系多态性与乳腺癌严重程度相关（而非发病风险），肿瘤组织表达水平与复发风险、预后相关。属“肾上腺素能信号与肿瘤”研究分支，缺乏独立的功能与机制研究。</p>
+<ol class="papers"><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36428611/" target="_blank">Profiling the Adrenergic System in Breast Cancer and the Development of Metastasis.</a>
+<span class="jr">Cancers</span> <span class="pm">PMID 36428611</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25110082/" target="_blank">On statistical relationship between ADRA2A expression and the risk of breast cancer relapse.</a>
+<span class="jr">Bulletin of experimental biology and medicine</span> <span class="pm">PMID 25110082</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31218733/" target="_blank">Prognostic significance of α- and β2-adrenoceptor gene expression in breast cancer patients.</a>
+<span class="jr">British journal of clinical pharmacology</span> <span class="pm">PMID 31218733</span></li><li><span class="yr">2016</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26563278/" target="_blank">ADRA2A Germline Gene Polymorphism is Associated to the Severity, but not to the Risk, of Breast Cancer.</a>
+<span class="jr">Pathology oncology research : POR</span> <span class="pm">PMID 26563278</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34490040/" target="_blank">Identification of Key lncRNA-mRNA Pairs and Functional lncRNAs in Breast Cancer by Integrative Analysis of TCGA Data.</a>
+<span class="jr">Frontiers in genetics</span> <span class="pm">PMID 34490040</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35116323/" target="_blank">Exploring the molecular targets and mechanisms of [10]-Gingerol for treating triple-negative breast cancer using bioinformatics approaches, molecular docking, and in vivo experiments.</a>
+<span class="jr">Translational cancer research</span> <span class="pm">PMID 35116323</span></li></ol>
+</section><section class="card" id="gAGPAT2">
+<div class="chd">
+  <span class="idx">03</span>
+  <h3>AGPAT2 <small>1-acylglycerol-3-phosphate O-acyltransferase 2</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>3</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>218</b> 符号总文献</span>
+  <span class="chip tag">脂质代谢</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("AGPAT2"[Title/Abstract] OR "LPAAT-beta"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">仅零星文献。作为甘油磷脂合成通路酶，在 MCF-7 细胞的 PPAR 信号研究中被涉及，另在乳腺癌/宫颈癌中被报道上调；无专门的乳腺癌机制或靶向研究。</p>
+<ol class="papers"><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34756920/" target="_blank">Concentration-dependent effects of chlorpyrifos oxon on peroxisome proliferator-activated receptor signaling in MCF-7 cells.</a>
+<span class="jr">Toxicology in vitro : an international journal published in association with BIBRA</span> <span class="pm">PMID 34756920</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33380715/" target="_blank">Characterization of the Relationship Between the Expression of Aspartate β-Hydroxylase and the Pathological Characteristics of Breast Cancer.</a>
+<span class="jr">Medical science monitor : international medical journal of experimental and clinical research</span> <span class="pm">PMID 33380715</span></li><li><span class="yr">2010</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/20363836/" target="_blank">Enzymatic activity of the human 1-acylglycerol-3-phosphate-O-acyltransferase isoform 11: upregulated in breast and cervical cancers.</a>
+<span class="jr">Journal of lipid research</span> <span class="pm">PMID 20363836</span></li></ol>
+</section><section class="card" id="gAPH1A">
+<div class="chd">
+  <span class="idx">04</span>
+  <h3>APH1A <small>aph-1 homolog A, gamma-secretase subunit</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>3</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>79</b> 符号总文献</span>
+  <span class="chip tag">Notch 通路</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("APH1A"[Title/Abstract] OR "APH-1A"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">仅作为 γ-分泌酶复合体/Notch 通路成员在乳腺癌预后模型与通路失调分析中出现，未见以 APH1A 为对象的功能研究。</p>
+<ol class="papers"><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41463075/" target="_blank">Subtype-Independent Dysregulation of the Notch Signaling Pathway and Its miRNA Regulators in Breast Cancer.</a>
+<span class="jr">Biomedicines</span> <span class="pm">PMID 41463075</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33808143/" target="_blank">Aberrations of Chromosomes 1 and 16 in Breast Cancer: A Framework for Cooperation of Transcriptionally Dysregulated Genes.</a>
+<span class="jr">Cancers</span> <span class="pm">PMID 33808143</span></li><li><span class="yr">2013</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24223915/" target="_blank">Γ-secretase components as predictors of breast cancer outcome.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 24223915</span></li></ol>
+</section><section class="card" id="gATP5MC1">
+<div class="chd">
+  <span class="idx">05</span>
+  <h3>ATP5MC1 <small>ATP synthase membrane subunit c locus 1</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>2</b> 乳腺癌相关</span>
+  <span class="chip"><b>1</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>10</b> 符号总文献</span>
+  <span class="chip tag">线粒体代谢</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("ATP5MC1"[Title/Abstract] OR "ATP5G1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">仅在线粒体相关组学与药物处理转录组中被被动检出（如 miR-29 转录组、褪黑素联合处理 MDA-MB-231），无专门研究。</p>
+<ol class="papers"><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28701793/" target="_blank">The miR-29 transcriptome in endocrine-sensitive and resistant breast cancer cells.</a>
+<span class="jr">Scientific reports</span> <span class="pm">PMID 28701793</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/39667070/" target="_blank">Co-treatment with melatonin and ortho-topolin riboside exhibits anti-proliferation activity in radioresistant MDA-MB-231 cells by altering metabolic and transcriptomic profiles.</a>
+<span class="jr">Biochemical and biophysical research communications</span> <span class="pm">PMID 39667070</span></li></ol>
+</section><section class="card" id="gCA12">
+<div class="chd">
+  <span class="idx">06</span>
+  <h3>CA12 <small>carbonic anhydrase 12</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>73</b> 乳腺癌相关</span>
+  <span class="chip"><b>32</b> 近5年</span>
+  <span class="chip"><b>4</b> 综述/Meta</span>
+  <span class="chip"><b>440</b> 符号总文献</span>
+  <span class="chip tag">缺氧/酸化 / 预后 / 小分子抑制</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("CA12"[Title/Abstract] OR "carbonic anhydrase XII"[Title/Abstract] OR "CA XII"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">研究较成熟。碳酸酐酶 XII 在乳腺癌中高表达，且与较好预后相关（与 CA9 的“缺氧-不良预后”模式相反），受 TFAP2C 转录调控；是磺胺类抑制剂、HIF 通路与肿瘤微环境酸化研究的重要靶点，近年延伸至 ER+/HER2- 肿瘤钙化及新辅助化疗反应预测。</p>
+<ol class="papers"><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30784287/" target="_blank">High expression of carbonic anhydrase 12 (CA12) is associated with good prognosis in breast cancer.</a>
+<span class="jr">Neoplasma</span> <span class="pm">PMID 30784287</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35229335/" target="_blank">Correlation between CA12 and TFF3 and their prediction value of neoadjuvant chemotherapy response in breast cancer.</a>
+<span class="jr">Journal of clinical pharmacy and therapeutics</span> <span class="pm">PMID 35229335</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31636386/" target="_blank">TFAP2C regulates carbonic anhydrase XII in human breast cancer.</a>
+<span class="jr">Oncogene</span> <span class="pm">PMID 31636386</span></li></ol>
+</section><section class="card" id="gCLDN7">
+<div class="chd">
+  <span class="idx">07</span>
+  <h3>CLDN7 <small>claudin 7</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>61</b> 乳腺癌相关</span>
+  <span class="chip"><b>18</b> 近5年</span>
+  <span class="chip"><b>3</b> 综述/Meta</span>
+  <span class="chip"><b>190</b> 符号总文献</span>
+  <span class="chip tag">紧密连接 / 侵袭转移 / 分子分型</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("CLDN7"[Title/Abstract] OR "claudin-7"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">研究较成熟。CLDN7 是紧密连接蛋白与 claudin-low 亚型标志体系的核心成员；功能上抑制侵袭转移（通过抑制平滑肌肌动蛋白程序），表达水平与免疫细胞浸润及预后相关。</p>
+<ol class="papers"><li><span class="yr">2011</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/21051248/" target="_blank">Potential markers for detection of circulating canine mammary tumor cells in the peripheral blood.</a>
+<span class="jr">Veterinary journal (London, England : 1997)</span> <span class="pm">PMID 21051248</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36412442/" target="_blank">Dysregulated claudin expression significantly effect breast cancer disease progression.</a>
+<span class="jr">Journal of cancer research and therapeutics</span> <span class="pm">PMID 36412442</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28045912/" target="_blank">Claudin-Low Breast Cancer; Clinical & Pathological Characteristics.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 28045912</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/39175074/" target="_blank">Expression and clinical significance of CLDN7 and its immune-related cells in breast cancer.</a>
+<span class="jr">Diagnostic pathology</span> <span class="pm">PMID 39175074</span></li><li><span class="yr">2016</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26566278/" target="_blank">BRCA Mutation-Related and Claudin-Low Breast Cancer: Blood Relatives or Stepsisters.</a>
+<span class="jr">Pathobiology : journal of immunopathology, molecular and cellular biology</span> <span class="pm">PMID 26566278</span></li><li><span class="yr">2012</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/22936447/" target="_blank">Claudin expression in breast cancer: high or low, what to expect?</a>
+<span class="jr">Histology and histopathology</span> <span class="pm">PMID 22936447</span></li></ol>
+</section><section class="card" id="gCYBRD1">
+<div class="chd">
+  <span class="idx">08</span>
+  <h3>CYBRD1 <small>cytochrome b reductase 1</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>4</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>63</b> 符号总文献</span>
+  <span class="chip tag">铁代谢 / 预后</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("CYBRD1"[Title/Abstract] OR "DCYTB"[Title/Abstract] OR "Dcytb"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据少但方向明确。CYBRD1（DCYTB）为铁还原酶，2017 年 Breast Cancer Research 报道其是乳腺癌预后预测因子，且通过铁非依赖机制发挥作用；另在肿瘤起始细胞的铁代谢异常中被涉及。</p>
+<ol class="papers"><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28270217/" target="_blank">DCYTB is a predictor of outcome in breast cancer that functions via iron-independent mechanisms.</a>
+<span class="jr">Breast cancer research : BCR</span> <span class="pm">PMID 28270217</span><span class="rv">综述</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28031527/" target="_blank">Tumor-initiating cells of breast and prostate origin show alterations in the expression of genes related to iron metabolism.</a>
+<span class="jr">Oncotarget</span> <span class="pm">PMID 28031527</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40069712/" target="_blank">Breast tumors from ATM pathogenic variant carriers display a specific genome-wide DNA methylation profile.</a>
+<span class="jr">Breast cancer research : BCR</span> <span class="pm">PMID 40069712</span></li></ol>
+</section><section class="card" id="gEMP1">
+<div class="chd">
+  <span class="idx">09</span>
+  <h3>EMP1 <small>epithelial membrane protein 1</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>30</b> 乳腺癌相关</span>
+  <span class="chip"><b>18</b> 近5年</span>
+  <span class="chip"><b>2</b> 综述/Meta</span>
+  <span class="chip"><b>282</b> 符号总文献</span>
+  <span class="chip tag">增殖抑制 / CAF 微环境</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("EMP1"[Title/Abstract] OR "epithelial membrane protein-1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">研究中等。EMP1 属抗增殖基因家族（EMP1/2/3），乳腺癌中低表达与进展相关；2025 年 Cell Death & Disease 报道肿瘤细胞来源 EMP1 对 TNBC 中 CAF 浸润不可或缺，提示其微环境重塑功能。</p>
+<ol class="papers"><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32857809/" target="_blank">Expression of EMP1, EMP2, and EMP3 in breast phyllodes tumors.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 32857809</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24402572/" target="_blank">EMP1, a member of a new family of antiproliferative genes in breast carcinoma.</a>
+<span class="jr">Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine</span> <span class="pm">PMID 24402572</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38937754/" target="_blank">Cancer-associated fibroblasts (CAFs) gene signatures predict outcomes in breast and prostate tumor patients.</a>
+<span class="jr">Journal of translational medicine</span> <span class="pm">PMID 38937754</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35472336/" target="_blank">Screening of genes related to breast cancer prognosis based on the DO-UniBIC method.</a>
+<span class="jr">The American journal of the medical sciences</span> <span class="pm">PMID 35472336</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40016223/" target="_blank">Tumor cell-derived EMP1 is essential for cancer-associated fibroblast infiltration in tumor microenvironment of triple-negative breast cancer.</a>
+<span class="jr">Cell death & disease</span> <span class="pm">PMID 40016223</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32908789/" target="_blank">Expression and Role of Epithelial Membrane Proteins in Tumorigenesis of Hormone Receptor-Positive Breast Cancer.</a>
+<span class="jr">Journal of breast cancer</span> <span class="pm">PMID 32908789</span></li></ol>
+</section><section class="card" id="gF3">
+<div class="chd">
+  <span class="idx">10</span>
+  <h3>F3 <small>coagulation factor III / tissue factor</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>272</b> 乳腺癌相关</span>
+  <span class="chip"><b>64</b> 近5年</span>
+  <span class="chip"><b>28</b> 综述/Meta</span>
+  <span class="chip"><b>16253</b> 符号总文献</span>
+  <span class="chip tag">凝血/转移 / EMT / 诊疗探针</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("F3"[ti] OR "tissue factor"[tiab] OR "coagulation factor III"[tiab] OR "CD142"[tiab]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段，剔除材料学等无关命中</div>
+<p class="sum">文献量最大的一类。F3（组织因子/TF）在乳腺癌中与组织学分级、侵袭（经 PAR-2/MMP-9）、EMT 及高凝状态相关，是“肿瘤相关血栓-转移”轴的核心分子；但亦有队列研究认为 TF 表达不预测乳腺癌死亡，结论存在分歧。靶向 TF 的诊疗探针与抗体偶联策略有探索。</p>
+<ol class="papers"><li><span class="yr">2015</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26383051/" target="_blank">Thrombin inhibition and cyclophosphamide synergistically block tumor progression and metastasis.</a>
+<span class="jr">Cancer biology & therapy</span> <span class="pm">PMID 26383051</span></li><li><span class="yr">2013</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24112816/" target="_blank">Tissue factor purified from different cellular sources and non-glycosylated tissue factor show similar procoagulant activity.</a>
+<span class="jr">Journal of thrombosis and haemostasis : JTH</span> <span class="pm">PMID 24112816</span></li><li><span class="yr">1995</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/7648165/" target="_blank">Tissue factor expression correlates with histological grade in human pancreatic cancer.</a>
+<span class="jr">The British journal of surgery</span> <span class="pm">PMID 7648165</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24568471/" target="_blank">Effects of tissue factor, PAR-2 and MMP-9 expression on human breast cancer cell line MCF-7 invasion.</a>
+<span class="jr">Asian Pacific journal of cancer prevention : APJCP</span> <span class="pm">PMID 24568471</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35146636/" target="_blank">Inhibition of Cytochrome P450s by Strobilanthes crispus Sub-Fraction (F3): Implication for Herb-Drug Interaction.</a>
+<span class="jr">European journal of drug metabolism and pharmacokinetics</span> <span class="pm">PMID 35146636</span></li><li><span class="yr">2016</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26489695/" target="_blank">JAK-2 V617F mutation increases heparanase procoagulant activity.</a>
+<span class="jr">Thrombosis and haemostasis</span> <span class="pm">PMID 26489695</span></li></ol>
+</section><section class="card" id="gFXYD3">
+<div class="chd">
+  <span class="idx">11</span>
+  <h3>FXYD3 <small>FXYD domain containing ion transport regulator 3</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>11</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>90</b> 符号总文献</span>
+  <span class="chip tag">肿瘤干细胞 / 耐药 / 钠钾泵</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("FXYD3"[Title/Abstract] OR "Mat-8"[Title/Abstract] OR "MAT8"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据集中且机制清晰。FXYD3 为 Na+/K+-ATPase 调节亚基，2023 年 JCI 报道其功能性界定乳腺癌“祖先型”干细胞亚群并具耐药持留细胞特征；SOX9/FXYD3/Src 轴维持 ER+ 乳腺癌干性；FXYD3 过表达影响多柔比星与 γ 辐射敏感性，雌激素/他莫昔芬可上调其表达。</p>
+<ol class="papers"><li><span class="yr">2015</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26090296/" target="_blank">Estrogen and tamoxifen up-regulate FXYD3 on breast cancer cells: assessing the differential roles of ER α and ZEB1.</a>
+<span class="jr">SpringerPlus</span> <span class="pm">PMID 26090296</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37966117/" target="_blank">FXYD3 functionally demarcates an ancestral breast cancer stem cell subpopulation with features of drug-tolerant persisters.</a>
+<span class="jr">The Journal of clinical investigation</span> <span class="pm">PMID 37966117</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30206184/" target="_blank">SOX9/FXYD3/Src Axis Is Critical for ER(+) Breast Cancer Stem Cell Function.</a>
+<span class="jr">Molecular cancer research : MCR</span> <span class="pm">PMID 30206184</span></li><li><span class="yr">2009</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/19571376/" target="_blank">FXYD3 protein involved in tumor cell proliferation is overproduced in human breast cancer tissues.</a>
+<span class="jr">Biological & pharmaceutical bulletin</span> <span class="pm">PMID 19571376</span></li><li><span class="yr">2016</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26740212/" target="_blank">Silencing overexpression of FXYD3 protein in breast cancer cells amplifies effects of doxorubicin and γ-radiation on Na(+)/K(+)-ATPase and cell survival.</a>
+<span class="jr">Breast cancer research and treatment</span> <span class="pm">PMID 26740212</span></li><li><span class="yr">2011</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/21372379/" target="_blank">Down-regulation of FXYD3 is induced by transforming growth factor-β signaling via ZEB1/δEF1 in human mammary epithelial cells.</a>
+<span class="jr">Biological & pharmaceutical bulletin</span> <span class="pm">PMID 21372379</span></li></ol>
+</section><section class="card" id="gGPR132">
+<div class="chd">
+  <span class="idx">12</span>
+  <h3>GPR132 <small>G protein-coupled receptor 132</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>6</b> 乳腺癌相关</span>
+  <span class="chip"><b>3</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>83</b> 符号总文献</span>
+  <span class="chip tag">乳酸感应 / 巨噬细胞 / 转移</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("GPR132"[tiab] OR "G2A receptor"[tiab] OR "G2A"[ti]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：G2A 限定标题字段</div>
+<p class="sum">证据少但含高影响力机制研究。GPR132（G2A）作为乳酸感应受体介导肿瘤-巨噬细胞互作促进乳腺癌转移（PNAS 2017）；巨噬细胞 PPARγ 抑制 Gpr132 是罗格列酮抗肿瘤作用的机制之一。2026 年首个 G2A 拮抗剂构效关系研究出现，药物化学刚起步。</p>
+<ol class="papers"><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28049847/" target="_blank">Gpr132 sensing of lactate mediates tumor-macrophage interplay to promote breast cancer metastasis.</a>
+<span class="jr">Proceedings of the National Academy of Sciences of the United States of America</span> <span class="pm">PMID 28049847</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41366282/" target="_blank">Identification of predictive pretreatment biomarkers for neoadjuvant chemotherapy response in Latino invasive breast cancer patients.</a>
+<span class="jr">Molecular medicine (Cambridge, Mass.)</span> <span class="pm">PMID 41366282</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31107411/" target="_blank">Machine-learned analysis of the association of next-generation sequencing-based genotypes with persistent pain after breast cancer surgery.</a>
+<span class="jr">Pain</span> <span class="pm">PMID 31107411</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38778969/" target="_blank">The therapeutic effect and targets of herba Sarcandrae on breast cancer and the construction of a prognostic signature consisting of inflammation-related genes.</a>
+<span class="jr">Heliyon</span> <span class="pm">PMID 38778969</span></li></ol>
+</section><section class="card" id="gGPR160">
+<div class="chd">
+  <span class="idx">13</span>
+  <h3>GPR160 <small>G protein-coupled receptor 160</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>4</b> 乳腺癌相关</span>
+  <span class="chip"><b>3</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>40</b> 符号总文献</span>
+  <span class="chip tag">孤儿受体 / 药物基因组学</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("GPR160"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据薄弱。GPR160 为孤儿受体（CART 肽的受体），乳腺癌中仅见于 SNP 与芳香化酶抑制剂疗效交互分析及生物信息学预后模型，无功能验证。</p>
+<ol class="papers"><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34048027/" target="_blank">Interaction Between SNP Genotype and Efficacy of Anastrozole and Exemestane in Early-Stage Breast Cancer.</a>
+<span class="jr">Clinical pharmacology and therapeutics</span> <span class="pm">PMID 34048027</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31632087/" target="_blank">Integrated Bioinformatics Data Analysis Reveals Prognostic Significance Of SIDT1 In Triple-Negative Breast Cancer.</a>
+<span class="jr">OncoTargets and therapy</span> <span class="pm">PMID 31632087</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32355807/" target="_blank">RNA-sequencing and microarray data mining revealing: the aberrantly expressed mRNAs were related with a poor outcome in the triple negative breast cancer patients.</a>
+<span class="jr">Annals of translational medicine</span> <span class="pm">PMID 32355807</span></li></ol>
+</section><section class="card" id="gGPRC5A">
+<div class="chd">
+  <span class="idx">14</span>
+  <h3>GPRC5A <small>G protein-coupled receptor class C group 5 member A</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>19</b> 乳腺癌相关</span>
+  <span class="chip"><b>7</b> 近5年</span>
+  <span class="chip"><b>3</b> 综述/Meta</span>
+  <span class="chip"><b>175</b> 符号总文献</span>
+  <span class="chip tag">PI3K/Akt / 转移耐药 / 表观沉默</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("GPRC5A"[Title/Abstract] OR "RAI3"[Title/Abstract] OR "RAIG1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据较明确。GPRC5A（RAI3）在 TNBC 中作为 PI3K/Akt 生存通路的负调控因子；其启动子甲基化经激活 mTOR 促肝转移与多西他赛耐药；在 HER2+ 新辅助治疗耐药蛋白组学中被识别为标志物。BRCA1 携带者中的 c.183del 变异与乳腺癌风险无关（并有商榷性通讯）。</p>
+<ol class="papers"><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30474284/" target="_blank">The GPRC5A frameshift variant c.183del is not associated with increased breast cancer risk in BRCA1 mutation carriers.</a>
+<span class="jr">International journal of cancer</span> <span class="pm">PMID 30474284</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30474109/" target="_blank">Response to: The GPRC5A frameshift variant c.183del is not associated with increased breast cancer risk in BRCA1 mutation carriers.</a>
+<span class="jr">International journal of cancer</span> <span class="pm">PMID 30474109</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40480221/" target="_blank">Proteogenomic analysis of the CALGB 40601 (Alliance) HER2+ breast cancer neoadjuvant trial reveals resistance biomarkers.</a>
+<span class="jr">Cell reports. Medicine</span> <span class="pm">PMID 40480221</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38335844/" target="_blank">Methylation of GPRC5A promotes liver metastasis and docetaxel resistance through activating mTOR signaling pathway in triple negative breast cancer.</a>
+<span class="jr">Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy</span> <span class="pm">PMID 38335844</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33680947/" target="_blank">GPRC5A Is a Negative Regulator of the Pro-Survival PI3K/Akt Signaling Pathway in Triple-Negative Breast Cancer.</a>
+<span class="jr">Frontiers in oncology</span> <span class="pm">PMID 33680947</span></li></ol>
+</section><section class="card" id="gIFI27">
+<div class="chd">
+  <span class="idx">15</span>
+  <h3>IFI27 <small>interferon alpha inducible protein 27</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>10</b> 乳腺癌相关</span>
+  <span class="chip"><b>5</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>410</b> 符号总文献</span>
+  <span class="chip tag">干扰素信号 / ERα / 免疫签名</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("IFI27"[Title/Abstract] OR "ISG12"[Title/Abstract] OR "IFI27"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据中等。IFI27（ISG12）经促进 ERα 与 CRM1/XPO1 相互作用而下调 ERα 转录活性；并与 TNBC 免疫签名、新辅助化疗后残留灶的空间预后特征相关，属干扰素-内分泌交叉节点。</p>
+<ol class="papers"><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33117284/" target="_blank">IFI27/ISG12 Downregulates Estrogen Receptor α Transactivation by Facilitating Its Interaction With CRM1/XPO1 in Breast Cancer Cells.</a>
+<span class="jr">Frontiers in endocrinology</span> <span class="pm">PMID 33117284</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30203045/" target="_blank">Immunological differences between primary and metastatic breast cancer.</a>
+<span class="jr">Annals of oncology : official journal of the European Society for Medical Oncology</span> <span class="pm">PMID 30203045</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33576900/" target="_blank">Multiethnic PDX models predict a possible immune signature associated with TNBC of African ancestry.</a>
+<span class="jr">Breast cancer research and treatment</span> <span class="pm">PMID 33576900</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40900789/" target="_blank">Spatial gene expression profiling identifies prognostic features of residual tumors after neoadjuvant chemotherapy in triple-negative breast cancer.</a>
+<span class="jr">Frontiers in oncology</span> <span class="pm">PMID 40900789</span></li><li><span class="yr">2011</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/21185374/" target="_blank">Persistent and non-persistent changes in gene expression result from long-term estrogen exposure of MCF-7 breast cancer cells.</a>
+<span class="jr">The Journal of steroid biochemistry and molecular biology</span> <span class="pm">PMID 21185374</span></li></ol>
+</section><section class="card" id="gITPR3">
+<div class="chd">
+  <span class="idx">16</span>
+  <h3>ITPR3 <small>inositol 1,4,5-trisphosphate receptor type 3</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>14</b> 乳腺癌相关</span>
+  <span class="chip"><b>7</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>268</b> 符号总文献</span>
+  <span class="chip tag">钙信号 / TNBC / 预后</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("ITPR3"[Title/Abstract] OR "IP3R3"[Title/Abstract] OR "InsP3R3"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据中等。ITPR3（IP3R3）介导胞内 Ca2+ 释放；BBOX1 通过稳定 IP3R3 促进 TNBC 进展（Cancer Discovery 2020），并影响丙酮酸脱氢酶活性；亦有研究将其作为侵袭性乳腺癌预后工具及易感基因变异对象。</p>
+<ol class="papers"><li><span class="yr">2008</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/18539593/" target="_blank">Role of sigma-1 receptor C-terminal segment in inositol 1,4,5-trisphosphate receptor activation: constitutive enhancement of calcium signaling in MCF-7 tumor cells.</a>
+<span class="jr">The Journal of biological chemistry</span> <span class="pm">PMID 18539593</span></li><li><span class="yr">2005</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/16006774/" target="_blank">Inositol 1,4,5-trisphosphate receptor phosphorylation in breast cancer.</a>
+<span class="jr">Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine</span> <span class="pm">PMID 16006774</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33241108/" target="_blank">BBOX1 promotes triple-negative breast cancer progression by controlling IP3R3 stability.</a>
+<span class="jr">Molecular & cellular oncology</span> <span class="pm">PMID 33241108</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35328381/" target="_blank">Inositol (1,4,5)-Trisphosphate Receptors in Invasive Breast Cancer: A New Prognostic Tool?</a>
+<span class="jr">International journal of molecular sciences</span> <span class="pm">PMID 35328381</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38808320/" target="_blank">Evaluation of IP3R3 Gene Silencing Effect on Pyruvate Dehydrogenase (PDH) Enzyme Activity in Breast Cancer Cells with and Without Estrogen Receptor.</a>
+<span class="jr">Advanced biomedical research</span> <span class="pm">PMID 38808320</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32690540/" target="_blank">Identification of BBOX1 as a Therapeutic Target in Triple-Negative Breast Cancer.</a>
+<span class="jr">Cancer discovery</span> <span class="pm">PMID 32690540</span></li></ol>
+</section><section class="card" id="gKCNK1">
+<div class="chd">
+  <span class="idx">17</span>
+  <h3>KCNK1 <small>potassium two pore domain channel subfamily K member 1</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>3</b> 乳腺癌相关</span>
+  <span class="chip"><b>3</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>71</b> 符号总文献</span>
+  <span class="chip tag">钾通道 / 乳酸代谢 / 表观修饰</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("KCNK1"[Title/Abstract] OR "TWIK-1"[Title/Abstract] OR "TWIK1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">文献少但质量高。KCNK1（TWIK-1）2024 年 PLoS Biology 报道其通过激活 LDHA 并上调 H3K18 乳酰化促进乳腺癌增殖与转移；2023 年提出其可作为预后生物标志与治疗靶点，KCNK 家族预后签名亦有建立。</p>
+<ol class="papers"><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38905316/" target="_blank">KCNK1 promotes proliferation and metastasis of breast cancer cells by activating lactate dehydrogenase A (LDHA) and up-regulating H3K18 lactylation.</a>
+<span class="jr">PLoS biology</span> <span class="pm">PMID 38905316</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36566598/" target="_blank">Identification of KCNK1 as a potential prognostic biomarker and therapeutic target of breast cancer.</a>
+<span class="jr">Pathology, research and practice</span> <span class="pm">PMID 36566598</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35656548/" target="_blank">Integrative Analysis of KCNK Genes and Establishment of a Specific Prognostic Signature for Breast Cancer.</a>
+<span class="jr">Frontiers in cell and developmental biology</span> <span class="pm">PMID 35656548</span></li></ol>
+</section><section class="card" id="gLEPROT">
+<div class="chd">
+  <span class="idx">18</span>
+  <h3>LEPROT <small>leptin receptor overlapping transcript</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>5</b> 乳腺癌相关</span>
+  <span class="chip"><b>4</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>42</b> 符号总文献</span>
+  <span class="chip tag">肥胖/代谢 / 表观调控</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("LEPROT"[Title/Abstract] OR "leptin receptor gene-related protein"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据少。LEPROT 为瘦素受体重叠转录本，泛癌分析显示其与肿瘤微环境及预后相关；乳腺癌中主要为能量限制/启动子甲基化（MMTV-TGF-α 模型）与肥胖相关遗传学研究。</p>
+<ol class="papers"><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32616101/" target="_blank">Effects of Two Types of Calorie Restriction on Methylation Levels of Adiponectin Receptor 1 (AdipoR1) and Leptin Receptor Overlapping Transcript (Leprot) in a MMTV-TGF-α Breast Cancer Mouse Model.</a>
+<span class="jr">The British journal of nutrition</span> <span class="pm">PMID 32616101</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31685042/" target="_blank">Effects of two types of energy restriction on methylation levels of adiponectin receptor 1 and leptin receptor overlapping transcript in a mouse mammary tumour virus-transforming growth factor-α breast cancer mouse model.</a>
+<span class="jr">The British journal of nutrition</span> <span class="pm">PMID 31685042</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35223490/" target="_blank">Single-Nucleotide Polymorphisms in LEP and LEPR Associated With Breast Cancer Risk: Results From a Multicenter Case-Control Study in Chinese Females.</a>
+<span class="jr">Frontiers in oncology</span> <span class="pm">PMID 35223490</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25108739/" target="_blank">Association between germline single nucleotide polymorphisms in the PI3K-AKT-mTOR pathway, obesity, and breast cancer disease-free survival.</a>
+<span class="jr">Breast cancer research and treatment</span> <span class="pm">PMID 25108739</span></li></ol>
+</section><section class="card" id="gLRRC26">
+<div class="chd">
+  <span class="idx">19</span>
+  <h3>LRRC26 <small>leucine rich repeat containing 26</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>8</b> 乳腺癌相关</span>
+  <span class="chip"><b>3</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>48</b> 符号总文献</span>
+  <span class="chip tag">离子通道 / 表观沉默 / TNBC</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("LRRC26"[Title/Abstract] OR "CAPC"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据少但方向明确。LRRC26（CAPC）为 BK 通道 γ 亚基，在 TNBC 中因表观遗传改变而频繁下调，参与恶性进展；CAPC 可负调控 NF-κB 活化并抑制肿瘤生长转移；BK 通道亚基还影响内分泌治疗反应。</p>
+<ol class="papers"><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29386014/" target="_blank">Longitudinal autoantibody responses against tumor-associated antigens decrease in breast cancer patients according to treatment modality.</a>
+<span class="jr">BMC cancer</span> <span class="pm">PMID 29386014</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29512727/" target="_blank">Frequent downregulation of LRRC26 by epigenetic alterations is involved in the malignant progression of triple-negative breast cancer.</a>
+<span class="jr">International journal of oncology</span> <span class="pm">PMID 29512727</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32468618/" target="_blank">Subunits of BK channels promote breast cancer development and modulate responses to endocrine treatment in preclinical models.</a>
+<span class="jr">British journal of pharmacology</span> <span class="pm">PMID 32468618</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29713287/" target="_blank">Transcriptional Repression and Protein Degradation of the Ca(2+)-Activated K(+) Channel K(Ca)1.1 by Androgen Receptor Inhibition in Human Breast Cancer Cells.</a>
+<span class="jr">Frontiers in physiology</span> <span class="pm">PMID 29713287</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41595616/" target="_blank">RXR Agonist V-125 Induces Distinct Transcriptional and Immunomodulatory Programs in Mammary Tumors of MMTV-Neu Mice Compared to Bexarotene.</a>
+<span class="jr">Biomedicines</span> <span class="pm">PMID 41595616</span></li></ol>
+</section><section class="card" id="gMAL2">
+<div class="chd">
+  <span class="idx">20</span>
+  <h3>MAL2 <small>mal, T cell differentiation protein 2</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>24</b> 乳腺癌相关</span>
+  <span class="chip"><b>17</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>200</b> 符号总文献</span>
+  <span class="chip tag">免疫逃逸 / 抗原提呈 / 预后</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MAL2"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">研究较成熟且机制清晰。MAL2 驱动乳腺癌免疫逃逸（通过抑制肿瘤抗原提呈、促进 MHC-I 降解，JCI 2021 两篇并配评论）；下调 MAL2 经 β-catenin/c-Myc 轴抑制进展；表达与免疫浸润及不良预后相关，是颇具吸引力的免疫治疗增敏靶点。</p>
+<ol class="papers"><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36595824/" target="_blank">Breast cancer combined prognostic model based on lactate metabolism genes.</a>
+<span class="jr">Medicine</span> <span class="pm">PMID 36595824</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33393509/" target="_blank">Immune MAL2-practice: breast cancer immunoevasion via MHC class I degradation.</a>
+<span class="jr">The Journal of clinical investigation</span> <span class="pm">PMID 33393509</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37480012/" target="_blank">Downregulation of MAL2 inhibits breast cancer progression through regulating β-catenin/c-Myc axis.</a>
+<span class="jr">Cancer cell international</span> <span class="pm">PMID 37480012</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32990678/" target="_blank">MAL2 drives immune evasion in breast cancer by suppressing tumor antigen presentation.</a>
+<span class="jr">The Journal of clinical investigation</span> <span class="pm">PMID 32990678</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34567213/" target="_blank">Overexpression of MAL2 Correlates with Immune Infiltration and Poor Prognosis in Breast Cancer.</a>
+<span class="jr">Evidence-based complementary and alternative medicine : eCAM</span> <span class="pm">PMID 34567213</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30195491/" target="_blank">MAL2 promotes proliferation, migration, and invasion through regulating epithelial-mesenchymal transition in breast cancer cell lines.</a>
+<span class="jr">Biochemical and biophysical research communications</span> <span class="pm">PMID 30195491</span></li></ol>
+</section><section class="card" id="gMALL">
+<div class="chd">
+  <span class="idx">21</span>
+  <h3>MALL <small>mal, T cell differentiation protein (MAL)</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>12</b> 乳腺癌相关</span>
+  <span class="chip"><b>7</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>780</b> 符号总文献</span>
+  <span class="chip tag">抑癌失活 / 化疗获益</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MALL"[ti] OR "MAL"[ti] OR "myelin and lymphocyte protein"[tiab]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段，剔除英文单词 mall 干扰</div>
+<p class="sum">证据中等。MAL（MALL）基因在乳腺癌中失活是常见事件，且可预测辅助化疗获益（2009 Molecular Cancer Research）；2023 年 MAL 蛋白家族综述系统梳理了其作为肿瘤标志物的潜力。注意与 MAL2 文献需区分。</p>
+<ol class="papers"><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37480012/" target="_blank">Downregulation of MAL2 inhibits breast cancer progression through regulating β-catenin/c-Myc axis.</a>
+<span class="jr">Cancer cell international</span> <span class="pm">PMID 37480012</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37816015/" target="_blank">Therapeutic dosing and targeting efficacy of Pt-Mal-LHRH towards triple negative breast cancer.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 37816015</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36938678/" target="_blank">LINC00460 Facilitates Cell Proliferation and Inhibits Ferroptosis in Breast Cancer Through the miR-320a/MAL2 Axis.</a>
+<span class="jr">Technology in cancer research & treatment</span> <span class="pm">PMID 36938678</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35176336/" target="_blank">Lipid raft-mediated and upregulated coordination pathways assist transport of glycocholic acid-modified nanoparticle in a human breast cancer cell line of SK-BR-3.</a>
+<span class="jr">International journal of pharmaceutics</span> <span class="pm">PMID 35176336</span></li><li><span class="yr">2009</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/19208741/" target="_blank">Inactivation of the MAL gene in breast cancer is a common event that predicts benefit from adjuvant chemotherapy.</a>
+<span class="jr">Molecular cancer research : MCR</span> <span class="pm">PMID 19208741</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27997127/" target="_blank">Pt-Mal-LHRH, a Newly Synthesized Compound Attenuating Breast Cancer Tumor Growth and Metastasis by Targeting Overexpression of the LHRH Receptor.</a>
+<span class="jr">Bioconjugate chemistry</span> <span class="pm">PMID 27997127</span></li></ol>
+</section><section class="card" id="gMFSD10">
+<div class="chd">
+  <span class="idx">22</span>
+  <h3>MFSD10 <small>major facilitator superfamily domain containing 10</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>8</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MFSD10"[Title/Abstract] OR "TETRAN"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白。以“MFSD10”及别名 TETRAN 检索，乳腺癌领域无任何命中；以全字段检索亦为 0 条。属尚未被研究的靶点。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gMFSD12">
+<div class="chd">
+  <span class="idx">23</span>
+  <h3>MFSD12 <small>major facilitator superfamily domain containing 12</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>2</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>34</b> 符号总文献</span>
+  <span class="chip tag">溶酶体 / 氧化应激</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MFSD12"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据极少。MFSD12 参与溶酶体胱氨酸储运与氧化应激耐受，综述提及其在肿瘤与溶酶体贮积病中的作用；乳腺癌领域尚无专门的功能或临床研究。</p>
+<ol class="papers"><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37751742/" target="_blank">Lysosomal cyst(e)ine storage potentiates tolerance to oxidative stress in cancer cells.</a>
+<span class="jr">Molecular cell</span> <span class="pm">PMID 37751742</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38903991/" target="_blank">The emerging role and clinicopathological significance of MFSD12 in cancer and lysosomal storage diseases.</a>
+<span class="jr">Frontiers in pharmacology</span> <span class="pm">PMID 38903991</span><span class="rv">综述</span></li></ol>
+</section><section class="card" id="gMT-ND2">
+<div class="chd">
+  <span class="idx">24</span>
+  <h3>MT-ND2 <small>mitochondrially encoded NADH dehydrogenase 2</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>4</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>98</b> 符号总文献</span>
+  <span class="chip tag">mtDNA 变异 / 风险关联</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MT-ND2"[tiab] OR "MTND2"[tiab] OR "ND2"[ti]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段</div>
+<p class="sum">证据少。主要为线粒体 DNA 变异/多态性与乳腺癌发病风险的关联研究（多族群队列、波兰人群），属线粒体遗传易感性方向，缺乏功能机制研究。</p>
+<ol class="papers"><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31577800/" target="_blank">Association between mitochondrial genetic variation and breast cancer risk: The Multiethnic Cohort.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 31577800</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36758048/" target="_blank">Mitochondrial genome in sporadic breast cancer: A case control study and a proteomic analysis in a Sinhalese cohort from Sri Lanka.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 36758048</span></li><li><span class="yr">2026</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/42151122/" target="_blank">ICAM2 promotes endocrine resistance via dynein-mediated OXPHOS activation in ER-positive breast cancer.</a>
+<span class="jr">Cell death & disease</span> <span class="pm">PMID 42151122</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24414975/" target="_blank">Mitochondrial NADH dehydrogenase polymorphisms are associated with breast cancer in Poland.</a>
+<span class="jr">Journal of applied genetics</span> <span class="pm">PMID 24414975</span></li></ol>
+</section><section class="card" id="gMT-ND4">
+<div class="chd">
+  <span class="idx">25</span>
+  <h3>MT-ND4 <small>mitochondrially encoded NADH dehydrogenase 4</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>5</b> 乳腺癌相关</span>
+  <span class="chip"><b>3</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>166</b> 符号总文献</span>
+  <span class="chip tag">mtDNA 变异 / 代谢重编程</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MT-ND4"[tiab] OR "MTND4"[tiab] OR "ND4"[ti]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段</div>
+<p class="sum">证据少。涉及 mtDNA 变异与家族性乳腺癌风险、线粒体-核上位效应；另有 let-7a 靶向线粒体编码 ND4 诱导代谢重编程、突变 mtDNA 经胞外囊泡传递介导化疗耐药的研究。</p>
+<ol class="papers"><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34838007/" target="_blank">Let-7a induces metabolic reprogramming in breast cancer cells via targeting mitochondrial encoded ND4.</a>
+<span class="jr">Cancer cell international</span> <span class="pm">PMID 34838007</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24603941/" target="_blank">Mitochondrial DNA variants and risk of familial breast cancer: an exploratory study.</a>
+<span class="jr">International journal of oncology</span> <span class="pm">PMID 24603941</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35082309/" target="_blank">Mitochondrial-nuclear epistasis underlying phenotypic variation in breast cancer pathology.</a>
+<span class="jr">Scientific reports</span> <span class="pm">PMID 35082309</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30227369/" target="_blank">The variation of mitochondrial NADH dehydrogenase subunit 4 (mtND4) and molecular dynamics simulation of SNPs among Iranian women with breast cancer.</a>
+<span class="jr">Journal of molecular graphics & modelling</span> <span class="pm">PMID 30227369</span></li></ol>
+</section><section class="card" id="gMT-ND4L">
+<div class="chd">
+  <span class="idx">26</span>
+  <h3>MT-ND4L <small>mitochondrially encoded NADH dehydrogenase 4L</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>36</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MT-ND4L"[tiab] OR "MTND4L"[tiab] OR "ND4L"[ti]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段</div>
+<p class="sum">空白。检索无乳腺癌相关命中，全字段检索亦为 0 条。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gMYADM">
+<div class="chd">
+  <span class="idx">27</span>
+  <h3>MYADM <small>myeloid associated differentiation marker</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>2</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>53</b> 符号总文献</span>
+  <span class="chip tag">MAL 家族</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("MYADM"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据极少。仅在 MAL 蛋白家族综述与 TNBC 肿瘤相关 NK 细胞研究中被间接提及，乳腺癌领域无专门研究。</p>
+<ol class="papers"><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37345137/" target="_blank">The MAL Family of Proteins: Normal Function, Expression in Cancer, and Potential Use as Cancer Biomarkers.</a>
+<span class="jr">Cancers</span> <span class="pm">PMID 37345137</span><span class="rv">综述</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41454416/" target="_blank">Unleashing the potential role of tumor-associated NK cells as a novel immunotherapeutic target in triple-negative breast cancer.</a>
+<span class="jr">Breast cancer research : BCR</span> <span class="pm">PMID 41454416</span></li></ol>
+</section><section class="card" id="gNHSL2">
+<div class="chd">
+  <span class="idx">28</span>
+  <h3>NHSL2 <small>NHS like 2</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>1</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>5</b> 符号总文献</span>
+  <span class="chip tag">体细胞突变</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("NHSL2"[Title/Abstract] OR "NHSL2"[Title/Abstract] OR "KIAA2022"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白（近空白）。仅在全外显子组测序识别中国乳腺癌体细胞突变的队列中被列出，无功能或临床研究。</p>
+<ol class="papers"><li><span class="yr">2015</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26870154/" target="_blank">Whole-Exome Sequencing Identifies Novel Somatic Mutations in Chinese Breast Cancer Patients.</a>
+<span class="jr">Journal of molecular and genetic medicine : an international journal of biomedical research</span> <span class="pm">PMID 26870154</span></li></ol>
+</section><section class="card" id="gNR3C1">
+<div class="chd">
+  <span class="idx">29</span>
+  <h3>NR3C1 <small>nuclear receptor subfamily 3 group C member 1 (glucocorticoid receptor)</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>389</b> 乳腺癌相关</span>
+  <span class="chip"><b>115</b> 近5年</span>
+  <span class="chip"><b>54</b> 综述/Meta</span>
+  <span class="chip"><b>1735</b> 符号总文献</span>
+  <span class="chip tag">应激/糖皮质激素 / 转移 / 治疗反应</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("NR3C1"[tiab] OR "glucocorticoid receptor"[tiab]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：剔除歧义缩写 GR</div>
+<p class="sum">证据最充分的方向之一。糖皮质激素受体（GR/NR3C1）构成“应激-肿瘤”主轴：内源性糖皮质激素与慢性应激经 GR 促进转移（Nature 2019、Cancer Cell 2024、Cancer Research 2026），GR-FAS 轴控制转移定植期的免疫逃逸（Nature 2026），间歇性禁食经 GR 激活增强治疗效果（Nature 2026）；GR-PDK4 轴驱动迁移与代谢重编程；ER+/PR+ 肿瘤 NR3C1 mRNA 更高，与 Luminal A 预后相关。</p>
+<ol class="papers"><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30867597/" target="_blank">Glucocorticoids promote breast cancer metastasis.</a>
+<span class="jr">Nature</span> <span class="pm">PMID 30867597</span></li><li><span class="yr">2026</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41372410/" target="_blank">Fasting boosts breast cancer therapy efficacy via glucocorticoid activation.</a>
+<span class="jr">Nature</span> <span class="pm">PMID 41372410</span></li><li><span class="yr">2026</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40991232/" target="_blank">Stress Promotes Lung Metastasis in Breast Cancer by Altering Neutrophil Differentiation.</a>
+<span class="jr">Cancer research</span> <span class="pm">PMID 40991232</span></li></ol>
+</section><section class="card" id="gORMDL2">
+<div class="chd">
+  <span class="idx">30</span>
+  <h3>ORMDL2 <small>ORMDL sphingolipid biosynthesis regulator 2</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>1</b> 乳腺癌相关</span>
+  <span class="chip"><b>1</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>20</b> 符号总文献</span>
+  <span class="chip tag">鞘脂代谢</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("ORMDL2"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">近空白。仅见于 ORMDL 家族在恶性肿瘤中的综述性论述，乳腺癌领域无专门研究。</p>
+<ol class="papers"><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40757047/" target="_blank">Advances in ORMDL Research in Malignant Tumors: A Review.</a>
+<span class="jr">OncoTargets and therapy</span> <span class="pm">PMID 40757047</span><span class="rv">综述</span></li></ol>
+</section><section class="card" id="gPIGC">
+<div class="chd">
+  <span class="idx">31</span>
+  <h3>PIGC <small>phosphatidylinositol glycan anchor biosynthesis class C</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>4</b> 乳腺癌相关</span>
+  <span class="chip"><b>4</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>88</b> 符号总文献</span>
+  <span class="chip tag">GPI 锚定 / lncRNA 网络</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("PIGC"[Title/Abstract] OR "PIG-C"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据少但有趣。PIGC（GPI 锚定合成酶）作为 lncRNA NEAT1/MALAT1 调控网络中的节点被报道（miR-182/PIG-C/mesothelin 轴，TNBC），机制依赖上游 lncRNA，尚无独立靶点研究。</p>
+<ol class="papers"><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37783583/" target="_blank">Corrigendum to "NEAT1: Culprit lncRNA linking PIGC, MSLN, and CD80 in triple-negative breast cancer" [Life Sci., volume 299 (2022) 120523].</a>
+<span class="jr">Life sciences</span> <span class="pm">PMID 37783583</span></li><li><span class="yr">2023</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37821336/" target="_blank">Corrigendum to "MALAT-1: LncRNA ruling miR-182/PIG-C/mesothelin triad in triple negative breast cancer" [Pathol. Res. Pract. 216 (2020) 153274].</a>
+<span class="jr">Pathology, research and practice</span> <span class="pm">PMID 37821336</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35378140/" target="_blank">NEAT1: Culprit lncRNA linking PIG-C, MSLN, and CD80 in triple-negative breast cancer.</a>
+<span class="jr">Life sciences</span> <span class="pm">PMID 35378140</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33171372/" target="_blank">MALAT-1: LncRNA ruling miR-182/PIG-C/mesothelin triad in triple negative breast cancer.</a>
+<span class="jr">Pathology, research and practice</span> <span class="pm">PMID 33171372</span></li></ol>
+</section><section class="card" id="gPMP22">
+<div class="chd">
+  <span class="idx">32</span>
+  <h3>PMP22 <small>peripheral myelin protein 22</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>19</b> 乳腺癌相关</span>
+  <span class="chip"><b>5</b> 近5年</span>
+  <span class="chip"><b>3</b> 综述/Meta</span>
+  <span class="chip"><b>1447</b> 符号总文献</span>
+  <span class="chip tag">增殖调控 / 标志物</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("PMP22"[tiab] OR "peripheral myelin protein 22"[tiab] OR "GAS3"[tiab]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：剔除 PERP/EMP 家族误检</div>
+<p class="sum">证据中等。PMP22（GAS3）在乳腺癌中受 G3BP1 调控而影响细胞增殖；IL-24/mda-7 经上调 GAS3 并破坏 β1 整合素功能抑制乳腺癌；常与 EMP 家族一并作为潜在标志物讨论。</p>
+<ol class="papers"><li><span class="yr">2015</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26460950/" target="_blank">Suppression of Her2/Neu mammary tumor development in mda-7/IL-24 transgenic mice.</a>
+<span class="jr">Oncotarget</span> <span class="pm">PMID 26460950</span></li><li><span class="yr">2013</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/23468528/" target="_blank">mda-7/IL-24 expression inhibits breast cancer through upregulation of growth arrest-specific gene 3 (gas3) and disruption of β1 integrin function.</a>
+<span class="jr">Molecular cancer research : MCR</span> <span class="pm">PMID 23468528</span></li><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35178836/" target="_blank">DCAF13 promotes breast cancer cell proliferation by ubiquitin inhibiting PERP expression.</a>
+<span class="jr">Cancer science</span> <span class="pm">PMID 35178836</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41456178/" target="_blank">PERP suppresses breast cancer metastasis via the ATF3-HSPA6 signaling pathway.</a>
+<span class="jr">The Journal of international medical research</span> <span class="pm">PMID 41456178</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28925397/" target="_blank">Coactosin-like protein CLP/Cotl1 suppresses breast cancer growth through activation of IL-24/PERP and inhibition of non-canonical TGFβ signaling.</a>
+<span class="jr">Oncogene</span> <span class="pm">PMID 28925397</span></li><li><span class="yr">2013</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24321297/" target="_blank">Regulation of PMP22 mRNA by G3BP1 affects cell proliferation in breast cancer cells.</a>
+<span class="jr">Molecular cancer</span> <span class="pm">PMID 24321297</span></li></ol>
+</section><section class="card" id="gPNP">
+<div class="chd">
+  <span class="idx">33</span>
+  <h3>PNP <small>purine nucleoside phosphorylase</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>18</b> 乳腺癌相关</span>
+  <span class="chip"><b>11</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>7441</b> 符号总文献</span>
+  <span class="chip tag">自杀基因治疗 / 酶前药 / 免疫联合</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("purine nucleoside phosphorylase"[tiab] OR "PNP"[ti]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段，剔除化学/护理类同名词</div>
+<p class="sum">证据中等，方向偏治疗转化。嘌呤核苷磷酸化酶主要用于自杀基因治疗（PNP/氟达拉滨系统）与抗体/Annexin V 靶向血管的酶前药治疗；2026 年 JCI Insight 报道瘤内核苷切割可拓宽检查点阻断疗效。作为代谢酶靶点的直接证据有限。</p>
+<ol class="papers"><li><span class="yr">2013</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24098491/" target="_blank">Purine nucleoside phosphorylase targeted by annexin v to breast cancer vasculature for enzyme prodrug therapy.</a>
+<span class="jr">PloS one</span> <span class="pm">PMID 24098491</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38039708/" target="_blank">Relationship of cancer-related fatigue with psychoneurophysiological (PNP) symptoms in breast cancer survivors.</a>
+<span class="jr">European journal of oncology nursing : the official journal of European Oncology Nursing Society</span> <span class="pm">PMID 38039708</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33708463/" target="_blank">Suicide gene therapy-mediated purine nucleoside phosphorylase/fludarabine system for in vitro breast cancer model with emphasis on evaluation of vascular endothelial growth factor promoter efficacy.</a>
+<span class="jr">3 Biotech</span> <span class="pm">PMID 33708463</span></li></ol>
+</section><section class="card" id="gPPARG">
+<div class="chd">
+  <span class="idx">34</span>
+  <h3>PPARG <small>peroxisome proliferator activated receptor gamma</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>595</b> 乳腺癌相关</span>
+  <span class="chip"><b>208</b> 近5年</span>
+  <span class="chip"><b>49</b> 综述/Meta</span>
+  <span class="chip"><b>3804</b> 符号总文献</span>
+  <span class="chip tag">脂代谢 / 内分泌耐药 / 微环境</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("PPARG"[Title/Abstract] OR "PPARgamma"[Title/Abstract] OR "PPAR-gamma"[Title/Abstract] OR "PPAR gamma"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据最充分的方向之一。PPARγ 在乳腺癌中作用双向：激活脂肪酸代谢驱动抗 HER2 耐药（2025）；噻唑烷二酮类激动剂抑制增殖并诱导凋亡；与 BRCA1、肥胖及肿瘤相关巨噬细胞极化密切相关；联合 MEK 抑制剂调节脂代谢与脂肪重编程是新兴策略。</p>
+<ol class="papers"><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40465018/" target="_blank">Analyzing the potential targets and mechanism of per- and polyfluoroalkyl substances (PFAS) on breast cancer by integrating network toxicology, single-cell sequencing, spatial transcriptomics, and molecular simulation.</a>
+<span class="jr">Functional & integrative genomics</span> <span class="pm">PMID 40465018</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40303293/" target="_blank">PPARG Activation of Fatty Acid Metabolism Drives Resistance to Anti-HER2 Therapies in HER2-Positive Breast Cancer.</a>
+<span class="jr">International journal of biological sciences</span> <span class="pm">PMID 40303293</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40507798/" target="_blank">The Splice Variant of the NCOR2 Gene BQ323636.1 Modulates ACSL4 Expression to Enhance Fatty Acid Metabolism and Support of Tumor Growth in Breast Cancer.</a>
+<span class="jr">International journal of molecular sciences</span> <span class="pm">PMID 40507798</span></li><li><span class="yr">2026</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/42911512/" target="_blank">Therapeutic potential of combined PPARγ agonist and MEK inhibitor treatment in modulating lipid metabolism and adipogenic reprogramming of breast cancer cells.</a>
+<span class="jr">Molecular and cellular biochemistry</span> <span class="pm">PMID 42911512</span></li><li><span class="yr">2011</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/21930124/" target="_blank">Combination of thiazolidinedione and hydralazine suppresses proliferation and induces apoptosis by PPARγ up-expression in MDA-MB-231 cells.</a>
+<span class="jr">Experimental and molecular pathology</span> <span class="pm">PMID 21930124</span></li><li><span class="yr">2007</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/17052999/" target="_blank">Complementary actions of docosahexaenoic acid and genistein on COX-2, PGE2 and invasiveness in MDA-MB-231 breast cancer cells.</a>
+<span class="jr">Carcinogenesis</span> <span class="pm">PMID 17052999</span></li></ol>
+</section><section class="card" id="gPTGER4">
+<div class="chd">
+  <span class="idx">35</span>
+  <h3>PTGER4 <small>prostaglandin E receptor 4</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>24</b> 乳腺癌相关</span>
+  <span class="chip"><b>6</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>292</b> 符号总文献</span>
+  <span class="chip tag">炎症/前列腺素 / 内分泌耐药</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("PTGER4"[Title/Abstract] OR "EP4 receptor"[Title/Abstract] OR "prostaglandin E receptor 4"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据中等且机制明确。COX-2/PGE2-EP4 轴是关键炎症-肿瘤通路：EP4 表观激活介导内分泌治疗耐药（Oncogene 2017），COX-2 经 EP4 上调致癌 miR-526b；与免疫浸润及预后相关。</p>
+<ol class="papers"><li><span class="yr">2022</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36335879/" target="_blank">miR-3614-5p downregulation promotes cadmium-induced breast cancer cell proliferation and metastasis by targeting TXNRD1.</a>
+<span class="jr">Ecotoxicology and environmental safety</span> <span class="pm">PMID 36335879</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28094049/" target="_blank">EP4 receptor promotes invadopodia and invasion in human breast cancer.</a>
+<span class="jr">European journal of cell biology</span> <span class="pm">PMID 28094049</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41388289/" target="_blank">Targeting pre-metastatic niche with inhalable dendritic cell vesicles to prevent breast cancer lung metastasis.</a>
+<span class="jr">Journal of nanobiotechnology</span> <span class="pm">PMID 41388289</span></li><li><span class="yr">2006</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/16540639/" target="_blank">Prostaglandin E receptor EP4 antagonism inhibits breast cancer metastasis.</a>
+<span class="jr">Cancer research</span> <span class="pm">PMID 16540639</span></li><li><span class="yr">2014</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/24281828/" target="_blank">Prostaglandin E receptor EP4 is a therapeutic target in breast cancer cells with stem-like properties.</a>
+<span class="jr">Breast cancer research and treatment</span> <span class="pm">PMID 24281828</span></li><li><span class="yr">2015</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25733698/" target="_blank">COX-2 Elevates Oncogenic miR-526b in Breast Cancer by EP4 Activation.</a>
+<span class="jr">Molecular cancer research : MCR</span> <span class="pm">PMID 25733698</span></li></ol>
+</section><section class="card" id="gS1PR1">
+<div class="chd">
+  <span class="idx">36</span>
+  <h3>S1PR1 <small>sphingosine-1-phosphate receptor 1</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>49</b> 乳腺癌相关</span>
+  <span class="chip"><b>25</b> 近5年</span>
+  <span class="chip"><b>5</b> 综述/Meta</span>
+  <span class="chip"><b>1173</b> 符号总文献</span>
+  <span class="chip tag">S1P 信号 / 淋巴管生成 / 免疫</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("S1PR1"[Title/Abstract] OR "S1P1"[Title/Abstract] OR "S1P receptor 1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">研究较成熟。S1P/S1PR1 轴在肿瘤相关巨噬细胞上经 NLRP3/IL-1β 促淋巴管生成与转移（JEM 2017）；与免疫浸润及乳腺癌/肺癌预后相关；2026 年 ACS Nano 报道抑制交感神经驱动的 T 细胞耗竭需协同调控 S1PR1 通路；另有 S1PR1 靶向缓解骨癌痛的证据。</p>
+<ol class="papers"><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34283088/" target="_blank">Tumor Microenvironment: Key Players in Triple Negative Breast Cancer Immunomodulation.</a>
+<span class="jr">Cancers</span> <span class="pm">PMID 34283088</span><span class="rv">综述</span></li><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34440595/" target="_blank">Sphingosine-1-Phosphate Induces ATP Release via Volume-Regulated Anion Channels in Breast Cell Lines.</a>
+<span class="jr">Life (Basel, Switzerland)</span> <span class="pm">PMID 34440595</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29078883/" target="_blank">Doxorubicin effect is enhanced by sphingosine-1-phosphate signaling antagonist in breast cancer.</a>
+<span class="jr">The Journal of surgical research</span> <span class="pm">PMID 29078883</span></li><li><span class="yr">2018</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29923327/" target="_blank">Survival benefit of sphingosin-1-phosphate and receptors expressions in breast cancer patients.</a>
+<span class="jr">Cancer medicine</span> <span class="pm">PMID 29923327</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28982858/" target="_blank">Effects of S1P1 and S1P3 in ER(+) and ER(-) Breast Cancer Cells.</a>
+<span class="jr">Anticancer research</span> <span class="pm">PMID 28982858</span></li></ol>
+</section><section class="card" id="gSAMD8">
+<div class="chd">
+  <span class="idx">37</span>
+  <h3>SAMD8 <small>sterile alpha motif domain containing 8</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>17</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("SAMD8"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白。检索无乳腺癌相关命中，全字段检索亦为 0 条。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gSCD">
+<div class="chd">
+  <span class="idx">38</span>
+  <h3>SCD <small>stearoyl-CoA desaturase</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>95</b> 乳腺癌相关</span>
+  <span class="chip"><b>57</b> 近5年</span>
+  <span class="chip"><b>7</b> 综述/Meta</span>
+  <span class="chip"><b>22255</b> 符号总文献</span>
+  <span class="chip tag">脂代谢 / 铁死亡 / 转移耐药</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("SCD"[ti] OR "stearoyl-CoA desaturase"[tiab] OR "SCD1"[tiab] OR "delta-9 desaturase"[tiab]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：符号限定标题字段，剔除镰状细胞病等干扰</div>
+<p class="sum">研究成熟。硬脂酰辅酶 A 去饱和酶（SCD1）是单不饱和脂肪酸合成与抗铁死亡的核心酶：乳腺癌分泌抗铁死亡 MUFA 并依赖硒蛋白合成促转移（EMBO Mol Med 2024）；PI3K-AKT-mTOR 经 SREBP 抑制铁死亡；SCD1 抑制剂与天然产物（ZQL-4c、红景天苷）可增敏铁死亡；脂肪细胞 Zeb1 下调重塑肿瘤脂肪微环境。</p>
+<ol class="papers"><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29271901/" target="_blank">Docosahexaenoic Acid in Combination with Dietary Energy Restriction for Reducing the Risk of Obesity Related Breast Cancer.</a>
+<span class="jr">International journal of molecular sciences</span> <span class="pm">PMID 29271901</span><span class="rv">综述</span></li><li><span class="yr">2012</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/22245140/" target="_blank">The BRCA1 alternative splicing variant Δ14-15 with an in-frame deletion of part of the regulatory serine-containing domain (SCD) impairs the DNA repair capacity in MCF-7 cells.</a>
+<span class="jr">Cellular signalling</span> <span class="pm">PMID 22245140</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/40691103/" target="_blank">ZQL-4c exerts anti-tumor effects by specifically targeting SCD1 in triple-negative breast cancer both in vitro and in vivo.</a>
+<span class="jr">Chinese medical journal</span> <span class="pm">PMID 40691103</span></li><li><span class="yr">2025</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/39353532/" target="_blank">Salidroside sensitizes Triple-negative breast cancer to ferroptosis by SCD1-mediated lipogenesis and NCOA4-mediated ferritinophagy.</a>
+<span class="jr">Journal of advanced research</span> <span class="pm">PMID 39353532</span></li><li><span class="yr">2026</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41827943/" target="_blank">Lipid Metabolism and Ferroptosis Resistance in Dormant Breast Cancer Cells: Emerging Therapeutic Vulnerabilities.</a>
+<span class="jr">Diagnostics (Basel, Switzerland)</span> <span class="pm">PMID 41827943</span><span class="rv">综述</span></li></ol>
+</section><section class="card" id="gSLC18B1">
+<div class="chd">
+  <span class="idx">39</span>
+  <h3>SLC18B1 <small>solute carrier family 18 member B1</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>14</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("SLC18B1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白。检索无乳腺癌相关命中，全字段检索亦为 0 条。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gSMIM22">
+<div class="chd">
+  <span class="idx">40</span>
+  <h3>SMIM22 <small>small integral membrane protein 22</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>5</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("SMIM22"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白。检索无乳腺癌相关命中，全字段检索亦为 0 条。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gSSTR2">
+<div class="chd">
+  <span class="idx">41</span>
+  <h3>SSTR2 <small>somatostatin receptor 2</small></h3>
+  <span class="bd" style="color:#b3261e;background:#fdecea">证据高</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>55</b> 乳腺癌相关</span>
+  <span class="chip"><b>14</b> 近5年</span>
+  <span class="chip"><b>4</b> 综述/Meta</span>
+  <span class="chip"><b>1465</b> 符号总文献</span>
+  <span class="chip tag">受体靶向 / 递送 / 核素治疗</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("SSTR2"[tiab] OR "somatostatin receptor 2"[tiab] OR "somatostatin receptor subtype 2"[tiab]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div><div class="qnote">检索式说明：剔除神经内分泌肿瘤治疗类泛化命中</div>
+<p class="sum">研究较成熟但偏“受体-递送”方向。SSTR2 在乳腺癌组织与细胞系中表达，早期即有抗增殖功能研究；近年主要作为靶向递送与核素治疗靶点（SSTR 靶向脂质体抑制 IL-6、PRRT、SSTR2 导向 CAR-T），并有 SSTR1/SSTR2 多态性与风险关联分析。</p>
+<ol class="papers"><li><span class="yr">2015</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25985817/" target="_blank">Alteration of somatostatin receptor 2 expression in canine mammary gland tumor.</a>
+<span class="jr">The Journal of veterinary medical science</span> <span class="pm">PMID 25985817</span></li><li><span class="yr">2017</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28025102/" target="_blank">Somatostatin receptor targeted liposomes with Diacerein inhibit IL-6 for breast cancer therapy.</a>
+<span class="jr">Cancer letters</span> <span class="pm">PMID 28025102</span></li><li><span class="yr">2000</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/10959409/" target="_blank">Somatostatin and opioid receptors in mammary tissue. Role in cancer cell growth.</a>
+<span class="jr">Advances in experimental medicine and biology</span> <span class="pm">PMID 10959409</span><span class="rv">综述</span></li><li><span class="yr">1997</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/9062398/" target="_blank">Analysis of somatostatin receptor subtype mRNA expression in human breast cancer.</a>
+<span class="jr">British journal of cancer</span> <span class="pm">PMID 9062398</span></li><li><span class="yr">2001</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/11311492/" target="_blank">Association analysis of somatostatin receptor (SSTR1 and SSTR2) polymorphisms in breast cancer and solar keratosis.</a>
+<span class="jr">Cancer letters</span> <span class="pm">PMID 11311492</span></li><li><span class="yr">2009</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/19575008/" target="_blank">The antiproliferative effects of somatostatin receptor subtype 2 in breast cancer cells.</a>
+<span class="jr">Acta pharmacologica Sinica</span> <span class="pm">PMID 19575008</span></li></ol>
+</section><section class="card" id="gTMC4">
+<div class="chd">
+  <span class="idx">42</span>
+  <h3>TMC4 <small>transmembrane channel like 4</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>2</b> 乳腺癌相关</span>
+  <span class="chip"><b>1</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>97</b> 符号总文献</span>
+  <span class="chip tag">组学被动检出</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("TMC4"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据极少。仅在线粒体/代谢组学分析中被被动检出，无功能研究。</p>
+<ol class="papers"><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31593922/" target="_blank">Tumor expression of environmental chemical-responsive genes and breast cancer mortality.</a>
+<span class="jr">Endocrine-related cancer</span> <span class="pm">PMID 31593922</span></li><li><span class="yr">2020</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32341500/" target="_blank">Gene expression profiles for low-dose exposure to diethyl phthalate in rodents and humans: a translational study with implications for breast carcinogenesis.</a>
+<span class="jr">Scientific reports</span> <span class="pm">PMID 32341500</span></li></ol>
+</section><section class="card" id="gTMEM254">
+<div class="chd">
+  <span class="idx">43</span>
+  <h3>TMEM254 <small>transmembrane protein 254</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>3</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("TMEM254"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白。检索无乳腺癌相关命中，全字段检索亦为 0 条。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gTSPAN13">
+<div class="chd">
+  <span class="idx">44</span>
+  <h3>TSPAN13 <small>tetraspanin 13</small></h3>
+  <span class="bd" style="color:#b26a00;background:#fff4e0">证据中</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>8</b> 乳腺癌相关</span>
+  <span class="chip"><b>2</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>37</b> 符号总文献</span>
+  <span class="chip tag">四跨膜蛋白 / 预后</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("TSPAN13"[Title/Abstract] OR "NET-6"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据少。TSPAN13（NET-6）为四跨膜蛋白，在乳腺癌中作为预后/分化相关基因出现于表达谱研究，机制研究缺乏。</p>
+<ol class="papers"><li><span class="yr">2026</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/41218148/" target="_blank">Tetraspanin 13 Enhances Immune Evasion in Breast Cancer by Promoting MHC-I Degradation.</a>
+<span class="jr">Cancer research</span> <span class="pm">PMID 41218148</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30701690/" target="_blank">miR-4732-5p promotes breast cancer progression by targeting TSPAN13.</a>
+<span class="jr">Journal of cellular and molecular medicine</span> <span class="pm">PMID 30701690</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38611080/" target="_blank">Unlocking Overexpressed Membrane Proteins to Guide Breast Cancer Precision Medicine.</a>
+<span class="jr">Cancers</span> <span class="pm">PMID 38611080</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30602372/" target="_blank">PRAME promotes epithelial-to-mesenchymal transition in triple negative breast cancer.</a>
+<span class="jr">Journal of translational medicine</span> <span class="pm">PMID 30602372</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31004251/" target="_blank">Expression of tetraspanins NET-6 and CD151 in breast cancer as a potential tumor biomarker.</a>
+<span class="jr">Clinical and experimental medicine</span> <span class="pm">PMID 31004251</span></li><li><span class="yr">2005</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/15958618/" target="_blank">Aberrant expression of novel and previously described cell membrane markers in human breast cancer cell lines and tumors.</a>
+<span class="jr">Clinical cancer research : an official journal of the American Association for Cancer Research</span> <span class="pm">PMID 15958618</span></li></ol>
+</section><section class="card" id="gTSPAN3">
+<div class="chd">
+  <span class="idx">45</span>
+  <h3>TSPAN3 <small>tetraspanin 3</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>0</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>39</b> 符号总文献</span>
+  <span class="chip tag">未研究</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("TSPAN3"[Title/Abstract] OR "TSPAN-3"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">空白。检索无乳腺癌相关命中，全字段检索亦为 0 条。</p>
+<ol class="papers"><li class="none">未检出乳腺癌相关文献。</li></ol>
+</section><section class="card" id="gVKORC1">
+<div class="chd">
+  <span class="idx">46</span>
+  <h3>VKORC1 <small>vitamin K epoxide reductase complex subunit 1</small></h3>
+  <span class="bd" style="color:#4a6572;background:#eef2f4">证据低</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>9</b> 乳腺癌相关</span>
+  <span class="chip"><b>5</b> 近5年</span>
+  <span class="chip"><b>1</b> 综述/Meta</span>
+  <span class="chip"><b>1473</b> 符号总文献</span>
+  <span class="chip tag">药物基因组学 / 凝血</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("VKORC1"[Title/Abstract] OR "VKOR"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">证据少且偏临床药理。VKORC1 主要与维生素 K 循环及华法林剂量/抗凝管理相关，乳腺癌中的文献多为合并抗凝治疗或药物基因组学，肿瘤生物学证据有限。</p>
+<ol class="papers"><li><span class="yr">2021</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/33799547/" target="_blank">Potential Utility of Pre-Emptive Germline Pharmacogenetics in Breast Cancer.</a>
+<span class="jr">Cancers</span> <span class="pm">PMID 33799547</span></li><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31040920/" target="_blank">Divergent effects of vitamins K1 and K2 on triple negative breast cancer cells.</a>
+<span class="jr">Oncotarget</span> <span class="pm">PMID 31040920</span></li><li><span class="yr">2024</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37904539/" target="_blank">The cytotoxic potential of sinapic acid on luminal A breast cancer; a computational and experimental pharmacology approach.</a>
+<span class="jr">Journal of biomolecular structure & dynamics</span> <span class="pm">PMID 37904539</span></li></ol>
+</section><section class="card" id="gVKORC1L1">
+<div class="chd">
+  <span class="idx">47</span>
+  <h3>VKORC1L1 <small>vitamin K epoxide reductase complex subunit 1 like 1</small></h3>
+  <span class="bd" style="color:#6b7280;background:#f1f2f4">证据空白</span>
+</div>
+<div class="chips">
+  <span class="chip"><b>1</b> 乳腺癌相关</span>
+  <span class="chip"><b>0</b> 近5年</span>
+  <span class="chip"><b>0</b> 综述/Meta</span>
+  <span class="chip"><b>43</b> 符号总文献</span>
+  <span class="chip tag">组学提及</span>
+</div>
+<div class="qbox"><span class="ql">检索式</span><code>("VKORC1L1"[Title/Abstract] OR "VKORC1L1"[Title/Abstract]) AND ("breast neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract] OR "breast carcinoma"[Title/Abstract] OR "breast tumor"[Title/Abstract] OR "breast tumour"[Title/Abstract] OR "breast oncology"[Title/Abstract])</code></div>
+<p class="sum">近空白。仅 1 篇组学/泛癌层面的间接提及，无乳腺癌专门研究。</p>
+<ol class="papers"><li><span class="yr">2019</span>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31040920/" target="_blank">Divergent effects of vitamins K1 and K2 on triple negative breast cancer cells.</a>
+<span class="jr">Oncotarget</span> <span class="pm">PMID 31040920</span></li></ol>
+</section>
+
+<h2><span class="no">六</span>研究格局分析与查新结论</h2>
+<div class="cols">
+<div class="mini"><h4>已有充分研究基础（15 个）</h4>
+<p>ACKR1、CA12、CLDN7、EMP1、F3、GPRC5A、MAL2、NR3C1、PMP22、PNP、PPARG、PTGER4、S1PR1、SCD、SSTR2。其中 NR3C1（糖皮质激素受体）、PPARG、F3（组织因子）、SCD 已形成明确的机制主轴并被顶刊反复验证，属“红海”靶点，单纯表达/预后层面的重复研究新颖性低；CA12、CLDN7、MAL2、S1PR1、SSTR2、GPRC5A 处于“机制较清晰、仍有转化空间”的中间地带。</p></div>
+<div class="mini"><h4>尚无乳腺癌文献（7 个，空白靶点）</h4>
+<p>MFSD10、MT-ND4L、SAMD8、SLC18B1、SMIM22、TMEM254、TSPAN3。上述靶点以“基因符号 + 全称/别名”检索乳腺癌相关文献均为 0 条，且经 <code>[All Fields]</code> 全字段检索复核仍为 0 条，可判定为<strong>乳腺癌领域的研究空白</strong>，具备较高的选题与专利新颖性潜力。</p></div>
+<div class="mini"><h4>近空白（2–4 篇，11 个）</h4>
+<p>AGPAT2、APH1A、ATP5MC1、CYBRD1、GPR160、KCNK1、MFSD12、MT-ND2、MYADM、PIGC、TMC4。这些靶点仅在组学筛选、预后模型或单篇关联分析中被附带提及，缺乏独立的功能验证与机制研究，属“低竞争度、待开发”区间。</p></div>
+<div class="mini"><h4>时间趋势</h4>
+<p>47 个靶点合计乳腺癌相关文献 1892 篇，其中 688 篇（36%）发表于近 5 年，整体呈明显上升态势；FXYD3（肿瘤干细胞/耐药持留）、KCNK1（乳酸-乳酰化）、MAL2（免疫逃逸）、GPR132（乳酸感应）、MFSD12（溶酶体应激）等为近 5 年新增热点，提示代谢与免疫微环境方向正在快速扩张。</p></div>
+</div>
+<div class="note" style="margin-top:16px">
+<strong>查新结论要点：</strong>
+<ol>
+<li>47 个靶点在乳腺癌中的研究成熟度差异极大，文献量从 0 篇（10 个靶点）到 595 篇（PPARG）不等，不能作为同一证据层级的靶点组合使用。</li>
+<li>空白靶点（MFSD10、MT-ND4L、SAMD8、SLC18B1、SMIM22、TMEM254、TSPAN3）在 PubMed 中无任何乳腺癌相关记录，若拟以“该靶点在乳腺癌中的作用”为创新点，现有文献不构成实质性障碍；但仍需补充专利数据库（如 CNIPA、WIPO、Espacenet）检索以完成完整的新颖性判断。</li>
+<li>成熟靶点的创新点须落在<strong>新机制、新亚型、新联合策略或新干预手段</strong>上，而非表达水平与预后的重复验证。</li>
+<li>本记录仅覆盖 PubMed 文献，未包含预印本、会议摘要、中文数据库（CNKI/万方）及专利，结论适用范围以此为限。</li>
+</ol>
+</div>
+
+<h2><span class="no">七</span>检索局限与说明</h2>
+<div class="note">
+<ul>
+<li><strong>字段限制</strong>：采用题名/摘要字段检索，仅全文提及而未在题名摘要出现基因名的文献不会被命中，故计数为“下限值”，不代表该靶点相关研究的全部。</li>
+<li><strong>同名词干扰</strong>：F3、PNP、SCD、MALL、PMP22、NR3C1 等符号存在英文同形词或其他学科缩写（如 PNP 亦指精神神经心理症状、SCD 亦指镰状细胞病），虽已通过全称限定与题名限定压缩噪声，仍可能残留少量无关条目，代表性文献需人工复核后引用。</li>
+<li><strong>计数口径</strong>：同一文献若同时涉及多个靶点，会在各靶点分别计数，故“总量”为按靶点累加值而非去重后的独立文献数。</li>
+<li><strong>复核方式</strong>：全部 47 个靶点的计数经第二轮顺序检索逐条复核，结果一致；零命中靶点另经全字段检索二次确认。</li>
+<li><strong>时效性</strong>：检索截止于 2026-10-24，此后新增文献未纳入。</li>
+</ul>
+</div>
+
+<h2><span class="no">八</span>附件与复现说明</h2>
+<table>
+<tbody>
+<tr><th style="width:210px">附件 1</th><td>附件1_靶点检索结果汇总.csv —— 47 个靶点的完整检索式、各口径计数与研究概况，可直接导入 Excel 复核。</td></tr>
+<tr><th>附件 2</th><td>附件2_代表性文献清单.csv —— 各靶点代表性文献的 PMID、年份、期刊、类型与 PubMed 链接。</td></tr>
+<tr><th>复现方式</th><td>将任一靶点记录中的“检索式”直接粘贴至 PubMed 检索框（或 E-utilities esearch 的 term 参数）即可复现计数；单条文献可通过 PMID 定位。</td></tr>
+</tbody></table>
+
+<footer>
+记录编号 QX-2026-1024-BC47　·　检索日期 2026-10-24　·　数据库 PubMed / MEDLINE（NCBI）<br>
+本记录为文献检索过程与结果的客观记载，不构成对技术方案新颖性、创造性的最终法律意见；完整查新结论需结合专利与非专利文献综合判断。
+</footer>
+</div></body></html>

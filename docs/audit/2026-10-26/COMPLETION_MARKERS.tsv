@@ -1,0 +1,63 @@
+path	status	details
+outputs/DeepPurpose_预测_2026-10-24/audit/PREDICTION_STAGE_COMPLETED.txt	marker_exists_not_independent_scientific_proof	"Completed 2026-10-24: user-approved fixed CID209254 structure, main1881 plus76 diagnostic-only genes, 1993 protein pairs, 10 pretrained models, 19930 raw scores. 27 consistency checks passed; figures reviewed; frozen stage1 files preserved. Experimental accuracy, direct binding and final target selection are not established.
+"
+outputs/DeepPurpose_预测_2026-10-24/logs/environment_import.complete	marker_exists_not_independent_scientific_proof	"IMPORT_OK_ONLY_NOT_MODEL_VALIDATION
+"
+outputs/docking_audit_2026-10-24/pubmed_comprehensive_recheck/COMPREHENSIVE_SEARCH_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""date"": ""2026-10-24 Asia/Shanghai"", ""n_valid_queries"": 47, ""n_failures"": 0, ""old_query_preserved_as_OR_branch"": true, ""all_counts_monotonic"": true, ""SAMD8_false_hit_only"": ""36381921"", ""new_docking_or_MD"": false}"
+outputs/MFSD10_稀疏与聚合探索_2026-10-26/audit/CLOSEOUT_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""status"": ""complete"", ""closeout_only"": true, ""scientific_analysis_rerun"": false, ""original_audit_checks_passed"": 32, ""original_prior_files_preserved"": 5473, ""critical_frozen_hashes_rechecked"": 6, ""comparison_rows_verified"": 30, ""local_links_verified"": 23, ""deliverables_hashed"": 114, ""handoff_section"": 38, ""stop_optimization"": true, ""background_tasks"": false}"
+outputs/MFSD10_稀疏与聚合探索_2026-10-26/audit/COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""status"": ""complete"", ""analysis_type"": ""exploratory_reanalysis"", ""checks_passed"": 32, ""all_prior_results_unchanged"": 5473, ""NMF_rerun"": false, ""signature_changed"": false, ""primary_n_discovery"": 13, ""primary_n_validation_aggregate"": 15, ""stop_optimization"": true, ""background_tasks"": false}"
+outputs/MFSD10_程序发现与独立验证_2026-10-26/audit/PIPELINE_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""status"": ""complete"", ""date"": ""2026-10-26"", ""validation_checks"": 58, ""all_passed"": true, ""primary_NMF_runs"": 3900, ""sensitivity_scenarios"": 19, ""sensitivity_initial_repeats"": 380, ""frozen_meta_programs"": 5, ""discovery_patients"": 13, ""validation_primary_naive_patients"": 16, ""validation_treated_patients_with_candidates"": 4, ""discovery_significant_associations"": 0, ""confirmatory_successes"": 0, ""external_exploratory_MP05_within_rho"": 0.057081, ""interpretation"": ""Shared-program gene coherence supported; no discovery-FDR-supported MFSD10 association was confirmed. External MP05 is exploratory only."", ""background_task_remaining"": false}"
+outputs/MFSD10_表达分布摸底_2026-10-26/audit/EXPRESSION_SURVEY_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""status"": ""complete"", ""completed_date"": ""2026-10-26"", ""QC_cells"": 340979, ""libraries"": 69, ""patient_keys"": 54, ""malignant_cells"": 9486, ""malignant_patients"": 32, ""malignant_patients_min20"": 27, ""analysis_checks_passed"": 17, ""direct_Seurat_checks"": 4, ""protected_stage1_files_unchanged"": 86, ""figure_pairs"": 6, ""input_files_hashed"": 147, ""new_DE_or_mechanism_analysis"": false, ""background_task_remaining"": false}"
+outputs/reverse_docking47_2026-10-24/audit/ALL47_DOCKING_DELIVERY_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""technical_checks_passed"": 15, ""technical_checks_total"": 15, ""technical_delivery_complete"": true, ""main_runs"": 282, ""control_runs"": 9, ""geometry_pass_top_poses"": 282, ""no_major_receptor_clash_top_poses"": 268, ""scientific_pose_and_control_findings"": ""reported without replacing failed results"", ""protected_input_files"": 402, ""deleted_old_output_files"": 135, ""timestamp"": ""2026-10-25T04:27:06+0800"", ""visual_QA_completed"": true, ""deliverable_files_hashed"": 1685, ""final_delivery_timestamp"": ""2026-10-25T04:37:37+0800""}"
+outputs/reverse_docking47_2026-10-24/audit/ALL47_TECHNICAL_CHECKS_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""technical_checks_passed"": 15, ""technical_checks_total"": 15, ""technical_delivery_complete"": true, ""main_runs"": 282, ""control_runs"": 9, ""geometry_pass_top_poses"": 282, ""no_major_receptor_clash_top_poses"": 268, ""scientific_pose_and_control_findings"": ""reported without replacing failed results"", ""protected_input_files"": 402, ""deleted_old_output_files"": 135, ""timestamp"": ""2026-10-25T04:27:06+0800""}"
+outputs/reverse_docking47_2026-10-24/audit/First_both_states_all47_completed.json	marker_exists_not_independent_scientific_proof	"{""seed"": 20261024, ""completed_runs"": 94, ""unique_genes"": 47, ""remaining_seed_repetitions_continue"": true, ""checked_at"": ""2026-10-25T01:07:12.5340328+08:00""}"
+outputs/reverse_docking47_2026-10-24/audit/First_plus1_seed_all47_completed.json	marker_exists_not_independent_scientific_proof	"{""seed"": 20261024, ""state"": ""pH74"", ""completed_targets"": 47, ""milestone"": ""All47 first-plus1-seed docking completed; remaining states and seeds continue"", ""checked_at"": ""2026-10-25T00:26:12.6557647+08:00""}"
+outputs/reverse_docking47_2026-10-24/audit/Old_docking_deletion_completed.json	marker_exists_not_independent_scientific_proof	"{""deleted_files"": 135, ""remaining_files"": 0, ""approved_root"": ""D:\\Desktop\\Yu\\工作流3\\outputs\\docking_audit_2026-10-24""}"
+outputs/reverse_docking47_2026-10-24/audit/RAW_282_MAIN_RUNS_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""main_runs"": 282, ""control_runs"": 9, ""next"": ""pose and evidence evaluation pending""}"
+outputs/reverse_docking47_2026-10-24/results/All_completed_top_pose_checks.tsv	marker_exists_not_independent_scientific_proof	"﻿gene	state	seed	tag	score_kcal_mol	returned_poses	QA_version	stereochemistry_and_identity_match	PoseBusters_geometry_pass	PoseBusters_failed_checks	min_receptor_heavy_distance_A	min_scaled_receptor_distance	no_major_receptor_clash	ligand_heavy_atoms_within4A_target	ligand_heavy_atoms_within4A_partner	contact_residue_AF_pLDDT_mean	sequence_difference_residues_within5A	contact_residues_within4A	closest_residues_within5A	pose_SHA256	sdf_path
+ACKR1	neutral	20261024	ACKR1_neutral_ex64_s20261024	-10."
+outputs/rollback_cleanup_2026-10-25/DELETION_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""stage"": ""authorized_deletion_complete"", ""completed_at"": ""2026-10-25T23:16:37.6900999+08:00"", ""backups_of_deleted_contents_created"": false}"
+outputs/rollback_cleanup_2026-10-25/FINAL_CLEANUP_VALIDATION.json	marker_exists_not_independent_scientific_proof	"{""stage"": ""completed"", ""completed_at"": ""2026-10-25T23:28:33+08:00"", ""restored_state"": ""All47 reverse docking completed; user adopted MFSD10/SLC75A1; before post-adoption research"", ""deleted_research_directories"": 4, ""deleted_handoff_packages"": 1, ""deleted_standalone_conclusion_documents"": 1, ""deleted_files"": 2018, ""deleted_bytes"": 14871653380, ""retained_files_hash_verified"": 56638, ""retained_bytes_hash_verified"": 28307237241, ""root_handoff_documents_rewritten"": 3, ""output_indexes_rewritten"": 1, ""missing_retained_files"": 0, ""changed_retained_files"": 0, ""remaining_deleted_payload_files"": 0, ""retired_research_references_outside_audit"": 0, ""retired_research_names_outside_audit"": 0, ""all_checks_passed"": true, ""n_checks"": 16, ""deleted_payload_backup_created"": false, ""audit_contents"": ""Paths, counts, hashes, cleanup scripts and validation only; no deleted study payload copy"", ""current_entry"": ""D:\\Desktop\\Yu\\工作流3\\新对话接手_当前状态.md"", ""running_related_tasks"": 0}"
+outputs/单细胞基础补全_2026-10-23/audit/BASICS_COMPLETED.txt	marker_exists_not_independent_scientific_proof	"Single-cell foundation supplement complete: 236309 main cells; frozen Pool A unchanged.
+Only within-annotation Tumor-origin vs Healthy disease DE was performed.
+7 frozen Stage1 files unchanged; 20 independent R checks passed.
+Figure generation finished; visual inspection is separately documented in audit/Figure_visual_QA.md.
+Completed: 2026-10-24 09:49:21 +08:00
+"
+outputs/单细胞基础补全_2026-10-23/cache/Figures.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/单细胞基础补全_2026-10-23/cache/Global_embedding.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/单细胞基础补全_2026-10-23/cache/Independent_validation.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/单细胞基础补全_2026-10-23/cache/Preparation.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/单细胞基础补全_2026-10-23/cache/Within_celltype_DE.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/恶性上皮_表达程序可行性_2026-10-26/audit/FEASIBILITY_COMPLETED.json	marker_exists_not_independent_scientific_proof	"{""status"": ""complete"", ""scope"": ""feasibility_only"", ""confirmed_malignant_cells"": 9486, ""patients"": 32, ""singlet_flags"": 8722, ""doublet_flags"": 764, ""validation_passed"": 11, ""previous_expression_survey_artifacts_unchanged"": 54, ""NMF_run"": false, ""projection_run"": false, ""new_filter_applied"": false, ""background_task_remaining"": false}"
+outputs/第一阶段_2026-10-23/audit/PHASE1_COMPLETED.txt	marker_exists_not_independent_scientific_proof	"Phase 1 complete: Pool A 813 protein-coding genes.
+Independent R checks and document links passed.
+Final figures PNG visually inspected; PDF counterparts saved.
+Original input files unchanged; no drug prediction, pathway selection, spatial analysis or MD performed.
+Completed: 2026-10-23 20:02:49 +08:00
+"
+outputs/第一阶段_2026-10-23/cache/CNV_all_discovery_patients.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/CNV_coherent_final_calls.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/CNV_final_calls.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/CNV_fixed_reference_design.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/CNV_fixed_reference_v2.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/Extended_normal_sensitivity.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/Normal_Epi_sensitivity_libraries.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/Pool_A_assembled.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/第一阶段_2026-10-23/cache/SingleCell_main_markers_and_pseudobulk.complete	marker_exists_not_independent_scientific_proof	"complete
+"
+outputs/身份深核与独立交集_2026-10-24/audit/INDEPENDENT_INTERSECTION_STAGE_COMPLETED.txt	marker_exists_not_independent_scientific_proof	"Completed independent reviewed human proteome prediction (20431 x 8 = 163448), 1/5/10-percent drug sets and twelve disease1881 intersections; all numerical checks, source structure comparison, figure review and document links completed. No single main threshold selected.
+"

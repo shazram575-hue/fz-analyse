@@ -1,0 +1,19 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "4",
+    "retmax": "4",
+    "retstart": "0",
+    "idlist": [
+      "42201988",
+      "40069712",
+      "28270217",
+      "28031527"
+    ],
+    "translationset": [],
+    "querytranslation": "\"CYBRD1\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

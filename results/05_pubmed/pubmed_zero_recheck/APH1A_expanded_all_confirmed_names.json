@@ -1,0 +1,60 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "38",
+    "retmax": "38",
+    "retstart": "0",
+    "idlist": [
+      "42455403",
+      "42051145",
+      "41989718",
+      "41627065",
+      "41485193",
+      "41463075",
+      "41085801",
+      "39744059",
+      "39684779",
+      "39358429",
+      "37754546",
+      "37631786",
+      "37616552",
+      "37388923",
+      "36449665",
+      "35681031",
+      "33975881",
+      "33808143",
+      "32746152",
+      "32213542",
+      "31569078",
+      "31316085",
+      "30725116",
+      "30594961",
+      "30488462",
+      "29508535",
+      "28653903",
+      "26182970",
+      "24562642",
+      "24223915",
+      "23334123",
+      "21858111",
+      "20422184",
+      "19439179",
+      "19175083",
+      "17271962",
+      "11128314",
+      "10958183"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"APH1A\"[All Fields] OR \"PSF\"[All Fields] OR \"APH-1a\"[All Fields] OR \"Aph-1alpha\"[All Fields] OR \"Presenilin-stabilization factor\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Gamma-secretase subunit APH-1A\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

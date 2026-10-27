@@ -1,0 +1,8 @@
+options(stringsAsFactors=FALSE)
+.libPaths(c('D:/R4.5.2/R-4.5.2/library',.libPaths()))
+args<-commandArgs(TRUE);out<-normalizePath(args[1],winslash='/',mustWork=TRUE)
+ip<-as.data.frame(installed.packages(),stringsAsFactors=FALSE)
+cols<-intersect(c('Package','Version','Built','Priority','Repository','LibPath','NeedsCompilation'),names(ip))
+write.table(ip[,cols,drop=FALSE],file.path(out,'R_installed_packages_local.tsv'),sep='\t',quote=TRUE,row.names=FALSE,na='NA')
+capture.output(sessionInfo(),file=file.path(out,'R_sessionInfo.txt'))
+writeLines(c(paste('Rscript=',file.path(R.home('bin'),'Rscript.exe')),paste('libPaths=',paste(.libPaths(),collapse=';'))),file.path(out,'R_runtime_paths_local.txt'))

@@ -1,0 +1,31 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "16",
+    "retmax": "16",
+    "retstart": "0",
+    "idlist": [
+      "37966117",
+      "35371992",
+      "30206184",
+      "26740212",
+      "26090296",
+      "21372379",
+      "19789341",
+      "19571376",
+      "16469401",
+      "16371442",
+      "14745797",
+      "14654946",
+      "12907638",
+      "12535606",
+      "9514094",
+      "7836447"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"FXYD3\"[All Fields] OR \"MAT8\"[All Fields] OR \"PLML\"[All Fields] OR \"FXYD domain-containing ion transport regulator 3\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}

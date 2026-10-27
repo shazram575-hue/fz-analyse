@@ -1,0 +1,12 @@
+{
+  "cohort": "validation",
+  "n_cells": 24489,
+  "state_units": 1215,
+  "random_units": 1215,
+  "nonoverlap": true,
+  "UMI_conserved": true,
+  "patient_pseudobulk_matches_existing": true,
+  "MFSD10_excluded_from_neighborhood": true,
+  "state_mean_squared_distance": 171.02048318742152,
+  "random_mean_squared_distance": 334.30257277291764
+}

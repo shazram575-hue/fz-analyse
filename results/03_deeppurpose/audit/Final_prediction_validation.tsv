@@ -1,0 +1,28 @@
+check	pass	detail
+confirmed_main1881_unique	True	
+diagnostic_extra76_disjoint	True	
+1993_protein_pairs	True	
+all1881_main_genes_have_scores	True	
+all76_extra_genes_have_scores	True	
+19930_complete_finite_raw_scores	True	
+10_models_cover_same_pairs	True	
+8_primary_2_MPNN_sensitivity	True	
+raw_pair_sequence_identity	True	
+actual_structure_CID209254	True	
+drug_SMILES_avoids_CNN_truncation	True	92
+all9_drug_centers_assigned	True	
+all_weight_and_score_hashes_match	True	
+actual_input_singleton_checks	True	
+MPNN_single_pair_inference	True	
+Kd_4model1881_independent_consensus	True	
+Kd_independent_rank_matches	True	
+Kd_diagnostic_scope1957_complete	True	
+IC50_4model1881_independent_consensus	True	
+IC50_independent_rank_matches	True	
+IC50_diagnostic_scope1957_complete	True	
+all7_frozen_stage1_preserved	True	
+confirmed_disease_input_files_unchanged	True	
+candidate_list_not_transmitted	True	
+Model_rank_agreement_PNG_SVG_present	True	
+Kd_vs_IC50_consensus_PNG_SVG_present	True	
+Top20_encoding_agreement_PNG_SVG_present	True	

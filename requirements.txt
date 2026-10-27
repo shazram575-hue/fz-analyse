@@ -1,0 +1,14 @@
+# Actual observed Python-program environment versions on Windows, 2026-10-26.
+# Not a complete lockfile. Linux resolution and binary compatibility are NOT yet validated.
+# DeepPurpose and docking use separate environments; do not merge them into this one.
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.0
+scikit-learn==1.9.1
+anndata==0.13.4
+statsmodels==0.15.0
+matplotlib==3.11.2
+h5py==3.16.0
+cnmf==1.7.1
+scanpy==1.12.4
+pyyaml==6.0.3

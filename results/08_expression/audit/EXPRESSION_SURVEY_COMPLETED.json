@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "completed_date": "2026-10-26",
+  "QC_cells": 340979,
+  "libraries": 69,
+  "patient_keys": 54,
+  "malignant_cells": 9486,
+  "malignant_patients": 32,
+  "malignant_patients_min20": 27,
+  "analysis_checks_passed": 17,
+  "direct_Seurat_checks": 4,
+  "protected_stage1_files_unchanged": 86,
+  "figure_pairs": 6,
+  "input_files_hashed": 147,
+  "new_DE_or_mechanism_analysis": false,
+  "background_task_remaining": false
+}

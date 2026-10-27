@@ -1,0 +1,10 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.R text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+# Exported evidence and source copies must retain their recorded byte hashes.
+/analysis/** -text
+/results/** -text
+/docs/archive/** -text

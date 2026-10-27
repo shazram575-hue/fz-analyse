@@ -1,0 +1,34 @@
+check	pass	detail
+All_reviewed_human_protein_background.tsv_frozen	True	
+Protein_to_full_reference_gene_mapping.tsv_frozen	True	
+published_A_CID_all9_centers_and_full_key	True	
+20431_independent_unique_accessions	True	
+all_protein_sequence_hashes	True	
+163448_finite_unique_scores	True	
+eight_models_no_MPNN	True	
+all_model_weights_and_score_files_hashes	True	
+native_optimized_forward_checks_all8	True	
+shared_sequences_agree_with_prior_native_inference	True	[{'model': 'CNN_CNN_BindingDB', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 1.9073486328125e-06}, {'model': 'CNN_CNN_BindingDB_IC50', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 9.536743172944284e-07}, {'model': 'Daylight_AAC_BindingDB', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 1.9073486328125e-06}, {'model': 'Daylight_AAC_BindingDB_IC50', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 9.5367431640625e-07}, {'model': 'Morgan_AAC_BindingDB', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 9.536743172944284e-07}, {'model': 'Morgan_AAC_BindingDB_IC50', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 9.5367431640625e-07}, {'model': 'Morgan_CNN_BindingDB', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 9.536743172944284e-07}, {'model': 'Morgan_CNN_BindingDB_IC50', 'shared_protein_entries': 1953, 'shared_unique_sequences': 1953, 'max_absolute_difference': 9.536743172944284e-07}]
+Kd_consensus_independent_recalculation	True	
+Kd_top1_tie_aware_independent_cutoff	True	
+Kd_top5_tie_aware_independent_cutoff	True	
+Kd_top10_tie_aware_independent_cutoff	True	
+IC50_consensus_independent_recalculation	True	
+IC50_top1_tie_aware_independent_cutoff	True	
+IC50_top5_tie_aware_independent_cutoff	True	
+IC50_top10_tie_aware_independent_cutoff	True	
+top1percent_Kd_gene_sets_and_disease_intersection	True	
+top1percent_IC50_gene_sets_and_disease_intersection	True	
+top1percent_Kd_union_IC50_gene_sets_and_disease_intersection	True	
+top1percent_Kd_intersection_IC50_gene_sets_and_disease_intersection	True	
+top5percent_Kd_gene_sets_and_disease_intersection	True	
+top5percent_IC50_gene_sets_and_disease_intersection	True	
+top5percent_Kd_union_IC50_gene_sets_and_disease_intersection	True	
+top5percent_Kd_intersection_IC50_gene_sets_and_disease_intersection	True	
+top10percent_Kd_gene_sets_and_disease_intersection	True	
+top10percent_IC50_gene_sets_and_disease_intersection	True	
+top10percent_Kd_union_IC50_gene_sets_and_disease_intersection	True	
+top10percent_Kd_intersection_IC50_gene_sets_and_disease_intersection	True	
+1881_genes_retained_with_background_coverage_flag	True	
+all_confirmed_disease_input_hashes_unchanged	True	
+original7_phase1_files_unchanged	True	

@@ -1,0 +1,26 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "11",
+    "retmax": "11",
+    "retstart": "0",
+    "idlist": [
+      "42530655",
+      "40900789",
+      "36212540",
+      "35346324",
+      "33576900",
+      "33117284",
+      "30203045",
+      "28108626",
+      "26695443",
+      "25103640",
+      "21185374"
+    ],
+    "translationset": [],
+    "querytranslation": "\"IFI27\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

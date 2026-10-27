@@ -1,0 +1,6 @@
+{
+  "n_checks": 27,
+  "n_pass": 27,
+  "failed": [],
+  "validation_scope": "data/score/model-configuration consistency and frozen-result preservation, not predictive accuracy or experimental validation"
+}

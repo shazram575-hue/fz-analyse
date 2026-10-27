@@ -1,0 +1,9 @@
+cell_type	diagnostic_annotation	n_healthy_donors_min20	n_tumor_donors_min20	PB_status	PB_up	PB_down	celllevel_prefiltered	celllevel_up	celllevel_down	celllevel_healthy_cells	celllevel_tumor_cells
+"Endothelial"	FALSE	7	17	"complete"	2220	2114	2864	660	1430	1400	1645
+"Epithelial"	FALSE	13	32	"complete"	3907	4262	3420	1063	1934	2600	6261
+"Fibroblast"	FALSE	10	20	"complete"	3045	2833	2586	941	1451	1873	3057
+"Immune"	FALSE	6	24	"complete"	1491	1501	1285	278	768	785	4164
+"Mast"	FALSE	1	6	"not_run_insufficient_donors"	NA	NA	1148	25	46	23	315
+"Mixed_epithelial_immune"	TRUE	3	13	"complete"	32	246	1543	346	367	276	2319
+"Perivascular_SMC"	FALSE	6	1	"not_run_insufficient_donors"	NA	NA	1996	272	1041	1196	200
+"Unresolved"	TRUE	8	8	"complete"	1314	1204	2089	358	1478	1346	1098

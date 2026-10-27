@@ -1,0 +1,10 @@
+{
+  "raw_files_hashed": 1214,
+  "raw_bytes": 8052105862,
+  "TCGA_files_rechecked": 1208,
+  "TCGA_MD5_failures": 0,
+  "small_duplicate_groups": 244,
+  "small_duplicate_members": 842,
+  "duplicate_scope": "Non-environment files <=50 MiB; large-file duplication not verified",
+  "original_files_deleted": 0
+}

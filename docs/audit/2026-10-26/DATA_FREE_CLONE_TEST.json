@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "scripts/project/doctor.py",
+      "--evidence-only"
+    ],
+    "python": "C:\\Users\\fangz\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "stdout": "{\n  \"project_root\": \"D:\\\\Desktop\\\\Yu\\\\工作流3\\\\docs\\\\audit\\\\2026-10-26\\\\after\\\\cloud review 克隆\",\n  \"python\": \"3.12.14\",\n  \"platform\": \"Windows\",\n  \"available_RAM_bytes\": null,\n  \"disk_free_bytes\": 27167117312,\n  \"missing_review_files\": [],\n  \"stage_count\": 11,\n  \"raw_directory_present\": false,\n  \"large_program_objects_present\": [\n    false,\n    false\n  ],\n  \"Rscript_on_PATH\": null,\n  \"modules\": {\n    \"numpy\": true,\n    \"scipy\": false,\n    \"pandas\": true,\n    \"sklearn\": false,\n    \"anndata\": false,\n    \"statsmodels\": false,\n    \"cnmf\": false,\n    \"torch\": false,\n    \"rdkit\": false,\n    \"DeepPurpose\": false\n  },\n  \"mode\": \"evidence-only\",\n  \"scientific_run_attempted\": false,\n  \"cgroup_memory_limit_bytes\": null,\n  \"review_ready\": true,\n  \"linux_full_reproduction_verified\": false,\n  \"note\": \"Review can pass without raw data or R. Review readiness is not scientific runtime readiness. Read CLOUD_MIGRATION before any large run.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/project/verify_project.py"
+    ],
+    "python": "C:\\Users\\fangz\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "stdout": "{\n  \"status\": \"pass\",\n  \"review_files_verified\": 728,\n  \"programs\": 5,\n  \"aggregation_route_stop_preserved\": true,\n  \"large_data_loaded\": false,\n  \"scientific_analysis_rerun\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/project/restore_legacy_layout.py",
+      "--dry-run"
+    ],
+    "python": "C:\\Users\\fangz\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "stdout": "{\n  \"mode\": \"dry-run\",\n  \"already_present\": 0,\n  \"would_restore\": 728,\n  \"restored\": 0\n}\n",
+    "stderr": ""
+  }
+]

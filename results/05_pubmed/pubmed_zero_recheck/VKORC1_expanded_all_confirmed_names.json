@@ -1,0 +1,31 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "9",
+    "retmax": "9",
+    "retstart": "0",
+    "idlist": [
+      "41847134",
+      "37904539",
+      "35379108",
+      "33799547",
+      "33780199",
+      "31040920",
+      "28212442",
+      "23089672",
+      "22065003"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"VKORC1\"[All Fields] OR \"VKOR\"[All Fields] OR \"Vitamin K epoxide reductase complex subunit 1\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Vitamin K1 2,3-epoxide reductase subunit 1\"[All Fields]"
+      ],
+      "outputmessages": []
+    }
+  }
+}

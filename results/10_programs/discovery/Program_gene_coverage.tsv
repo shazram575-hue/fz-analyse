@@ -1,0 +1,6 @@
+cohort	program_id	n_genes_expected	n_genes_mapped	fraction_mapped	missing_genes
+discovery	MP01	50	50	1.0	
+discovery	MP02	50	50	1.0	
+discovery	MP03	50	50	1.0	
+discovery	MP04	50	50	1.0	
+discovery	MP05	50	50	1.0	

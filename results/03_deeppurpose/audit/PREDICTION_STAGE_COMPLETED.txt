@@ -1,0 +1,1 @@
+Completed 2026-10-24: user-approved fixed CID209254 structure, main1881 plus76 diagnostic-only genes, 1993 protein pairs, 10 pretrained models, 19930 raw scores. 27 consistency checks passed; figures reviewed; frozen stage1 files preserved. Experimental accuracy, direct binding and final target selection are not established.

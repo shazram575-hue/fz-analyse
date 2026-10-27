@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "analysis_type": "exploratory_reanalysis",
+  "checks_passed": 32,
+  "all_prior_results_unchanged": 5473,
+  "NMF_rerun": false,
+  "signature_changed": false,
+  "primary_n_discovery": 13,
+  "primary_n_validation_aggregate": 15,
+  "stop_optimization": true,
+  "background_tasks": false
+}

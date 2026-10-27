@@ -1,0 +1,12 @@
+check	pass
+Confirmed_9486	TRUE
+All_32_patient_keys	TRUE
+All_cell_IDs_unique	TRUE
+Every_confirmed_cell_in_raw_counts	TRUE
+Canonical_features_33487	TRUE
+Nonnegative_finite_integer_counts	TRUE
+UMI_equal_metadata	TRUE
+All_cells_pass_previous_author_QC	TRUE
+No_CNV_uncertain_or_unscored	TRUE
+Confirmed_all_primary_Total	TRUE
+Singlet_plus_doublet_equals_total	TRUE

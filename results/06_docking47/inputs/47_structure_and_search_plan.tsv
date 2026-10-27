@@ -1,0 +1,48 @@
+﻿gene	accession	source	structure	target_chains	resolved_residues_per_best_chain	canonical_span	assembly_policy	site_rule	known_ligand_CCD	sequence_differences	AF_fraction_below50	new_run_status
+ACKR1	Q16570	PDB	8YNF	B;A	249	46-311	target_homomer	P2Rank_first_target_associated_pocket			0.19047619047619047	protocol_confirmed_282_main_runs
+ADRA2A	P08913	PDB	7EJ8	R	263	43-457	target_chain	experimental_ligand:J59	J59		0.34408602150537637	protocol_confirmed_282_main_runs
+AGPAT2	O15120	AlphaFold	O15120_AF	A	278	1-278	target_chain	P2Rank_first_target_associated_pocket			0.0539568345323741	protocol_confirmed_282_main_runs
+APH1A	Q96BI3	PDB	8KCS	C	243	2-244	target_and_native_human_complex_partners	P2Rank_first_target_associated_pocket			0.0	protocol_confirmed_282_main_runs
+ATP5MC1	P05496	PDB	8H9S	1;2;3;4;5;6;7;8	75	62-136	target_and_native_human_complex_partners	global_search			0.2426470588235294	protocol_confirmed_282_main_runs
+CA12	O43570	PDB	1JD0	A;B	260	31-290	target_chain	experimental_ligand:AZM	AZM		0.10734463276836158	protocol_confirmed_282_main_runs
+CLDN7	O95471	AlphaFold	O95471_AF	A	211	1-211	target_chain	P2Rank_first_target_associated_pocket			0.10900473933649289	protocol_confirmed_282_main_runs
+CYBRD1	Q53TN4	PDB	5ZLG	A	225	6-230	target_chain	experimental_ligand:ASC	ASC		0.12237762237762238	protocol_confirmed_282_main_runs
+EMP1	P54849	AlphaFold	P54849_AF	A	157	1-157	target_chain	P2Rank_first_target_associated_pocket			0.0	protocol_confirmed_282_main_runs
+F3	P13726	PDB	1BOY	A	211	35-245	target_chain	P2Rank_first_target_associated_pocket			0.13559322033898305	protocol_confirmed_282_main_runs
+FXYD3	Q14802	AlphaFold	Q14802_AF	A	87	1-87	target_chain	global_search			0.21839080459770116	protocol_confirmed_282_main_runs
+GPR132	Q9UNW8	PDB	8HQM	R	307	37-346	target_chain	experimental_ligand:140	140		0.16578947368421051	protocol_confirmed_282_main_runs
+GPR160	Q9UJ42	AlphaFold	Q9UJ42_AF	A	338	1-338	target_chain	P2Rank_first_target_associated_pocket			0.17751479289940827	protocol_confirmed_282_main_runs
+GPRC5A	Q8NFJ5	AlphaFold	Q8NFJ5_AF	A	357	1-357	target_chain	P2Rank_first_target_associated_pocket			0.14565826330532214	protocol_confirmed_282_main_runs
+IFI27	P40305	AlphaFold	P40305_AF	A	122	1-122	target_chain	P2Rank_first_target_associated_pocket			0.3524590163934426	protocol_confirmed_282_main_runs
+ITPR3	Q14573	PDB	8TKG	A;B;C;D	2210	5-2612	target_homomer	experimental_ligand:I3P	I3P		0.1299138899288656	protocol_confirmed_282_main_runs
+KCNK1	O00180	PDB	3UKM	A;B;C;D	251	19-281	target_homomer	P2Rank_first_target_associated_pocket		A:21:T>W;A:22:M>C;B:21:T>W;B:22:M>C;C:21:T>W;C:22:M>C;D:21:T>W;D:22:M>C	0.1130952380952381	protocol_confirmed_282_main_runs
+LEPROT	O15243	AlphaFold	O15243_AF	A	131	1-131	target_chain	P2Rank_first_target_associated_pocket			0.03816793893129771	protocol_confirmed_282_main_runs
+LRRC26	Q2I0M4	PDB	7YO3	B	262	40-301	target_and_native_human_complex_partners	P2Rank_first_target_associated_pocket			0.12275449101796407	protocol_confirmed_282_main_runs
+MAL2	Q969L2	AlphaFold	Q969L2_AF	A	176	1-176	target_chain	P2Rank_first_target_associated_pocket			0.028409090909090908	protocol_confirmed_282_main_runs
+MALL	Q13021	AlphaFold	Q13021_AF	A	153	1-153	target_chain	P2Rank_first_target_associated_pocket			0.026143790849673203	protocol_confirmed_282_main_runs
+MFSD10	Q14728	PDB	6S4M	A	426	18-443	target_chain	P2Rank_first_target_associated_pocket			0.05054945054945055	protocol_confirmed_282_main_runs
+MFSD12	Q6NUT3	AlphaFold	Q6NUT3_AF	A	480	1-480	target_chain	P2Rank_first_target_associated_pocket			0.1	protocol_confirmed_282_main_runs
+MT-ND2	P03891	PDB	9I4I	i	347	1-347	target_and_native_human_complex_partners	P2Rank_first_target_associated_pocket			0.0	protocol_confirmed_282_main_runs
+MT-ND4	P03905	PDB	9I4I	r	459	1-459	target_and_native_human_complex_partners	P2Rank_first_target_associated_pocket			0.002178649237472767	protocol_confirmed_282_main_runs
+MT-ND4L	P03901	PDB	9I4I	k	98	1-98	target_and_native_human_complex_partners	global_search			0.0	protocol_confirmed_282_main_runs
+MYADM	Q96S97	AlphaFold	Q96S97_AF	A	322	1-322	target_chain	P2Rank_first_target_associated_pocket			0.08385093167701864	protocol_confirmed_282_main_runs
+NHSL2	Q5HYW2	AlphaFold	Q5HYW2_AF	A	1225	1-1225	target_chain	global_search			0.7477551020408163	protocol_confirmed_282_main_runs
+NR3C1	P04150	PDB	4UDD	A	249	529-777	target_chain	experimental_ligand:CV7	CV7	A:571:M>V;A:602:S>F;A:638:D>C	0.5572715572715573	protocol_confirmed_282_main_runs
+ORMDL2	Q53FV1	AlphaFold	Q53FV1_AF	A	153	1-153	target_chain	P2Rank_first_target_associated_pocket			0.013071895424836602	protocol_confirmed_282_main_runs
+PIGC	Q92535	AlphaFold	Q92535_AF	A	297	1-297	target_chain	P2Rank_first_target_associated_pocket			0.016835016835016835	protocol_confirmed_282_main_runs
+PMP22	Q01453	AlphaFold	Q01453_AF	A	160	1-160	target_chain	P2Rank_first_target_associated_pocket			0.0	protocol_confirmed_282_main_runs
+PNP	P00491	PDB	7ZSO	A;B;C	285	3-287	target_homomer	experimental_ligand:JTC	JTC		0.01384083044982699	protocol_confirmed_282_main_runs
+PPARG	P37231	PDB	1FM6	D;X	272	234-505	target_chain	experimental_ligand:BRL	BRL		0.27524752475247527	protocol_confirmed_282_main_runs
+PTGER4	P35408	PDB	5YWY	A	280	18-346	target_chain	experimental_ligand:7UR	7UR	A:62:L>A;A:106:R>G;A:177:Q>N	0.305327868852459	protocol_confirmed_282_main_runs
+S1PR1	P21453	PDB	7TD4	R	290	18-323	target_chain	experimental_ligand:J8C	J8C		0.1544502617801047	protocol_confirmed_282_main_runs
+SAMD8	Q96LT4	PDB	8IJR	A;B;C;D;E;F	264	144-407	target_homomer	experimental_ligand:Z0P+OPE	Z0P+OPE		0.13493975903614458	protocol_confirmed_282_main_runs
+SCD	O00767	PDB	4ZYO	A	298	53-350	target_chain	experimental_ligand:ST9	ST9	A:60:A>K;A:62:A>K;A:63:A>E	0.116991643454039	protocol_confirmed_282_main_runs
+SLC18B1	Q6NT16	PDB	9D7W	A	390	25-431	target_chain	experimental_ligand:YHL	YHL		0.05921052631578947	protocol_confirmed_282_main_runs
+SMIM22	K7EJ46	AlphaFold	K7EJ46_AF	A	83	1-83	target_chain	global_search			0.10843373493975904	protocol_confirmed_282_main_runs
+SSTR2	P30874	PDB	7XN9	A	292	37-331	target_chain	experimental_ligand:GI9	GI9	A:106:E>V;A:316:D>S	0.11653116531165311	protocol_confirmed_282_main_runs
+TMC4	Q7Z404	AlphaFold	Q7Z404_AF	A	712	1-712	target_chain	P2Rank_first_target_associated_pocket			0.11657303370786516	protocol_confirmed_282_main_runs
+TMEM254	Q8TBM7	AlphaFold	Q8TBM7_AF	A	123	1-123	target_chain	P2Rank_first_target_associated_pocket			0.04065040650406504	protocol_confirmed_282_main_runs
+TSPAN13	O95857	AlphaFold	O95857_AF	A	204	1-204	target_chain	P2Rank_first_target_associated_pocket			0.004901960784313725	protocol_confirmed_282_main_runs
+TSPAN3	O60637	AlphaFold	O60637_AF	A	253	1-253	target_chain	P2Rank_first_target_associated_pocket			0.023715415019762844	protocol_confirmed_282_main_runs
+VKORC1	Q9BQB6	PDB	6WVH	A;B	155	1-155	target_chain	experimental_ligand:UA7	UA7	A:143:Y>M;A:144:N>G;B:143:Y>M;B:144:N>G	0.03067484662576687	protocol_confirmed_282_main_runs
+VKORC1L1	Q8N0U8	AlphaFold	Q8N0U8_AF	A	176	1-176	target_chain	P2Rank_first_target_associated_pocket			0.022727272727272728	protocol_confirmed_282_main_runs

@@ -1,0 +1,60 @@
+{
+  "GSE161529": {
+    "accession": "GSE161529",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161529",
+    "assets": [
+      {
+        "id": "GSE161529_RAW.tar",
+        "filename": "GSE161529_RAW.tar",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161529/suppl/GSE161529_RAW.tar",
+        "bytes": 2359685120,
+        "sha256": "cd35275e4e3378ebaee3dea4d82e56de51a233a8312f2903553904c0a05ab4cc",
+        "md5": "2f887a3ebd1606d578e910b300fd1777",
+        "legacy_relative_path": "原始数据/单细胞/GSE161529_RAW.tar",
+        "URL_status": "Official GEO layout; not downloaded again during this audit"
+      },
+      {
+        "id": "GSE161529_features.tsv.gz",
+        "filename": "GSE161529_features.tsv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161529/suppl/GSE161529_features.tsv.gz",
+        "bytes": 270380,
+        "sha256": "d8b21cc094b58a3bdcd6c2b3cc7699399c4f14ff8f8611231a2c6da04791a354",
+        "md5": "fc927870baa4432fa9ecc3383cfa51a5",
+        "legacy_relative_path": "原始数据/单细胞/GSE161529_features.tsv.gz",
+        "URL_status": "Official GEO layout; not downloaded again during this audit"
+      },
+      {
+        "id": "GSE161529_family.soft.gz",
+        "filename": "GSE161529_family.soft.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161529/soft/GSE161529_family.soft.gz",
+        "bytes": 8229,
+        "sha256": "1e34ef6c74c0ff7b147f837e0be9dd9dbeae1ede83de08f210a4d35ae0b9de45",
+        "md5": "db3b4bbb8f7c3c55760a42985475b965",
+        "legacy_relative_path": "原始数据/单细胞/GSE161529_family.soft.gz",
+        "URL_status": "Official GEO layout; not downloaded again during this audit"
+      }
+    ]
+  },
+  "GSE176078": {
+    "accession": "GSE176078",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078",
+    "assets": [
+      {
+        "id": "GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz",
+        "filename": "GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE176nnn/GSE176078/suppl/GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz",
+        "bytes": 558829202,
+        "sha256": "c64894a9d50ec8af645b97e3e2685bde9389da24ef0004e9f66f9114c6474f57",
+        "md5": "e6d9df4a627bdd60cb4898be2ede77cd",
+        "legacy_relative_path": "原始数据/单细胞/GSE176078/GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz",
+        "URL_status": "Official GEO layout; not downloaded again during this audit"
+      }
+    ]
+  },
+  "TCGA_BRCA_STAR": {
+    "manifest": "data/TCGA_DOWNLOAD_MANIFEST.tsv",
+    "n_files": 1208,
+    "source": "https://portal.gdc.cancer.gov/projects/TCGA-BRCA",
+    "note": "Actual observed UUIDs and official MD5; no new query or substitution"
+  }
+}

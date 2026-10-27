@@ -1,0 +1,4 @@
+canonical_id	gene_symbol	cell_types	n_cell_types	diagnostic_evidence_present	bulk_log2FC	bulk_P	bulk_BH	scope_status
+ENSG00000066044	ELAVL1	Unresolved	1	True	0.659967099857215	4.30022981963307e-73	1.0380063676230299e-71	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000100804	PSMB5	Unresolved	1	True	0.719901875571437	1.78334936693455e-32	1.22088756989303e-31	diagnostic_annotation_sensitivity_only_not_main_input
+ENSG00000189143	CLDN4	Mixed_epithelial_immune	1	True	1.28043566993788	8.38423108041861e-27	4.56807108543163e-26	diagnostic_annotation_sensitivity_only_not_main_input

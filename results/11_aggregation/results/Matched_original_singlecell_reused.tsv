@@ -1,0 +1,11 @@
+n_patients	effect_rho	p	ci_low	ci_high	cohort	program_id	note	FDR_matched10
+13	-0.016043041765031418	0.3347979982912242	-0.046379408889071584	0.013936481333603038	discovery	MP01	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.3795253644196242
+13	0.021456606664833865	0.30965458318076405	-0.016514513962027515	0.05937269335547319	discovery	MP02	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.3795253644196242
+13	-0.03195304622483065	0.031124130355181252	-0.053656776323352515	-0.006863205020357614	discovery	MP03	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.15531551324301232
+13	0.03453887177923888	0.06212620529720493	0.002852290475627478	0.06466034530996671	discovery	MP04	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.15531551324301232
+13	0.05062360348248599	0.05577932381301111	0.002832818708233882	0.09480394287726975	discovery	MP05	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.15531551324301232
+15	-0.023485960118060256	0.13009246543989747	-0.04904286300085857	0.005974188351073997	validation	MP01	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.21682077573316247
+15	0.03579235533480122	0.07851933229576734	-0.0005637061045981874	0.07158705771753944	validation	MP02	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.15703866459153468
+15	-0.011177941638249936	0.3415728279776618	-0.032835081242287484	0.010584848146462949	validation	MP03	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.3795253644196242
+15	-0.011101126112441287	0.5828984711159938	-0.04824120297525648	0.025285526838834955	validation	MP04	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.5828984711159938
+15	0.05958105516073649	0.0005187829961243859	0.032396039571860206	0.09037810794627929	validation	MP05	Reuses saved original patient rhos, restricts to aggregate-estimable patients; no single-cell model refit	0.0051878299612438585

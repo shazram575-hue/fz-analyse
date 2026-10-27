@@ -1,0 +1,20 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "5",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "35223490",
+      "34804118",
+      "32616101",
+      "31685042",
+      "25108739"
+    ],
+    "translationset": [],
+    "querytranslation": "\"LEPROT\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

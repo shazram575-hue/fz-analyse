@@ -1,0 +1,14 @@
+{
+  "analysis_type": "exploratory_reanalysis",
+  "stop_automatic_expression_program_association_optimization": true,
+  "reason": "Zero fractions fall and validation MP02/MP05 strengthen, but discovery estimates remain imprecise and all five discovery aggregate tests fail multiplicity correction; patient-between models remain unsupported. No robust cross-cohort association established.",
+  "NMF_rerun": false,
+  "signature_changed": false,
+  "granularity_changed_after_effects": false,
+  "primary_patient_counts": {
+    "discovery": 13,
+    "validation_original": 16,
+    "validation_aggregate": 15
+  },
+  "no_additional_analyses_authorized_by_this_result": true
+}

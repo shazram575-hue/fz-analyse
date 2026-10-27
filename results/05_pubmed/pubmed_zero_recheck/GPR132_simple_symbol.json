@@ -1,0 +1,20 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "5",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "41366282",
+      "38778969",
+      "31107411",
+      "28049847",
+      "27692066"
+    ],
+    "translationset": [],
+    "querytranslation": "\"GPR132\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

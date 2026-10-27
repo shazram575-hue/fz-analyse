@@ -1,0 +1,5 @@
+options(stringsAsFactors=FALSE,warn=1)
+args<-commandArgs(TRUE);files<-readLines(args[1],encoding='UTF-8',warn=FALSE)
+rows<-lapply(files,function(f){err<-tryCatch({parse(file=f,encoding='UTF-8');''},error=function(e)conditionMessage(e));data.frame(path=f,parse_ok=err=='',error=err)})
+z<-do.call(rbind,rows);write.table(z,args[2],sep='\t',quote=TRUE,row.names=FALSE)
+cat('R_PARSE_TARGETS',nrow(z),'FAILURES',sum(!z$parse_ok),'\n')

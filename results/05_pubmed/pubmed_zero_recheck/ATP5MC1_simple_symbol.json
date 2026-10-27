@@ -1,0 +1,16 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "39667070"
+    ],
+    "translationset": [],
+    "querytranslation": "\"ATP5MC1\"[All Fields] AND \"breast cancer\"[All Fields]"
+  }
+}

@@ -1,0 +1,71 @@
+check	passed	details
+Existing_scientific_files_still_present	True	[]
+Existing_scientific_bytes_mtime_unchanged	True	[]
+All1214_raw_inputs_hashed	True	
+All1208_official_GDC_MD5_match	True	
+No_missing_stage_manifest_files	True	
+No_nonroot_stage_hash_mismatch	True	Root-document historical drift retained, not rewritten
+All_review_copies_identical	True	
+Stage_graph_11_nodes_acyclic	True	
+Declared_completion_evidence_exists	True	
+All_new_canonical_document_links	True	[]
+Original_R_scripts_parse	True	
+Original_PS_scripts_parse	True	
+New_Python_syntax	True	
+Five_restore_safety_tests	True	
+Cloud_setup_shell_syntax	True	
+Git_payload_policy_tests	True	
+No_oversized_Git_candidates	True	
+No_credential_pattern_flags	True	
+Project_Git_not_initialized	True	
+Clone_fixture_confined	True	
+Data_free_clone_doctor	True	"{
+  ""project_root"": ""D:\\Desktop\\Yu\\工作流3\\docs\\audit\\2026-10-26\\after\\cloud review 克隆"",
+  ""python"": ""3.12.14"",
+  ""platform"": ""Windows"",
+  ""available_RAM_bytes"": null,
+  ""disk_free_bytes"": 27167117312,
+  ""missing_review_files"": [],
+  ""stage_count"": 11,
+  ""raw_directory_present"": false,
+  ""large_program_objects_present"": [
+    false,
+    false
+  ],
+  ""Rscript_on_PATH"": null,
+  ""modules"": {
+    ""numpy"": true,
+    ""scipy"": false,
+    ""pandas"": true,
+    ""sklearn"": false,
+    ""anndata"": false,
+    ""statsmodels"": false,
+    ""cnmf"": false,
+    ""torch"": false,
+    ""rdkit"": false,
+    ""DeepPurpose"": false
+  },
+  ""mode"": ""evidence-only"",
+  ""scientific_run_attempted"": false,
+  ""cgroup_memory_limit_bytes"": null,
+  ""review_ready"": true,
+  ""linux_full_reproduction_verified"": false,
+  ""note"": ""Review can pass without raw data or R. Review readiness is not scientific runtime readiness. Read CLOUD_MIGRATION before any large run.""
+}
+"
+Data_free_clone_verify_project	True	"{
+  ""status"": ""pass"",
+  ""review_files_verified"": 728,
+  ""programs"": 5,
+  ""aggregation_route_stop_preserved"": true,
+  ""large_data_loaded"": false,
+  ""scientific_analysis_rerun"": false
+}
+"
+Data_free_clone_restore_legacy_layout	True	"{
+  ""mode"": ""dry-run"",
+  ""already_present"": 0,
+  ""would_restore"": 728,
+  ""restored"": 0
+}
+"

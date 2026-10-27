@@ -1,0 +1,17 @@
+condition	cell_type	n_cells	n_donors	n_doublet_flags
+Healthy	Epithelial	34037	13	2881
+Healthy	Fibroblast	9093	10	569
+Healthy	Unresolved	1815	8	78
+Healthy	Mixed_epithelial_immune	276	3	11
+Healthy	Endothelial	4556	7	552
+Healthy	Perivascular_SMC	2873	6	169
+Healthy	Immune	1659	6	48
+Healthy	Mast	23	1	2
+Tumor	Epithelial	123011	32	12347
+Tumor	Endothelial	1969	17	177
+Tumor	Immune	36797	24	3232
+Tumor	Fibroblast	7181	20	723
+Tumor	Unresolved	3290	8	218
+Tumor	Mixed_epithelial_immune	8965	13	677
+Tumor	Mast	315	7	7
+Tumor	Perivascular_SMC	449	1	30

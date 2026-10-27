@@ -1,0 +1,40 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "25",
+    "retmax": "25",
+    "retstart": "0",
+    "idlist": [
+      "41605797",
+      "38769215",
+      "37480012",
+      "37345137",
+      "36938678",
+      "36895039",
+      "36831613",
+      "36595824",
+      "36341328",
+      "36267313",
+      "36224576",
+      "35176336",
+      "34965434",
+      "34567213",
+      "33428596",
+      "33393509",
+      "32990678",
+      "31502865",
+      "30195491",
+      "29416657",
+      "21129172",
+      "20846453",
+      "19175940",
+      "18698023",
+      "11549320"
+    ],
+    "translationset": [],
+    "querytranslation": "(\"MAL2\"[All Fields] OR \"Protein MAL2\"[All Fields]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast cancer\"[All Fields] OR \"breast carcinoma\"[All Fields] OR \"breast tumor\"[All Fields] OR \"breast tumour\"[All Fields] OR \"mammary carcinoma\"[All Fields] OR \"mammary cancer\"[All Fields] OR \"mammary tumor\"[All Fields] OR \"mammary tumour\"[All Fields] OR \"TNBC\"[All Fields])"
+  }
+}
