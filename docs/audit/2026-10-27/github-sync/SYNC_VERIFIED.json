@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "repository": "https://github.com/shazram575-hue/fz-analyse",
+  "visibility": "public",
+  "branch": "main",
+  "verified_import_commit": "9342813d8f45cee7228e5a1fa58d33ad76b6c046",
+  "verified_tree": "f0ce64f1be1cb1777c58eb48f28be51fe10ff264",
+  "files": 831,
+  "method": "authenticated GitHub connector Git database API; non-force ref update",
+  "git_cli_push_success": false,
+  "git_cli_failure": "local GitHub credentials unavailable",
+  "remote_fetch_verified": true,
+  "required_remote_documents_verified": true,
+  "raw_data_uploaded": false,
+  "scientific_analysis_rerun": false,
+  "cloud_environment_created": false,
+  "local_draft_archive": "archive/local-drafts-before-github-api-2026-10-27",
+  "note": "Completion documents are a subsequent commit. Read actual current HEAD; no self-referential final SHA asserted here."
+}

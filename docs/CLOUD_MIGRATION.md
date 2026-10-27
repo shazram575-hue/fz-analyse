@@ -4,7 +4,7 @@
 
 本项目准备的是**可审阅、可轻量校验的源码与证据仓库视图**，不声称Windows生信流水线已在Linux重现。2026-10-26整理阶段未初始化Git；2026-10-27用户新授权首次同步到[指定公开仓库](https://github.com/shazram575-hue/fz-analyse)，最新Git/上传状态见[同步日志](TASK_LOGS/2026-10-27_github_sync.md)。尚未创建或验证Cloud环境。
 
-2026-10-27最新：用户明确允许直接公开上传公共数据分析结果，取消此前先改私有的要求。此前拦截/浏览器失败保留历史，不再作为等待用户操作的当前条件。实际推送和远程文件核验以[同步报告](GITHUB_SYNC_REPORT.md)为准，不能将本地commit当GitHub成功。
+2026-10-27最新：用户明确允许公开上传，代码和小型结果已通过GitHub连接器同步至main并独立fetch核验，原本地草稿保存在archive分支。此前拦截/浏览器失败是历史，不再等待私有化。可开始创建Cloud环境；实际传输及校验证据见[同步报告](GITHUB_SYNC_REPORT.md)。本机Git CLI仍未配置登录凭据，不把其失败的push命令写成成功；Cloud自己的仓库访问权限另行实测。
 
 原目录约35.48 GB，其中原始数据8.05 GB；Windows环境与缓存不能原封不动搬入GitHub或小型云VM。官方资料说明Cloud使用可复用环境，需选择仓库、准备依赖/访问并完成测试后发布；本轮没有实际执行这些账户操作。[OpenAI官方Cloud环境说明](https://learn.chatgpt.com/docs/environments/cloud-environments)
 

@@ -4,7 +4,7 @@
 
 新任务先读[AI工作规范](AGENTS.md)、[科研进度的结论与模块导航](docs/RESEARCH_PROGRESS.md)、[任务记录规则](docs/TASK_LOGS/README.md)，再定向读相关代码、日志和结果；无需每次重审整个项目。新接手智能体不得假定知道其他聊天，或只凭完成标记推断科学假设成立。工程审计按需查[项目审计](docs/PROJECT_AUDIT.md)。
 
-新开云端聊天可复制[启动指令](docs/CLOUD_TASK_TEMPLATE.md)。任务独立留日志，实质进展更新统一进度，收尾说明实际输出、问题和恢复入口。2026-10-27已获用户授权首次安全同步到[GitHub仓库](https://github.com/shazram575-hue/fz-analyse)，**实际提交/推送结果见[同步日志](docs/TASK_LOGS/2026-10-27_github_sync.md)**。只有已审核、提交并合并到约定集成分支的修改才是共享最新科研状态；文件上传成功不自动代表科研审核完成。
+新开云端聊天可复制[启动指令](docs/CLOUD_TASK_TEMPLATE.md)。任务独立留日志，实质进展更新统一进度，收尾说明实际输出、问题和恢复入口。2026-10-27经用户明确授权，代码、文档及小型结果已同步到[GitHub仓库main](https://github.com/shazram575-hue/fz-analyse)，**远程文件树校验通过，详见[同步报告](docs/GITHUB_SYNC_REPORT.md)**。大型数据仍只在本地。只有已审核、提交并合并到约定集成分支的修改才是共享最新科研状态；上传成功不自动代表新的科研结论通过审核。
 
 ## 目录与保留策略
 
